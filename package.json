@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "app": "node app.js"
+    "app": "node app.js",
+    "build": "start bash -c \" bash build.sh \"",
+    "dev_app": "start bash -c \" bash dev_app.sh \""
   },
   "repository": {
     "type": "git",
@@ -19,8 +21,20 @@
   },
   "homepage": "https://github.com/MyUserNameIsMyUserName/NODEjs_TryOuts#readme",
   "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.14.5",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-remove-comments": "^2.0.0",
+    "browserslist": "^4.16.6",
     "compression": "^1.7.4",
     "dotenv": "^9.0.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "webpack": "^5.46.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
   }
 }
