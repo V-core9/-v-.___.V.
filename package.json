@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "app": "node app.js",
-    "build": "start bash  build.sh ",
-    "dev_app": "start bash dev_app.sh \""
+    "build": "start bash -c \" cp _production.env .env -f ; bash build.sh ; \" ",
+    "dev_app": "start bash -c \" cp _development.env .env -f ; bash dev_app.sh; \" "
   },
   "repository": {
     "type": "git",
