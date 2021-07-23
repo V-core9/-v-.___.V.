@@ -11,3 +11,6 @@ minify PUBLIC/build_staging/ --out-dir PUBLIC/ --mangle.keepClassName
 
 echo "REMOVING >> Staging Folder inside Public dir."
 rm -r PUBLIC/build_staging
+
+cp dist/v_logger.dev.js PUBLIC/v_logger.js -f
+cp dist/v_logger.js PUBLIC/v_logger.js -f
