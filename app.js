@@ -1,7 +1,6 @@
 const { logMSG, infoMSG, warnMSG, errorMSG } = require("./PUBLIC/test_Logger/test_log")
 
 // Testing the log functions
-errorMSG("FFFFFFFFFFFFFFFFFFFFFFFFFF");
 logMSG("Hello from app.js");
 infoMSG("Info message from app.js");
 warnMSG("Basic warning about app.js");
