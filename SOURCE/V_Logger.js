@@ -1,4 +1,4 @@
-const { logMSG, infoMSG, warnMSG, errorMSG } = require("./test_Logger/test_log")
+const { logMSG, infoMSG, warnMSG, errorMSG } = require("./helpers/loging_function")
 
 logMSG("Hello from app.js");
 infoMSG("Hello from app.js");
