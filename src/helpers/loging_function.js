@@ -1,32 +1,48 @@
 // Testing the run for the thing being loaded from
 // both cli and browser.
-
+var domExists = false;
 if (typeof window != "undefined") {
-  addToDom = (msg) => {
-    document.body.innerHTML += `<div class="AAAAAAAA">${msg}</div>`;
-  }
+  addToDom = (msg, type = "log") => {
+    document.body.innerHTML += `<div class="single_log_msg ${type}">${msg}</div>`;
+  };
+  domExists = true;
 }
 
 module.exports = {
   logMSG: (msg) => {
     msg = "⟠ LOG: " + msg
-    console.log("\x1b[36m%s\x1b[0m", msg);
-    if (typeof addToDom != "undefined") {
-      addToDom(`<div class="AAAAAAAA">${msg}</div>`);
+    console.log("\x1b[36m%s\x1b[0m", msg)
+    if (typeof module !== "undefined" && module.exports) {
+      console.log("this script is running in Node.js");
+    } else {
+      console.log("this script is not running in Node.js");
+    }
+    if (domExists) {
+      addToDom(msg);
     }
   },
   infoMSG: (msg) => {
     msg = "≙ INFO: " + msg
     console.info("\x1b[1m\x1b[32m%s\x1b[0m", msg)
-    if (typeof addToDom != "undefined") {
-      addToDom(`<div class="AAAAAAAA">${msg}</div>`);
+    if (typeof module !== "undefined" && module.exports) {
+      console.log("this script is running in Node.js");
+    } else {
+      console.log("this script is not running in Node.js");
+    }
+    if (domExists) {
+      addToDom(msg, 'info');
     }
   },
   warnMSG: (msg) => {
     msg = "⨊ WARN: " + msg
     console.warn("\x1b[1m\x1b[35m%s\x1b[0m", msg)
-    if (typeof addToDom != "undefined") {
-      addToDom(`<div class="AAAAAAAA">${msg}</div>`);
+    if (typeof module !== "undefined" && module.exports) {
+      console.log("this script is running in Node.js");
+    } else {
+      console.log("this script is not running in Node.js");
+    }
+    if (domExists) {
+      addToDom(msg, "warn");
     }
   },
   errorMSG: (msg) => {
@@ -35,8 +51,8 @@ module.exports = {
     console.log("\x1b[2m\x1b[31m%s\x1b[0m \x1b[1m\x1b[31m","------START OF ERROR TRACE----------")
     console.trace()
     console.log("\x1b[0m\x1b[2m\x1b[31m%s\x1b[0m ",'-------------END OF TRACE----------')
-    if (typeof addToDom != "undefined") {
-      addToDom(`<div class="AAAAAAAA">${msg}</div>`);
+    if (domExists) {
+      addToDom(msg, "error");
     }
   },
 };
