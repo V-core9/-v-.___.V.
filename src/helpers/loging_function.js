@@ -4,6 +4,9 @@ module.exports = {
   logMSG: (msg) => {
     msg = "⟠ LOG: " + msg
     console.log("\x1b[36m%s\x1b[0m", msg);
+    if (typeof window != "undefined") {
+      document.body.innerHTML += `<div class="AAAAAAAA">${msg}</div>`;
+    }
   },
   infoMSG: (msg) => {
     msg = "≙ INFO: " + msg
