@@ -23,7 +23,15 @@ const compression = require("compression");
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
-
+// IsOnline NPM require
+const isOnline = require("is-online");
+//check if is online
+(async () => {
+  console.log(await isOnline());
+  //=> true
+  infoMSG("YEA WE ARE ONLINE")
+})();
+// END IsOnline
 
 if (typeof process.env.NODE_ENV !== "undefined") {
     if (process.env.NODE_ENV === "production") {
