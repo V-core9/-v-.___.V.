@@ -1,10 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Simple Logger Demo</title>
-    </head>
-    <body>
-        <h1>Simple Logger Demo</h1>
-        <script type="text/javascript" src="v_logger.js"></script>
-    </body>
+  <head>
+    <title>Simple Logger Demo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        transition: 0.25s linear all;
+      }
+
+      body {
+        background: #152030;
+        color: #efefef;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.25em;
+        max-width: 75%;
+        margin: 0 auto;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      p {
+        margin: 0.25em;
+      }
+
+      h1 {
+        padding: 1em 0.25em;
+      }
+      .single_log_msg {
+        border: 2px solid gray;
+        margin: 0.5em;
+        padding: 0.5em 1em;
+        opacity: 0.8;
+        box-shadow: 0 0 2px black;
+      }
+      .single_log_msg:hover {
+        opacity: 1;
+        box-shadow: 0 4px 12px black;
+        transform: scale(1.015);
+        cursor: pointer;
+      }
+
+      .info {
+        color: #00bcd4;
+        border: 2px solid #004048;
+      }
+
+      .log {
+        color: white;
+        border: 2px solid #404040;
+      }
+
+      .warn {
+        color: #ff9300;
+        border: 2px solid #403000;
+      }
+
+      .error {
+        color: red;
+        border: 2px solid #400000;
+      }
+
+      .info:hover {
+        color: #00bcd4;
+        background: rgb(0 188 212 / 0.1);
+        border: 2px solid #00bcd4;
+      }
+
+      .log:hover {
+        color: white;
+        background: rgb(255 255 255 / 0.1);
+        border: 2px solid white;
+      }
+
+      .warn:hover {
+        color: #ff9300;
+        background: rgb(255 147 0 / 0.1);
+        border: 2px solid #ff9300;
+      }
+
+      .error:hover {
+        color: red;
+        background: rgb(255 0 0 / 0.1);
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript" src="v_logger.js"></script>
+    <h1>Simple Logger Demo</h1>
+  </body>
 </html>

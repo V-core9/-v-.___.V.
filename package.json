@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "app": "node app.js",
-    "build": "start bash -c \" cp _production.env .env -f ; bash build.sh ; \" ",
-    "dev_app": "start bash -c \" cp _development.env .env -f ; bash dev_app.sh; \" "
+    "dev_env_cp": " bash -c \" cp _development.env .env -f ; \" ",
+    "pro_env_cp": " bash -c \" cp _production.env .env -f ; \" ",
+    "build": "npm run pro_env_cp && bash build.sh ",
+    "dev_build": "npm run dev_env_cp && bash dev_build.sh ",
+    "app": "bash -c \"npm run build\" && bash -c \" node app.js \" ",
+    "dev_app": "bash dev_app.sh ",
+    "get_sys_info": "node ./src/helpers/sys_info_functions.js "
   },
   "repository": {
     "type": "git",
@@ -32,6 +36,7 @@
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "nodemon": "^2.0.12",
+    "systeminformation": "^5.7.8",
     "webpack": "^5.46.0"
   },
   "devDependencies": {
