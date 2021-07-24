@@ -26,9 +26,10 @@ const config = {
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "v_logger.js",
+      clean: true,
     },
   },
-}
+};
 
 if (typeof process.env.NODE_ENV !== "undefined") {
   infoMSG("FOUND process.env.NODE_ENV === " + process.env.NODE_ENV);
