@@ -25,15 +25,14 @@ const isOnline = require("is-online");
 // END IsOnline
 
 if (process.env.NODE_ENV === "production") {
-    infoMSG("Running <_ " + process.env.NODE_ENV + " mode _>");
-    
+  infoMSG("Running <_ " + process.env.NODE_ENV + " mode _>");
 } else if (process.env.NODE_ENV === "development") {
   warnMSG("Running <_ " + process.env.NODE_ENV + " mode _>");
   infoMSG("process.env.NODE_ENV === " + process.env.NODE_ENV);
-  logMSG("Hello from app.js");
-  infoMSG("Hello from app.js");
-  warnMSG("Hello from app.js");
-  errorMSG("Hello from app.js");
+  //logMSG("Hello from app.js");
+  //infoMSG("Hello from app.js");
+  //warnMSG("Hello from app.js");
+  //errorMSG("Hello from app.js");
 } else {
   errorMSG(
     "process.env.NODE_ENV === UNDEFINED || WILL EXIT TILL AUTOCORECTING MANUVERS ARE AVAILABLE"
