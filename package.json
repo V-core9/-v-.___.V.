@@ -10,7 +10,8 @@
     "build": "npm run pro_env_cp && bash build.sh ",
     "dev_build": "npm run dev_env_cp && bash dev_build.sh ",
     "app": "bash -c \"npm run build\" && bash -c \" node app.js \" ",
-    "dev_app": "bash dev_app.sh "
+    "dev_app": "bash dev_app.sh ",
+    "get_sys_info": "node ./src/helpers/sys_info_functions.js "
   },
   "repository": {
     "type": "git",
