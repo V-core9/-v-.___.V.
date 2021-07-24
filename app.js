@@ -1,5 +1,10 @@
 const { logMSG, infoMSG, warnMSG, errorMSG } = require("./src/helpers/loging_function")
 
+
+//getting username test 
+const { getUsername } = require("./src/helpers/func_getUserName");
+
+getUsername();
 // Testing the log functions
 logMSG("Hello from app.js");
 infoMSG("Info message from app.js");
