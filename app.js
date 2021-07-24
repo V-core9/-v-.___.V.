@@ -389,19 +389,19 @@ si.getDynamicData(function (data) {
   console.log("       ");
 });
 // getAllData
-si.getAllData(function (data) {
-  console.log("       ");
-  infoMSG("getAllData:");
-  infoMSG(JSON.stringify(data));
-  console.log("       ");
-});
+// si.getAllData(function (data) {
+//   console.log("       ");
+//   infoMSG("getAllData:");
+//   infoMSG(JSON.stringify(data));
+//   console.log("       ");
+// });
 // get
-si.get(function (data) {
-  console.log("       ");
-  infoMSG("get:");
-  infoMSG(JSON.stringify(data));
-  console.log("       ");
-});
+// si.get(function (data) {
+//   console.log("       ");
+//   infoMSG("get:");
+//   infoMSG(JSON.stringify(data));
+//   console.log("       ");
+// });
 // observe
 si.observe(function (data) {
   console.log("       ");
