@@ -1,7 +1,7 @@
 {
   "name": "-v-",
-  "description": "V_CLI Tool ",
-  "version": "1.0.1",
+  "description": "-<[ -v-  -> CLI Tool :: A way to increase my output, control, and way of working with things. ]>----",
+  "version": "1.1.7",
   "author": "🢔⟬⩹⧋⛛⌬⛛⧋⩺⟭🢖",
   "bin": {
     "-v-": "./bin/run"
@@ -10,7 +10,8 @@
   "dependencies": {
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
-    "@oclif/plugin-help": "^3.2.3"
+    "@oclif/plugin-help": "^3.2.3",
+    "systeminformation": "^5.8.2"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.0",
