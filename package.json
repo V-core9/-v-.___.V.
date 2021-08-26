@@ -1,0 +1,22 @@
+{
+  "name": "v_v_v",
+  "version": "1.0.0",
+  "description": "<=<)_:__.V.__:_(>=>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyUserNameIsMyUserName/NODEjs_TryOuts.git"
+  },
+  "keywords": [
+    "v"
+  ],
+  "author": " <_v_>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyUserNameIsMyUserName/NODEjs_TryOuts/issues"
+  },
+  "homepage": "https://github.com/MyUserNameIsMyUserName/NODEjs_TryOuts#readme"
+}
