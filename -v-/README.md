@@ -19,7 +19,7 @@ $ npm install -g -v-
 $ -v- COMMAND
 running command...
 $ -v- (-v|--version|version)
--v-/1.1.2 win32-x64 node-v14.17.5
+-v-/1.1.7 win32-x64 node-v14.17.5
 $ -v- --help [COMMAND]
 USAGE
   $ -v- COMMAND
@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`-v- hello`](#-v--hello)
 * [`-v- help [COMMAND]`](#-v--help-command)
+* [`-v- is_online`](#-v--is_online)
 * [`-v- sys_bios`](#-v--sys_bios)
 * [`-v- sys_cpu_current_speed`](#-v--sys_cpu_current_speed)
 * [`-v- sys_cpu_info`](#-v--sys_cpu_info)
@@ -54,7 +55,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.2/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/hello.js)_
 
 ## `-v- help [COMMAND]`
 
@@ -73,9 +74,27 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
 
-## `-v- sys_bios`
+## `-v- is_online`
 
 Describe the command here
+
+```
+USAGE
+  $ -v- is_online
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/is_online.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/is_online.js)_
+
+## `-v- sys_bios`
+
+Prints BIOS information
 
 ```
 USAGE
@@ -89,11 +108,11 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_bios.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.2/src/commands/sys_bios.js)_
+_See code: [src/commands/sys_bios.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_bios.js)_
 
 ## `-v- sys_cpu_current_speed`
 
-Describe the command here
+Current CPU speed & Per Core stats
 
 ```
 USAGE
@@ -107,7 +126,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_cpu_current_speed.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.2/src/commands/sys_cpu_current_speed.js)_
+_See code: [src/commands/sys_cpu_current_speed.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_cpu_current_speed.js)_
 
 ## `-v- sys_cpu_info`
 
@@ -125,11 +144,11 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_cpu_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.2/src/commands/sys_cpu_info.js)_
+_See code: [src/commands/sys_cpu_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_cpu_info.js)_
 
 ## `-v- sys_cpu_temp`
 
-Describe the command here
+CPU Temperature Check
 
 ```
 USAGE
@@ -143,11 +162,11 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_cpu_temp.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.2/src/commands/sys_cpu_temp.js)_
+_See code: [src/commands/sys_cpu_temp.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_cpu_temp.js)_
 
 ## `-v- sys_load`
 
-Describe the command here
+Current System Load Information & Per Core Stats
 
 ```
 USAGE
@@ -161,11 +180,11 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_load.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.2/src/commands/sys_load.js)_
+_See code: [src/commands/sys_load.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_load.js)_
 
 ## `-v- sys_mem_info`
 
-Describe the command here
+RAM Info printing
 
 ```
 USAGE
@@ -179,11 +198,11 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_mem_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.2/src/commands/sys_mem_info.js)_
+_See code: [src/commands/sys_mem_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_mem_info.js)_
 
 ## `-v- sys_os_info`
 
-Describe the command here
+Finding and printing Operating System Info
 
 ```
 USAGE
@@ -197,5 +216,5 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_os_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.2/src/commands/sys_os_info.js)_
+_See code: [src/commands/sys_os_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_os_info.js)_
 <!-- commandsstop -->
