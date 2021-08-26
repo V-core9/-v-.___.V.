@@ -1,7 +1,7 @@
 {
   "name": "-v-",
   "description": "-<[ -v-  -> CLI Tool :: A way to increase my output, control, and way of working with things. ]>----",
-  "version": "1.1.7",
+  "version": "1.2.7",
   "author": "🢔⟬⩹⧋⛛⌬⛛⧋⩺⟭🢖",
   "bin": {
     "-v-": "./bin/run"
@@ -11,8 +11,13 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.3",
+    "has-unicode": "^2.0.1",
+    "is-cmd": "^1.0.0",
     "is-online": "^9.0.1",
-    "systeminformation": "^5.8.2"
+    "node-port-scanner": "^3.0.1",
+    "speedtest-net": "^2.2.0",
+    "systeminformation": "^5.8.2",
+    "unicode-version": "^1.0.2"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.0",

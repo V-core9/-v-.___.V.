@@ -19,7 +19,7 @@ $ npm install -g -v-
 $ -v- COMMAND
 running command...
 $ -v- (-v|--version|version)
--v-/1.1.7 win32-x64 node-v14.17.5
+-v-/1.2.7 win32-x64 node-v14.17.5
 $ -v- --help [COMMAND]
 USAGE
   $ -v- COMMAND
@@ -30,7 +30,7 @@ USAGE
 <!-- commands -->
 * [`-v- hello`](#-v--hello)
 * [`-v- help [COMMAND]`](#-v--help-command)
-* [`-v- is_online`](#-v--is_online)
+* [`-v- scan_all_ports`](#-v--scan_all_ports)
 * [`-v- sys_bios`](#-v--sys_bios)
 * [`-v- sys_cpu_current_speed`](#-v--sys_cpu_current_speed)
 * [`-v- sys_cpu_info`](#-v--sys_cpu_info)
@@ -38,6 +38,10 @@ USAGE
 * [`-v- sys_load`](#-v--sys_load)
 * [`-v- sys_mem_info`](#-v--sys_mem_info)
 * [`-v- sys_os_info`](#-v--sys_os_info)
+* [`-v- test-is_cmd`](#-v--test-is_cmd)
+* [`-v- test-is_online`](#-v--test-is_online)
+* [`-v- test-speedtest.net`](#-v--test-speedtestnet)
+* [`-v- test-unicode_version`](#-v--test-unicode_version)
 
 ## `-v- hello`
 
@@ -55,7 +59,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/hello.js)_
 
 ## `-v- help [COMMAND]`
 
@@ -74,13 +78,13 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
 
-## `-v- is_online`
+## `-v- scan_all_ports`
 
 Describe the command here
 
 ```
 USAGE
-  $ -v- is_online
+  $ -v- scan_all_ports
 
 OPTIONS
   -n, --name=name  name to print
@@ -90,7 +94,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/is_online.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/is_online.js)_
+_See code: [src/commands/scan_all_ports.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/scan_all_ports.js)_
 
 ## `-v- sys_bios`
 
@@ -108,7 +112,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_bios.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_bios.js)_
+_See code: [src/commands/sys_bios.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_bios.js)_
 
 ## `-v- sys_cpu_current_speed`
 
@@ -126,7 +130,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_cpu_current_speed.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_cpu_current_speed.js)_
+_See code: [src/commands/sys_cpu_current_speed.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_cpu_current_speed.js)_
 
 ## `-v- sys_cpu_info`
 
@@ -144,7 +148,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_cpu_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_cpu_info.js)_
+_See code: [src/commands/sys_cpu_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_cpu_info.js)_
 
 ## `-v- sys_cpu_temp`
 
@@ -162,7 +166,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_cpu_temp.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_cpu_temp.js)_
+_See code: [src/commands/sys_cpu_temp.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_cpu_temp.js)_
 
 ## `-v- sys_load`
 
@@ -180,7 +184,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_load.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_load.js)_
+_See code: [src/commands/sys_load.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_load.js)_
 
 ## `-v- sys_mem_info`
 
@@ -198,7 +202,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_mem_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_mem_info.js)_
+_See code: [src/commands/sys_mem_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_mem_info.js)_
 
 ## `-v- sys_os_info`
 
@@ -216,5 +220,77 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sys_os_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.1.7/src/commands/sys_os_info.js)_
+_See code: [src/commands/sys_os_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_os_info.js)_
+
+## `-v- test-is_cmd`
+
+Check if the current environment is the Windows Command Prompt
+
+```
+USAGE
+  $ -v- test-is_cmd
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/test-is_cmd.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-is_cmd.js)_
+
+## `-v- test-is_online`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- test-is_online
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/test-is_online.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-is_online.js)_
+
+## `-v- test-speedtest.net`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- test-speedtest.net
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/test-speedtest.net.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-speedtest.net.js)_
+
+## `-v- test-unicode_version`
+
+Test that returns Unicode Version number
+
+```
+USAGE
+  $ -v- test-unicode_version
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/test-unicode_version.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-unicode_version.js)_
 <!-- commandsstop -->
