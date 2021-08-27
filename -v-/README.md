@@ -31,13 +31,30 @@ USAGE
 * [`-v- hello`](#-v--hello)
 * [`-v- help [COMMAND]`](#-v--help-command)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
+* [`-v- sys_audio`](#-v--sys_audio)
+* [`-v- sys_battery`](#-v--sys_battery)
 * [`-v- sys_bios`](#-v--sys_bios)
 * [`-v- sys_cpu_current_speed`](#-v--sys_cpu_current_speed)
 * [`-v- sys_cpu_info`](#-v--sys_cpu_info)
 * [`-v- sys_cpu_temp`](#-v--sys_cpu_temp)
+* [`-v- sys_disk_io`](#-v--sys_disk_io)
+* [`-v- sys_disk_layout`](#-v--sys_disk_layout)
+* [`-v- sys_fs_stats`](#-v--sys_fs_stats)
+* [`-v- sys_graphics`](#-v--sys_graphics)
 * [`-v- sys_load`](#-v--sys_load)
 * [`-v- sys_mem_info`](#-v--sys_mem_info)
+* [`-v- sys_net_conn`](#-v--sys_net_conn)
+* [`-v- sys_net_def_gateway`](#-v--sys_net_def_gateway)
+* [`-v- sys_net_def_interface`](#-v--sys_net_def_interface)
+* [`-v- sys_net_interfaces`](#-v--sys_net_interfaces)
+* [`-v- sys_net_stats`](#-v--sys_net_stats)
+* [`-v- sys_open_files`](#-v--sys_open_files)
 * [`-v- sys_os_info`](#-v--sys_os_info)
+* [`-v- sys_processes`](#-v--sys_processes)
+* [`-v- sys_services`](#-v--sys_services)
+* [`-v- sys_users`](#-v--sys_users)
+* [`-v- sys_uuid`](#-v--sys_uuid)
+* [`-v- sys_versions`](#-v--sys_versions)
 * [`-v- test-is_cmd`](#-v--test-is_cmd)
 * [`-v- test-is_online`](#-v--test-is_online)
 * [`-v- test-speedtest.net`](#-v--test-speedtestnet)
@@ -95,6 +112,42 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/scan_all_ports.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/scan_all_ports.js)_
+
+## `-v- sys_audio`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_audio
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_audio.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_audio.js)_
+
+## `-v- sys_battery`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_battery
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_battery.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_battery.js)_
 
 ## `-v- sys_bios`
 
@@ -168,6 +221,78 @@ DESCRIPTION
 
 _See code: [src/commands/sys_cpu_temp.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_cpu_temp.js)_
 
+## `-v- sys_disk_io`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_disk_io
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_disk_io.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_disk_io.js)_
+
+## `-v- sys_disk_layout`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_disk_layout
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_disk_layout.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_disk_layout.js)_
+
+## `-v- sys_fs_stats`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_fs_stats
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_fs_stats.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_fs_stats.js)_
+
+## `-v- sys_graphics`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_graphics
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_graphics.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_graphics.js)_
+
 ## `-v- sys_load`
 
 Current System Load Information & Per Core Stats
@@ -204,6 +329,114 @@ DESCRIPTION
 
 _See code: [src/commands/sys_mem_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_mem_info.js)_
 
+## `-v- sys_net_conn`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_net_conn
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_net_conn.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_net_conn.js)_
+
+## `-v- sys_net_def_gateway`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_net_def_gateway
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_net_def_gateway.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_net_def_gateway.js)_
+
+## `-v- sys_net_def_interface`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_net_def_interface
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_net_def_interface.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_net_def_interface.js)_
+
+## `-v- sys_net_interfaces`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_net_interfaces
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_net_interfaces.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_net_interfaces.js)_
+
+## `-v- sys_net_stats`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_net_stats
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_net_stats.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_net_stats.js)_
+
+## `-v- sys_open_files`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_open_files
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_open_files.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_open_files.js)_
+
 ## `-v- sys_os_info`
 
 Finding and printing Operating System Info
@@ -221,6 +454,96 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sys_os_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_os_info.js)_
+
+## `-v- sys_processes`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_processes
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_processes.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_processes.js)_
+
+## `-v- sys_services`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_services
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_services.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_services.js)_
+
+## `-v- sys_users`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_users
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_users.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_users.js)_
+
+## `-v- sys_uuid`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_uuid
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_uuid.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_uuid.js)_
+
+## `-v- sys_versions`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_versions
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_versions.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_versions.js)_
 
 ## `-v- test-is_cmd`
 
