@@ -9,7 +9,7 @@ class SysOpenFilesCommand extends Command {
     // fsOpenFiles
     si.fsOpenFiles()
     .then(data => console.log(data))
-    .catch(error => console.error('ERROR' + error));
+    .catch(error => console.error(error));
   }
 }
 
