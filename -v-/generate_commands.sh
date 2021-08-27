@@ -5,5 +5,5 @@ declare -a StringArray=("users" "versions" "uuid" "graphics" "battery" "processe
  
 # Read the array values with space
 for val in "${StringArray[@]}"; do
-  echo 'sys_'$val
+  bash -c "oclif command 'sys_'$val"
 done
