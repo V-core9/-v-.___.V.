@@ -31,9 +31,12 @@ USAGE
 * [`-v- hello`](#-v--hello)
 * [`-v- help [COMMAND]`](#-v--help-command)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
+* [`-v- sys_`](#-v--sys_)
 * [`-v- sys_audio`](#-v--sys_audio)
+* [`-v- sys_baseboard`](#-v--sys_baseboard)
 * [`-v- sys_battery`](#-v--sys_battery)
 * [`-v- sys_bios`](#-v--sys_bios)
+* [`-v- sys_chassis`](#-v--sys_chassis)
 * [`-v- sys_cpu_current_speed`](#-v--sys_cpu_current_speed)
 * [`-v- sys_cpu_info`](#-v--sys_cpu_info)
 * [`-v- sys_cpu_temp`](#-v--sys_cpu_temp)
@@ -41,6 +44,8 @@ USAGE
 * [`-v- sys_disk_layout`](#-v--sys_disk_layout)
 * [`-v- sys_fs_stats`](#-v--sys_fs_stats)
 * [`-v- sys_graphics`](#-v--sys_graphics)
+* [`-v- sys_inet_checksite`](#-v--sys_inet_checksite)
+* [`-v- sys_inet_latency`](#-v--sys_inet_latency)
 * [`-v- sys_load`](#-v--sys_load)
 * [`-v- sys_mem_info`](#-v--sys_mem_info)
 * [`-v- sys_net_conn`](#-v--sys_net_conn)
@@ -113,6 +118,24 @@ DESCRIPTION
 
 _See code: [src/commands/scan_all_ports.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/scan_all_ports.js)_
 
+## `-v- sys_`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_.js)_
+
 ## `-v- sys_audio`
 
 Describe the command here
@@ -130,6 +153,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sys_audio.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_audio.js)_
+
+## `-v- sys_baseboard`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_baseboard
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_baseboard.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_baseboard.js)_
 
 ## `-v- sys_battery`
 
@@ -166,6 +207,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sys_bios.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_bios.js)_
+
+## `-v- sys_chassis`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_chassis
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_chassis.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_chassis.js)_
 
 ## `-v- sys_cpu_current_speed`
 
@@ -292,6 +351,42 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sys_graphics.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_graphics.js)_
+
+## `-v- sys_inet_checksite`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_inet_checksite
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_inet_checksite.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_inet_checksite.js)_
+
+## `-v- sys_inet_latency`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_inet_latency
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_inet_latency.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_inet_latency.js)_
 
 ## `-v- sys_load`
 

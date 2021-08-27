@@ -1,25 +1,25 @@
 const {Command, flags} = require('@oclif/command')
 const si = require('systeminformation');
 
-class SysUsersCommand extends Command {
+class SysCommand extends Command {
   async run() {
-    const {flags} = this.parse(SysUsersCommand)
+    const {flags} = this.parse(SysCommand)
     const name = flags.name || 'world'
-    this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\sys_users.js`)
-    // users
-    si.users()
+    this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\sys_.js`)
+    // system
+    si.system()
     .then(data => console.log(data))
     .catch(error => console.error(error));
   }
 }
 
-SysUsersCommand.description = `Describe the command here
+SysCommand.description = `Describe the command here
 ...
 Extra documentation goes here
 `
 
-SysUsersCommand.flags = {
+SysCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = SysUsersCommand
+module.exports = SysCommand
