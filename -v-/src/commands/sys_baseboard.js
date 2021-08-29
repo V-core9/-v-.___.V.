@@ -1,9 +1,9 @@
 const {Command, flags} = require('@oclif/command')
 const si = require('systeminformation');
 
-class SysBaseboardCommand extends Command {
+class SiBaseboardCommand extends Command {
   async run() {
-    const {flags} = this.parse(SysBaseboardCommand)
+    const {flags} = this.parse(SiBaseboardCommand)
     const name = flags.name || 'world'
     this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\sys_baseboard.js`)
     // baseboard
@@ -13,13 +13,13 @@ class SysBaseboardCommand extends Command {
   }
 }
 
-SysBaseboardCommand.description = `Describe the command here
+SiBaseboardCommand.description = `Describe the command here
 ...
 Extra documentation goes here
 `
 
-SysBaseboardCommand.flags = {
+SiBaseboardCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = SysBaseboardCommand
+module.exports = SiBaseboardCommand

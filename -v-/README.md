@@ -28,11 +28,12 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`-v- check-ip [TESTIP]`](#-v--check-ip-testip)
+* [`-v- cross-zip`](#-v--cross-zip)
 * [`-v- demotech_md5`](#-v--demotech_md5)
 * [`-v- hello`](#-v--hello)
 * [`-v- help [COMMAND]`](#-v--help-command)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
-* [`-v- sys_`](#-v--sys_)
 * [`-v- sys_audio`](#-v--sys_audio)
 * [`-v- sys_baseboard`](#-v--sys_baseboard)
 * [`-v- sys_battery`](#-v--sys_battery)
@@ -47,6 +48,7 @@ USAGE
 * [`-v- sys_graphics`](#-v--sys_graphics)
 * [`-v- sys_inet_checksite`](#-v--sys_inet_checksite)
 * [`-v- sys_inet_latency`](#-v--sys_inet_latency)
+* [`-v- sys_info`](#-v--sys_info)
 * [`-v- sys_load`](#-v--sys_load)
 * [`-v- sys_mem_info`](#-v--sys_mem_info)
 * [`-v- sys_net_conn`](#-v--sys_net_conn)
@@ -82,6 +84,77 @@ USAGE
 * [`-v- wifi_node`](#-v--wifi_node)
 * [`-v- wifi_scan`](#-v--wifi_scan)
 * [`-v- windows-vulnerabilities`](#-v--windows-vulnerabilities)
+
+## `-v- check-ip [TESTIP]`
+
+CommonJS module for Node.js to validate IP addresses and return additional information about the IP address
+
+```
+USAGE
+  $ -v- check-ip [TESTIP]
+
+ARGUMENTS
+  TESTIP  [default: 8.8.8.8] This is IP we want to check...
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  check-ip
+  1.1.1 • Public • Published 4 years ago
+
+  A simple module that will take an IP address as input and perform the following:
+       ->  Validate the IP address for proper format and number range
+       ->  Remove any leading zeros in each octet
+       ->  Return a tested ("boiled") IP address
+       ->  Indicate if the IP address is part of the bogons list (https://en.wikipedia.org/wiki/Bogon_filtering)
+       ->  Indicate if the IP address is part of the multicast IP range (https://en.wikipedia.org/wiki/IP_multicast)
+       ->  Indicate if the IP address is an Automatic Private IP Address aka APIPA 
+  (http://www.webopedia.com/TERM/A/APIPA.html)
+       ->  Indicate if the IP address is an RFC1918 IP address aka private IP address 
+  (https://tools.ietf.org/html/rfc1918)
+       ->  Indicate if the IP address is a public IP address
+
+  npm install check-ip
+
+  ------------------------------
+  var checkIp = require('check-ip');
+ 
+  checkIp('8.8.8.8');
+  ------------------------------
+```
+
+_See code: [src/commands/check-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/check-ip.js)_
+
+## `-v- cross-zip`
+
+Cross-platform .zip file creation
+
+```
+USAGE
+  $ -v- cross-zip
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  cross-zip -> https://www.npmjs.com/package/cross-zip
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  @types/cross-zip package
+  4.0.0 • Public • Published 10 months ago
+
+  npm install cross-zip
+
+  Repository
+  -> github.com/feross/cross-zip
+
+  Homepage
+  -> github.com/feross/cross-zip
+```
+
+_See code: [src/commands/cross-zip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/cross-zip.js)_
 
 ## `-v- demotech_md5`
 
@@ -176,24 +249,6 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/scan_all_ports.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/scan_all_ports.js)_
-
-## `-v- sys_`
-
-Describe the command here
-
-```
-USAGE
-  $ -v- sys_
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/sys_.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_.js)_
 
 ## `-v- sys_audio`
 
@@ -446,6 +501,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sys_inet_latency.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_inet_latency.js)_
+
+## `-v- sys_info`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sys_info
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_info.js)_
 
 ## `-v- sys_load`
 
