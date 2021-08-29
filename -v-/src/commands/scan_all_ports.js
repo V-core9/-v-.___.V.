@@ -20,9 +20,22 @@ class ScanAllPortsCommand extends Command {
   }
 }
 
-ScanAllPortsCommand.description = `Describe the command here
+ScanAllPortsCommand.description = `Scans ports to see if they are open or closed.
 ...
-Extra documentation goes here
+node-port-scanner
+3.0.1 • Public • Published 5 months ago
+
+Scans ports to see if they are open or closed.
+After calling nodePortScanner, ports are checked in order one after the previous is completed.
+Multiple calls can be made and will run in parallel.
+
+npm i node-port-scanner
+
+Repository
+github.com/beaudurrant/node-port-scanner
+
+Homepage
+github.com/beaudurrant/node-port-scanner
 `
 
 ScanAllPortsCommand.flags = {

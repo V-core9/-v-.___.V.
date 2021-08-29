@@ -28,6 +28,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`-v- demotech_md5`](#-v--demotech_md5)
 * [`-v- hello`](#-v--hello)
 * [`-v- help [COMMAND]`](#-v--help-command)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
@@ -64,10 +65,52 @@ USAGE
 * [`-v- test-is_online`](#-v--test-is_online)
 * [`-v- test-speedtest.net`](#-v--test-speedtestnet)
 * [`-v- test-unicode_version`](#-v--test-unicode_version)
+* [`-v- test_globally-installed`](#-v--test_globally-installed)
+* [`-v- test_internal-ip`](#-v--test_internal-ip)
+* [`-v- test_public-ip`](#-v--test_public-ip)
+* [`-v- volume_demo_example`](#-v--volume_demo_example)
+* [`-v- volume_get`](#-v--volume_get)
+* [`-v- volume_mute`](#-v--volume_mute)
+* [`-v- volume_set`](#-v--volume_set)
+* [`-v- volume_unmute`](#-v--volume_unmute)
+* [`-v- wifi-name`](#-v--wifi-name)
+* [`-v- wifi_connect`](#-v--wifi_connect)
+* [`-v- wifi_delete-connection`](#-v--wifi_delete-connection)
+* [`-v- wifi_disconnect`](#-v--wifi_disconnect)
+* [`-v- wifi_get-current-connections`](#-v--wifi_get-current-connections)
+* [`-v- wifi_node`](#-v--wifi_node)
+* [`-v- wifi_scan`](#-v--wifi_scan)
+
+## `-v- demotech_md5`
+
+Node.js package for Apache style password encryption using md5.
+
+```
+USAGE
+  $ -v- demotech_md5
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  apache-md5
+  1.1.7 • Public • Published 2 months ago
+
+  npm install apache-md5
+
+  Repository
+  ->  github.com/gevorg/apache-md5
+
+  Homepage
+  ->  github.com/gevorg/apache-md5
+```
+
+_See code: [src/commands/demotech_md5.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/demotech_md5.js)_
 
 ## `-v- hello`
 
-Describe the command here
+HELLO & WELCOME 
 
 ```
 USAGE
@@ -78,7 +121,8 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  Extra documentation goes here 
+  Yup we are quite short with it...haha
 ```
 
 _See code: [src/commands/hello.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/hello.js)_
@@ -102,7 +146,7 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3
 
 ## `-v- scan_all_ports`
 
-Describe the command here
+Scans ports to see if they are open or closed.
 
 ```
 USAGE
@@ -113,7 +157,20 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  node-port-scanner
+  3.0.1 • Public • Published 5 months ago
+
+  Scans ports to see if they are open or closed.
+  After calling nodePortScanner, ports are checked in order one after the previous is completed.
+  Multiple calls can be made and will run in parallel.
+
+  npm i node-port-scanner
+
+  Repository
+  github.com/beaudurrant/node-port-scanner
+
+  Homepage
+  github.com/beaudurrant/node-port-scanner
 ```
 
 _See code: [src/commands/scan_all_ports.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/scan_all_ports.js)_
@@ -711,4 +768,455 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/test-unicode_version.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-unicode_version.js)_
+
+## `-v- test_globally-installed`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- test_globally-installed
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/test_globally-installed.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test_globally-installed.js)_
+
+## `-v- test_internal-ip`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- test_internal-ip
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/test_internal-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test_internal-ip.js)_
+
+## `-v- test_public-ip`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- test_public-ip
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/test_public-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test_public-ip.js)_
+
+## `-v- volume_demo_example`
+
+A node.js library to control the systems output volume
+
+```
+USAGE
+  $ -v- volume_demo_example
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  loudness  ->  https://www.npmjs.com/package/loudness
+  TypeScript icon, indicating that this package has built-in type declarations
+  0.4.1 • Public • Published a year ago
+
+  node-loudness
+  A node.js library to control the systems output volume
+
+  Usage
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  100 (inc.).
+
+  OS Support
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  setup.
+
+  Repository
+  ->  github.com/LinusU/node-loudness
+
+  Homepage
+  ->  github.com/LinusU/node-loudness#readm
+```
+
+_See code: [src/commands/volume_demo_example.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/volume_demo_example.js)_
+
+## `-v- volume_get`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- volume_get
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/volume_get.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/volume_get.js)_
+
+## `-v- volume_mute`
+
+Mute device to stop it from producing sound.
+
+```
+USAGE
+  $ -v- volume_mute
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  loudness  ->  https://www.npmjs.com/package/loudness
+  TypeScript icon, indicating that this package has built-in type declarations
+  0.4.1 • Public • Published a year ago
+
+  node-loudness
+  A node.js library to control the systems output volume
+
+  Usage
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  100 (inc.).
+
+  OS Support
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  setup.
+
+  Repository
+  ->  github.com/LinusU/node-loudness
+
+  Homepage
+  ->  github.com/LinusU/node-loudness#readm
+```
+
+_See code: [src/commands/volume_mute.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/volume_mute.js)_
+
+## `-v- volume_set`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- volume_set
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/volume_set.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/volume_set.js)_
+
+## `-v- volume_unmute`
+
+Unmute device command
+
+```
+USAGE
+  $ -v- volume_unmute
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  loudness  ->  https://www.npmjs.com/package/loudness
+  TypeScript icon, indicating that this package has built-in type declarations
+  0.4.1 • Public • Published a year ago
+
+  node-loudness
+  A node.js library to control the systems output volume
+
+  Usage
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  100 (inc.).
+
+  OS Support
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  setup.
+
+  Repository
+  ->  github.com/LinusU/node-loudness
+
+  Homepage
+  ->  github.com/LinusU/node-loudness#readm
+```
+
+_See code: [src/commands/volume_unmute.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/volume_unmute.js)_
+
+## `-v- wifi-name`
+
+Get current wifi name
+
+```
+USAGE
+  $ -v- wifi-name
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  wifi-name
+  3.1.1 • Public • Published 4 years ago
+
+  npm install wifi-name
+
+  Repository
+  ->  github.com/kevva/wifi-name
+
+  Homepage
+  ->  github.com/kevva/wifi-name#readme
+```
+
+_See code: [src/commands/wifi-name.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi-name.js)_
+
+## `-v- wifi_connect`
+
+Connect to a network
+
+```
+USAGE
+  $ -v- wifi_connect
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Node-WiFi - Connect to a network
+
+  node-wifi =>  https://www.npmjs.com/package/node-wifi
+  2.0.15 • Public • Published 18 days ago
+
+  # Use as a module
+  npm install node-wifi
+
+  # Use as a CLI
+  npm install node-wifi -g
+
+  Repository
+  ->  github.com/friedrith/node-wifi
+
+  Homepage
+  ->  github.com/friedrith/node-wifi#readme
+
+  =============================
+  wifi.connect({ ssid: 'ssid', password: 'password' }, error => {
+     if (error) {
+       console.log(error);
+     }
+     console.log('Connected');
+  });
+  ============================
+```
+
+_See code: [src/commands/wifi_connect.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi_connect.js)_
+
+## `-v- wifi_delete-connection`
+
+Delete connection information
+
+```
+USAGE
+  $ -v- wifi_delete-connection
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Node-WiFi - Delete a saved network
+  NOTE: Not available on all os for now!
+
+  node-wifi =>  https://www.npmjs.com/package/node-wifi
+  2.0.15 • Public • Published 18 days ago
+
+  # Use as a module
+  npm install node-wifi
+
+  # Use as a CLI
+  npm install node-wifi -g
+
+  Repository
+  ->  github.com/friedrith/node-wifi
+
+  Homepage
+  ->  github.com/friedrith/node-wifi#readme
+
+  ==================================
+  wifi.deleteConnection({ ssid: 'ssid' }, error => {
+     if (error) {
+       console.log(error);
+     } else {
+       console.log('Deleted');
+     }
+  });
+  ==================================
+```
+
+_See code: [src/commands/wifi_delete-connection.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi_delete-connection.js)_
+
+## `-v- wifi_disconnect`
+
+Node-WiFi - Disconnect from a network
+
+```
+USAGE
+  $ -v- wifi_disconnect
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Disconnect from a network
+  NOTE: Not available on all os for now!
+
+  node-wifi =>  https://www.npmjs.com/package/node-wifi
+  2.0.15 • Public • Published 18 days ago
+
+  # Use as a module
+  npm install node-wifi
+
+  # Use as a CLI
+  npm install node-wifi -g
+
+  Repository
+  ->  github.com/friedrith/node-wifi
+
+  Homepage
+  ->  github.com/friedrith/node-wifi#readme
+
+  ========================
+  wifi.disconnect(error => {
+     if (error) {
+       console.log(error);
+     } else {
+       console.log('Disconnected');
+     }
+  });
+  =========================
+```
+
+_See code: [src/commands/wifi_disconnect.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi_disconnect.js)_
+
+## `-v- wifi_get-current-connections`
+
+Node-WiFi - Describe the command here
+
+```
+USAGE
+  $ -v- wifi_get-current-connections
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  node-wifi =>  https://www.npmjs.com/package/node-wifi
+  2.0.15 • Public • Published 18 days ago
+
+  # Use as a module
+  npm install node-wifi
+
+  # Use as a CLI
+  npm install node-wifi -g
+
+  Repository
+  ->  github.com/friedrith/node-wifi
+
+  Homepage
+  ->  github.com/friedrith/node-wifi#readme
+```
+
+_See code: [src/commands/wifi_get-current-connections.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi_get-current-connections.js)_
+
+## `-v- wifi_node`
+
+Node-WiFi demo that has all the things triggered.
+
+```
+USAGE
+  $ -v- wifi_node
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  node-wifi =>  https://www.npmjs.com/package/node-wifi
+  2.0.15 • Public • Published 18 days ago
+
+  # Use as a module
+  npm install node-wifi
+
+  # Use as a CLI
+  npm install node-wifi -g
+
+  Repository
+  ->  github.com/friedrith/node-wifi
+
+  Homepage
+  ->  github.com/friedrith/node-wifi#readme
+```
+
+_See code: [src/commands/wifi_node.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi_node.js)_
+
+## `-v- wifi_scan`
+
+Node-WiFi  Scans for Available Networks
+
+```
+USAGE
+  $ -v- wifi_scan
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  node-wifi =>  https://www.npmjs.com/package/node-wifi
+  2.0.15 • Public • Published 18 days ago
+
+  # Use as a module
+  npm install node-wifi
+
+  # Use as a CLI
+  npm install node-wifi -g
+
+  Repository
+  ->  github.com/friedrith/node-wifi
+
+  Homepage
+  ->  github.com/friedrith/node-wifi#readme
+```
+
+_See code: [src/commands/wifi_scan.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi_scan.js)_
 <!-- commandsstop -->

@@ -11,13 +11,21 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.3",
+    "apache-md5": "^1.1.7",
     "has-unicode": "^2.0.1",
+    "internal-ip": "^6.2.0",
     "is-cmd": "^1.0.0",
+    "is-elevated": "^4.0.0",
+    "is-installed-globally": "^0.4.0",
     "is-online": "^9.0.1",
+    "loudness": "^0.4.1",
     "node-port-scanner": "^3.0.1",
+    "node-wifi": "^2.0.15",
+    "public-ip": "^4.0.4",
     "speedtest-net": "^2.2.0",
     "systeminformation": "^5.8.2",
-    "unicode-version": "^1.0.2"
+    "unicode-version": "^1.0.2",
+    "wifi-name": "^3.1.1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.0",
