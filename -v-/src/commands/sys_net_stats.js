@@ -13,9 +13,13 @@ class SysNetStatsCommand extends Command {
   }
 }
 
-SysNetStatsCommand.description = `Describe the command here
+SysNetStatsCommand.description = `Current network stats 
 ...
-Extra documentation goes here
+current network stats of given interfaces,
+iface list: comma separated,
+iface parameter is optional,
+defaults to first external network interface,
+pass '*' for all interfaces
 `
 
 SysNetStatsCommand.flags = {

@@ -13,7 +13,7 @@ class SysInetchecksiteCommand extends Command {
   }
 }
 
-SysInetchecksiteCommand.description = `Describe the command here
+SysInetchecksiteCommand.description = `response-time (ms) to fetch given URL
 ...
 Extra documentation goes here
 `

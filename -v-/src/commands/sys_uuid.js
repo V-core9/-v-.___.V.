@@ -13,7 +13,7 @@ class SysUuidCommand extends Command {
   }
 }
 
-SysUuidCommand.description = `Describe the command here
+SysUuidCommand.description = `object of several UUIDs
 ...
 Extra documentation goes here
 `

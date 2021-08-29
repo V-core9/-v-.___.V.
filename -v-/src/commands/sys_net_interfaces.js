@@ -13,7 +13,7 @@ class SysNetInterfacesCommand extends Command {
   }
 }
 
-SysNetInterfacesCommand.description = `Describe the command here
+SysNetInterfacesCommand.description = `array of network interfaces 
 ...
 Extra documentation goes here
 `

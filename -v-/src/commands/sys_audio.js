@@ -13,7 +13,7 @@ class SysAudioCommand extends Command {
   }
 }
 
-SysAudioCommand.description = `Describe the command here
+SysAudioCommand.description = `Device Audio Information 
 ...
 Extra documentation goes here
 `

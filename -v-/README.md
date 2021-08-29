@@ -33,7 +33,12 @@ USAGE
 * [`-v- demotech_md5`](#-v--demotech_md5)
 * [`-v- hello`](#-v--hello)
 * [`-v- help [COMMAND]`](#-v--help-command)
+* [`-v- sample_chalk`](#-v--sample_chalk)
+* [`-v- sample_cli-progress`](#-v--sample_cli-progress)
+* [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
+* [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
+* [`-v- supports_sixel`](#-v--supports_sixel)
 * [`-v- sys_audio`](#-v--sys_audio)
 * [`-v- sys_baseboard`](#-v--sys_baseboard)
 * [`-v- sys_battery`](#-v--sys_battery)
@@ -44,6 +49,13 @@ USAGE
 * [`-v- sys_cpu_temp`](#-v--sys_cpu_temp)
 * [`-v- sys_disk_io`](#-v--sys_disk_io)
 * [`-v- sys_disk_layout`](#-v--sys_disk_layout)
+* [`-v- sys_docker_all`](#-v--sys_docker_all)
+* [`-v- sys_docker_container_processes`](#-v--sys_docker_container_processes)
+* [`-v- sys_docker_container_stats`](#-v--sys_docker_container_stats)
+* [`-v- sys_docker_containers`](#-v--sys_docker_containers)
+* [`-v- sys_docker_images`](#-v--sys_docker_images)
+* [`-v- sys_docker_info`](#-v--sys_docker_info)
+* [`-v- sys_docker_volumes`](#-v--sys_docker_volumes)
 * [`-v- sys_fs_stats`](#-v--sys_fs_stats)
 * [`-v- sys_graphics`](#-v--sys_graphics)
 * [`-v- sys_inet_checksite`](#-v--sys_inet_checksite)
@@ -63,8 +75,12 @@ USAGE
 * [`-v- sys_users`](#-v--sys_users)
 * [`-v- sys_uuid`](#-v--sys_uuid)
 * [`-v- sys_versions`](#-v--sys_versions)
+* [`-v- sys_wifi_connections`](#-v--sys_wifi_connections)
+* [`-v- sys_wifi_interfaces`](#-v--sys_wifi_interfaces)
+* [`-v- sys_wifi_networks`](#-v--sys_wifi_networks)
 * [`-v- test-is_cmd`](#-v--test-is_cmd)
 * [`-v- test-is_online`](#-v--test-is_online)
+* [`-v- test-is_wsl`](#-v--test-is_wsl)
 * [`-v- test-speedtest.net`](#-v--test-speedtestnet)
 * [`-v- test-unicode_version`](#-v--test-unicode_version)
 * [`-v- test_globally-installed`](#-v--test_globally-installed)
@@ -219,6 +235,129 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
 
+## `-v- sample_chalk`
+
+Terminal string styling done right
+
+```
+USAGE
+  $ -v- sample_chalk
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  chalk -> https://www.npmjs.com/package/chalk
+  TypeScript icon, indicating that this package has built-in type declarations
+  4.1.2 • Public • Published a month ago
+
+  Chalk comes with an easy to use composable API where you just chain and nest the styles you want.
+
+  Repository
+  -> github.com/chalk/chalk
+
+  Homepage
+  -> github.com/chalk/chalk#readme
+```
+
+_See code: [src/commands/sample_chalk.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_chalk.js)_
+
+## `-v- sample_cli-progress`
+
+easy to use progress-bar for command-line/terminal applications
+
+```
+USAGE
+  $ -v- sample_cli-progress
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  cli-progress -> https://www.npmjs.com/package/cli-progress
+
+  Features
+  |->  Simple, Robust and Easy to use
+  |->  Full customizable output format (constious placeholders are available)
+  |->  Single progressbar mode
+  |->  Multi progessbar mode
+  |->  Custom Bar Characters
+  |->  FPS limiter
+  |->  ETA calculation based on elapsed time
+  |->  Custom Tokens to display additional data (payload) within the bar
+  |->  TTY and NOTTY mode
+  |->  No callbacks required - designed as pure, external controlled UI widget
+  |->  Works in Asynchronous and Synchronous tasks
+  |->  Preset/Theme support
+  |->  Custom bar formatters (via callback)
+
+
+  Repository
+  -> github.com/AndiDittrich/Node.CLI-Progress
+
+  Homepage
+  -> github.com/AndiDittrich/Node.CLI-Progress
+```
+
+_See code: [src/commands/sample_cli-progress.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cli-progress.js)_
+
+## `-v- sample_command-line-usage`
+
+A simple, data-driven module for creating a usage guide.
+
+```
+USAGE
+  $ -v- sample_command-line-usage
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  command-line-usage -> https://www.npmjs.com/package/command-line-usage    
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  @types/command-line-usage package
+  6.1.1 • Public • Published 10 months ago
+
+
+  Synopsis
+  A usage guide is created by first defining an arbitrary number of sections, e.g. a description section, synopsis, 
+  option list, examples, footer etc.
+```
+
+_See code: [src/commands/sample_command-line-usage.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_command-line-usage.js)_
+
+## `-v- sample_listr`
+
+Terminal task list
+
+```
+USAGE
+  $ -v- sample_listr
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  listr -> https://www.npmjs.com/package/listr
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate @types/listr 
+  package
+  0.14.3 • Public • Published 3 years ago
+
+  Repository
+  -> github.com/SamVerschueren/listr
+
+  Homepage
+  -> github.com/SamVerschueren/listr#readme
+
+  npm install --save listr
+```
+
+_See code: [src/commands/sample_listr.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_listr.js)_
+
 ## `-v- scan_all_ports`
 
 Scans ports to see if they are open or closed.
@@ -250,9 +389,41 @@ DESCRIPTION
 
 _See code: [src/commands/scan_all_ports.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/scan_all_ports.js)_
 
+## `-v- supports_sixel`
+
+Detect whether a terminal can display sixels.
+
+```
+USAGE
+  $ -v- supports_sixel
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  supports-sixel -> https://www.npmjs.com/package/supports-sixel
+  TypeScript icon, indicating that this package has built-in type declarations
+  1.0.0 • Public • Published a year ago
+
+  npm install supports-sixel
+
+  Repository
+  -> github.com/Richienb/supports-sixel
+
+  Homepage
+  -> github.com/Richienb/supports-sixel#readme
+
+  API
+  supportsSixel()
+  Returns a promise that resolves with a boolean.
+```
+
+_See code: [src/commands/supports_sixel.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/supports_sixel.js)_
+
 ## `-v- sys_audio`
 
-Describe the command here
+Device Audio Information 
 
 ```
 USAGE
@@ -430,6 +601,140 @@ DESCRIPTION
 
 _See code: [src/commands/sys_disk_layout.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_disk_layout.js)_
 
+## `-v- sys_docker_all`
+
+Docker All Info  
+
+```
+USAGE
+  $ -v- sys_docker_all
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  list of all containers including their stats
+  and processes in one single array
+
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
+```
+
+_See code: [src/commands/sys_docker_all.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_docker_all.js)_
+
+## `-v- sys_docker_container_processes`
+
+Returns an array of processes inside a container
+
+```
+USAGE
+  $ -v- sys_docker_container_processes
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
+```
+
+_See code: [src/commands/sys_docker_container_processes.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_docker_container_processes.js)_
+
+## `-v- sys_docker_container_stats`
+
+Docker Container Stats for specific containers
+
+```
+USAGE
+  $ -v- sys_docker_container_stats
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  statistics for specific containers
+  container IDs: space or comma separated,
+  pass '*' for all containers
+
+
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
+```
+
+_See code: [src/commands/sys_docker_container_stats.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_docker_container_stats.js)_
+
+## `-v- sys_docker_containers`
+
+Will get you an array of active/all docker containers
+
+```
+USAGE
+  $ -v- sys_docker_containers
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
+```
+
+_See code: [src/commands/sys_docker_containers.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_docker_containers.js)_
+
+## `-v- sys_docker_images`
+
+Provides array of top level/all docker images
+
+```
+USAGE
+  $ -v- sys_docker_images
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
+```
+
+_See code: [src/commands/sys_docker_images.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_docker_images.js)_
+
+## `-v- sys_docker_info`
+
+Returns general Docker Info
+
+```
+USAGE
+  $ -v- sys_docker_info
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
+```
+
+_See code: [src/commands/sys_docker_info.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_docker_info.js)_
+
+## `-v- sys_docker_volumes`
+
+Calling it returns array of docker volumes
+
+```
+USAGE
+  $ -v- sys_docker_volumes
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
+```
+
+_See code: [src/commands/sys_docker_volumes.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_docker_volumes.js)_
+
 ## `-v- sys_fs_stats`
 
 Describe the command here
@@ -444,13 +749,14 @@ OPTIONS
 DESCRIPTION
   ...
   Extra documentation goes here
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
 ```
 
 _See code: [src/commands/sys_fs_stats.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_fs_stats.js)_
 
 ## `-v- sys_graphics`
 
-Describe the command here
+An arrays of graphics controllers and displays
 
 ```
 USAGE
@@ -462,13 +768,14 @@ OPTIONS
 DESCRIPTION
   ...
   Extra documentation goes here
+  REFERENCE FILE :>> https://systeminformation.io/docker.html
 ```
 
 _See code: [src/commands/sys_graphics.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_graphics.js)_
 
 ## `-v- sys_inet_checksite`
 
-Describe the command here
+response-time (ms) to fetch given URL
 
 ```
 USAGE
@@ -486,7 +793,7 @@ _See code: [src/commands/sys_inet_checksite.js](https://github.com/MyUserNameIsM
 
 ## `-v- sys_inet_latency`
 
-Describe the command here
+response-time (ms) to external resource
 
 ```
 USAGE
@@ -498,6 +805,9 @@ OPTIONS
 DESCRIPTION
   ...
   Extra documentation goes here
+
+  response-time (ms) to external resource 
+  host parameter is optional (default 8.8.8.8)
 ```
 
 _See code: [src/commands/sys_inet_latency.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_inet_latency.js)_
@@ -558,7 +868,7 @@ _See code: [src/commands/sys_mem_info.js](https://github.com/MyUserNameIsMyUserN
 
 ## `-v- sys_net_conn`
 
-Describe the command here
+current network network connections
 
 ```
 USAGE
@@ -570,13 +880,16 @@ OPTIONS
 DESCRIPTION
   ...
   Extra documentation goes here
+
+  current network network connections
+  returns an array of all connections
 ```
 
 _See code: [src/commands/sys_net_conn.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_net_conn.js)_
 
 ## `-v- sys_net_def_gateway`
 
-Describe the command here
+get default network gateway
 
 ```
 USAGE
@@ -594,7 +907,7 @@ _See code: [src/commands/sys_net_def_gateway.js](https://github.com/MyUserNameIs
 
 ## `-v- sys_net_def_interface`
 
-Describe the command here
+get name of default network interface
 
 ```
 USAGE
@@ -612,7 +925,7 @@ _See code: [src/commands/sys_net_def_interface.js](https://github.com/MyUserName
 
 ## `-v- sys_net_interfaces`
 
-Describe the command here
+array of network interfaces 
 
 ```
 USAGE
@@ -630,7 +943,7 @@ _See code: [src/commands/sys_net_interfaces.js](https://github.com/MyUserNameIsM
 
 ## `-v- sys_net_stats`
 
-Describe the command here
+Current network stats 
 
 ```
 USAGE
@@ -641,7 +954,11 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  current network stats of given interfaces,
+  iface list: comma separated,
+  iface parameter is optional,
+  defaults to first external network interface,
+  pass '*' for all interfaces
 ```
 
 _See code: [src/commands/sys_net_stats.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_net_stats.js)_
@@ -738,7 +1055,7 @@ _See code: [src/commands/sys_users.js](https://github.com/MyUserNameIsMyUserName
 
 ## `-v- sys_uuid`
 
-Describe the command here
+object of several UUIDs
 
 ```
 USAGE
@@ -756,7 +1073,7 @@ _See code: [src/commands/sys_uuid.js](https://github.com/MyUserNameIsMyUserName/
 
 ## `-v- sys_versions`
 
-Describe the command here
+lib version (no callback/promise)
 
 ```
 USAGE
@@ -771,6 +1088,60 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sys_versions.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_versions.js)_
+
+## `-v- sys_wifi_connections`
+
+List array of active wifi connections
+
+```
+USAGE
+  $ -v- sys_wifi_connections
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_wifi_connections.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_wifi_connections.js)_
+
+## `-v- sys_wifi_interfaces`
+
+An array of detected wifi interfaces
+
+```
+USAGE
+  $ -v- sys_wifi_interfaces
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_wifi_interfaces.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_wifi_interfaces.js)_
+
+## `-v- sys_wifi_networks`
+
+An array of available wifi networks
+
+```
+USAGE
+  $ -v- sys_wifi_networks
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sys_wifi_networks.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_wifi_networks.js)_
 
 ## `-v- test-is_cmd`
 
@@ -830,6 +1201,36 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/test-is_online.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-is_online.js)_
+
+## `-v- test-is_wsl`
+
+Check if the process is running inside Windows Subsystem for Linux (Bash on Windows)
+
+```
+USAGE
+  $ -v- test-is_wsl
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  is-wsl -> https://www.npmjs.com/package/is-wsl
+  TypeScript icon, indicating that this package has built-in type declarations
+  2.2.0 • Public • Published a year ago
+
+  npm install is-wsl
+
+  Repository
+  -> github.com/sindresorhus/is-wsl
+
+  Homepage
+  -> github.com/sindresorhus/is-wsl#readme
+
+  Can be useful if you need to work around unimplemented or buggy features in WSL. Supports both WSL 1 and WSL 2.
+```
+
+_See code: [src/commands/test-is_wsl.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-is_wsl.js)_
 
 ## `-v- test-speedtest.net`
 

@@ -5,7 +5,7 @@ class SysFsStatsCommand extends Command {
   async run() {
     const {flags} = this.parse(SysFsStatsCommand)
     const name = flags.name || 'world'
-    this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\sys_fs_stats.js`)
+   // this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\sys_fs_stats.js`)
     // fsStats
     si.fsStats()
     .then(data => console.log(data))
@@ -16,6 +16,7 @@ class SysFsStatsCommand extends Command {
 SysFsStatsCommand.description = `Describe the command here
 ...
 Extra documentation goes here
+REFERENCE FILE :>> https://systeminformation.io/docker.html 
 `
 
 SysFsStatsCommand.flags = {

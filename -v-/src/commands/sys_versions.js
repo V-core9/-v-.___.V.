@@ -13,7 +13,7 @@ class SysVersionsCommand extends Command {
   }
 }
 
-SysVersionsCommand.description = `Describe the command here
+SysVersionsCommand.description = `lib version (no callback/promise)
 ...
 Extra documentation goes here
 `

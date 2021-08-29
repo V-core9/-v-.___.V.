@@ -13,7 +13,7 @@ class SysNetDefGatewayCommand extends Command {
   }
 }
 
-SysNetDefGatewayCommand.description = `Describe the command here
+SysNetDefGatewayCommand.description = `get default network gateway
 ...
 Extra documentation goes here
 `

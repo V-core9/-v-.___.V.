@@ -13,9 +13,10 @@ class SysGraphicsCommand extends Command {
   }
 }
 
-SysGraphicsCommand.description = `Describe the command here
+SysGraphicsCommand.description = `An arrays of graphics controllers and displays
 ...
 Extra documentation goes here
+REFERENCE FILE :>> https://systeminformation.io/docker.html 
 `
 
 SysGraphicsCommand.flags = {

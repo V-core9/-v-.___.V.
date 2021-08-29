@@ -13,9 +13,12 @@ class SysInetLatencyCommand extends Command {
   }
 }
 
-SysInetLatencyCommand.description = `Describe the command here
+SysInetLatencyCommand.description = `response-time (ms) to external resource
 ...
 Extra documentation goes here
+
+response-time (ms) to external resource 
+host parameter is optional (default 8.8.8.8)
 `
 
 SysInetLatencyCommand.flags = {

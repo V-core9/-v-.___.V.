@@ -13,7 +13,7 @@ class SysNetDefInterfaceCommand extends Command {
   }
 }
 
-SysNetDefInterfaceCommand.description = `Describe the command here
+SysNetDefInterfaceCommand.description = `get name of default network interface
 ...
 Extra documentation goes here
 `
