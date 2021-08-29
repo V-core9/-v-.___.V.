@@ -18,17 +18,25 @@ class VolumeSetCommand extends Command {
   async run() {
     const {flags} = this.parse(VolumeSetCommand)
     const name = flags.name || 'world'
-    this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\volume_set.js`)
+    //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\volume_set.js`)
 
     
     // can get args as an object
     const {args} = this.parse(VolumeSetCommand)
     console.log(`running my command with args: ${args.volLevel}`)
     // can also get the args as an array
-    const {argv} = this.parse(VolumeSetCommand)
-    console.log(`running my command with args: ${argv[0]}`)
+    //const {argv} = this.parse(VolumeSetCommand)
+    //console.log(`running my command with args: ${argv[0]}`)
 
 
+    //-<[ Require and Use the constant that we need  ]>-------
+    const loudness = require('loudness');
+    //-------------------------------------[-v-]----
+    
+    //-<[ SET Volume to 25%  ]>-------
+    await loudness.setVolume(args.volLevel);
+    //-----------------------[-v-]----
+    
   }
 }
 

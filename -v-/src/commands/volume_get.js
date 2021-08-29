@@ -4,7 +4,20 @@ class VolumeGetCommand extends Command {
   async run() {
     const {flags} = this.parse(VolumeGetCommand)
     const name = flags.name || 'world'
-    this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\volume_get.js`)
+    //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\volume_get.js`)
+
+      
+    //-<[ Require and Use the constant that we need  ]>-------
+    const loudness = require('loudness');
+    //-------------------------------------[-v-]---
+    
+    //-<[ GET current volume value ]>-------
+    const vol = await loudness.getVolume();
+    // vol = 25
+    console.log("Currnet Volume: " + vol );
+    //----------------------------[-v-]----
+    
+
   }
 }
 
