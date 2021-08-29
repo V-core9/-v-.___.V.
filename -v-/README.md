@@ -71,15 +71,17 @@ USAGE
 * [`-v- volume_demo_example`](#-v--volume_demo_example)
 * [`-v- volume_get`](#-v--volume_get)
 * [`-v- volume_mute`](#-v--volume_mute)
-* [`-v- volume_set`](#-v--volume_set)
+* [`-v- volume_set [VOLLEVEL]`](#-v--volume_set-vollevel)
 * [`-v- volume_unmute`](#-v--volume_unmute)
 * [`-v- wifi-name`](#-v--wifi-name)
+* [`-v- wifi-password`](#-v--wifi-password)
 * [`-v- wifi_connect`](#-v--wifi_connect)
 * [`-v- wifi_delete-connection`](#-v--wifi_delete-connection)
 * [`-v- wifi_disconnect`](#-v--wifi_disconnect)
 * [`-v- wifi_get-current-connections`](#-v--wifi_get-current-connections)
 * [`-v- wifi_node`](#-v--wifi_node)
 * [`-v- wifi_scan`](#-v--wifi_scan)
+* [`-v- windows-vulnerabilities`](#-v--windows-vulnerabilities)
 
 ## `-v- demotech_md5`
 
@@ -717,7 +719,7 @@ _See code: [src/commands/test-is_cmd.js](https://github.com/MyUserNameIsMyUserNa
 
 ## `-v- test-is_online`
 
-Describe the command here
+Check if the internet connection is up
 
 ```
 USAGE
@@ -728,14 +730,37 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  is-online -> https://www.npmjs.com/package/is-online
+  TypeScript icon, indicating that this package has built-in type declarations
+  9.0.1 • Public • Published 3 months ago
+
+  Repository
+  ->  github.com/sindresorhus/is-online
+
+  Homepage
+  ->  github.com/sindresorhus/is-online#readme
+
+  Works in Node.js and the browser (with a bundler).
+  In the browser you have navigator.onLine, but it's useless as it only tells you if there's a local connection, and not 
+  whether the internet is accessible.
+
+  npm install is-online
+
+  ============================
+  const isOnline = require('is-online');
+
+  (async () => {
+  	console.log(await isOnline());
+  	//=> true
+  })();
+  ============================
 ```
 
 _See code: [src/commands/test-is_online.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-is_online.js)_
 
 ## `-v- test-speedtest.net`
 
-Describe the command here
+The whole speed test runs automatically, but a lot of events are available to get more info than you need.
 
 ```
 USAGE
@@ -746,14 +771,30 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  speedtest-net -> https://www.npmjs.com/package/speedtest-net
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  @types/speedtest-net package
+  2.2.0 • Public • Published 4 months ago
+
+  Installation
+  npm install --save speedtest-net
+
+  Command-Line Tool
+  $ npm install --global speedtest-net
+  $ speedtest-net
+
+  Repository
+  ->  github.com/ddsol/speedtest.net
+
+  Homepage
+  ->  github.com/ddsol/speedtest.net#readme
 ```
 
 _See code: [src/commands/test-speedtest.net.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-speedtest.net.js)_
 
 ## `-v- test-unicode_version`
 
-Test that returns Unicode Version number
+Check the unicode version in your code
 
 ```
 USAGE
@@ -764,7 +805,26 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  unicode-version -> https://www.npmjs.com/package/unicode-version
+  1.0.2 • Public • Published 3 years ago
+
+  npm install unicode-version
+
+  Usage
+  ----------------------------------------------
+  const unicodeVersion = require('unicode-version');
+  console.log(unicodeVersion);
+  ----------------------------------------------
+
+  $ npm start
+  #=> 11.0 
+
+
+  Repository
+  ->  github.com/MrDatastorage/unicode-version
+
+  Homepage
+  ->  github.com/MrDatastorage/unicode-version
 ```
 
 _See code: [src/commands/test-unicode_version.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test-unicode_version.js)_
@@ -807,7 +867,7 @@ _See code: [src/commands/test_internal-ip.js](https://github.com/MyUserNameIsMyU
 
 ## `-v- test_public-ip`
 
-Describe the command here
+Get your public IP address - very fast!
 
 ```
 USAGE
@@ -818,7 +878,41 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  public-ip -> https://www.npmjs.com/package/public-ip
+  TypeScript icon, indicating that this package has built-in type declarations
+  4.0.4 • Public • Published 3 months ago
+
+  npm install public-ip
+
+  ==================
+  const publicIp = require('public-ip');
+
+  (async () => {
+  	console.log(await publicIp.v4());
+  	//=> '46.5.21.123'
+
+  	console.log(await publicIp.v6());
+  	//=> 'fe80::200:f8ff:fe21:67cf'
+  })();
+  ===================
+  <| OR MAYBE |>
+  ===================
+  const publicIp = require('public-ip');
+
+  (async () => {
+  	await publicIp.v6({
+  		fallbackUrls: [
+  			'https://ifconfig.co/ip'
+  		]
+  	});
+  })();
+  ====================
+
+  Repository
+  ->  github.com/sindresorhus/public-ip
+
+  Homepage
+  ->  github.com/sindresorhus/public-ip#readme
 ```
 
 _See code: [src/commands/test_public-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test_public-ip.js)_
@@ -862,7 +956,7 @@ _See code: [src/commands/volume_demo_example.js](https://github.com/MyUserNameIs
 
 ## `-v- volume_get`
 
-Describe the command here
+Get the current volume setting.
 
 ```
 USAGE
@@ -873,7 +967,26 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  loudness  ->  https://www.npmjs.com/package/loudness
+  TypeScript icon, indicating that this package has built-in type declarations
+  0.4.1 • Public • Published a year ago
+
+  node-loudness
+  A node.js library to control the systems output volume
+
+  Usage
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  100 (inc.).
+
+  OS Support
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  setup.
+
+  Repository
+  ->  github.com/LinusU/node-loudness
+
+  Homepage
+  ->  github.com/LinusU/node-loudness#readm
 ```
 
 _See code: [src/commands/volume_get.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/volume_get.js)_
@@ -915,27 +1028,49 @@ DESCRIPTION
 
 _See code: [src/commands/volume_mute.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/volume_mute.js)_
 
-## `-v- volume_set`
+## `-v- volume_set [VOLLEVEL]`
 
-Describe the command here
+Command that will set the OS Volume Level to [value-provided]
 
 ```
 USAGE
-  $ -v- volume_set
+  $ -v- volume_set [VOLLEVEL]
+
+ARGUMENTS
+  VOLLEVEL  [default: 20] This is basically how it gets new value sent by using the args option.
 
 OPTIONS
   -n, --name=name  name to print
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  loudness  ->  https://www.npmjs.com/package/loudness
+  TypeScript icon, indicating that this package has built-in type declarations
+  0.4.1 • Public • Published a year ago
+
+  node-loudness
+  A node.js library to control the systems output volume
+
+  Usage
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  100 (inc.).
+
+  OS Support
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  setup.
+
+  Repository
+  ->  github.com/LinusU/node-loudness
+
+  Homepage
+  ->  github.com/LinusU/node-loudness#readm
 ```
 
 _See code: [src/commands/volume_set.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/volume_set.js)_
 
 ## `-v- volume_unmute`
 
-Unmute device command
+Unmute device command - Sound ON
 
 ```
 USAGE
@@ -996,6 +1131,42 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/wifi-name.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi-name.js)_
+
+## `-v- wifi-password`
+
+Get current wifi password
+
+```
+USAGE
+  $ -v- wifi-password
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  wifi-password -> https://www.npmjs.com/package/wifi-password
+  3.0.1 • Public • Published 4 years ago
+
+  npm install wifi-password
+
+  ------------------------------
+  const wifiPassword = require('wifi-password');
+ 
+  wifiPassword().then(password => {
+       console.log(password);
+       //=> 'johndoesecretpassword'
+  });
+  -------------------------------------
+
+  Repository
+  -> github.com/kevva/wifi-password
+
+  Homepage
+  -> github.com/kevva/wifi-password#readme
+```
+
+_See code: [src/commands/wifi-password.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi-password.js)_
 
 ## `-v- wifi_connect`
 
@@ -1085,7 +1256,7 @@ _See code: [src/commands/wifi_delete-connection.js](https://github.com/MyUserNam
 
 ## `-v- wifi_disconnect`
 
-Node-WiFi - Disconnect from a network
+Disconnect from a network
 
 ```
 USAGE
@@ -1096,7 +1267,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Disconnect from a network
+  Node-WiFi - Disconnect from a network
   NOTE: Not available on all os for now!
 
   node-wifi =>  https://www.npmjs.com/package/node-wifi
@@ -1129,7 +1300,7 @@ _See code: [src/commands/wifi_disconnect.js](https://github.com/MyUserNameIsMyUs
 
 ## `-v- wifi_get-current-connections`
 
-Node-WiFi - Describe the command here
+Describe the command here
 
 ```
 USAGE
@@ -1140,6 +1311,8 @@ OPTIONS
 
 DESCRIPTION
   ...
+  Node-WiFi - Describe the command here
+
   node-wifi =>  https://www.npmjs.com/package/node-wifi
   2.0.15 • Public • Published 18 days ago
 
@@ -1171,6 +1344,7 @@ OPTIONS
 
 DESCRIPTION
   ...
+  Node-WiFi  -  demo that has all the things triggered
   node-wifi =>  https://www.npmjs.com/package/node-wifi
   2.0.15 • Public • Published 18 days ago
 
@@ -1191,7 +1365,7 @@ _See code: [src/commands/wifi_node.js](https://github.com/MyUserNameIsMyUserName
 
 ## `-v- wifi_scan`
 
-Node-WiFi  Scans for Available Networks
+Scans for Available Networks
 
 ```
 USAGE
@@ -1202,6 +1376,7 @@ OPTIONS
 
 DESCRIPTION
   ...
+  Node-WiFi  - Scans for Available Networks
   node-wifi =>  https://www.npmjs.com/package/node-wifi
   2.0.15 • Public • Published 18 days ago
 
@@ -1219,4 +1394,41 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/wifi_scan.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/wifi_scan.js)_
+
+## `-v- windows-vulnerabilities`
+
+Get the number of known security vulnerabilities for your current windows 10 version
+
+```
+USAGE
+  $ -v- windows-vulnerabilities
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  windows-vulnerabilities -> https://www.npmjs.com/package/windows-vulnerabilities
+  0.0.22 • Public • Published a year ago
+
+  Get os version and number of known security vulnerabilities. Array or -1 if os build not in database.
+
+  npm install windows-vulnerabilities
+
+  --------------------------------------------------
+  const winVlnr = require('windows-vulnerabilities');
+ 
+  // Get os version and number of known security vulnerabilities
+  winVlnr();
+  //=> '['1607', "842"]'
+  -------------------------------------------------
+
+  Repository
+  -> github.com/lukapetrovic/windows-vulnerabilities
+
+  Homepage
+  -> github.com/lukapetrovic/windows-vulnerabilities
+```
+
+_See code: [src/commands/windows-vulnerabilities.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/windows-vulnerabilities.js)_
 <!-- commandsstop -->

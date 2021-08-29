@@ -1,3 +1,5 @@
+/*jshint esversion: 8 */
+
 const {Command, flags} = require('@oclif/command')
 
 class WindowsVulnerabilitiesCommand extends Command {
@@ -9,15 +11,35 @@ class WindowsVulnerabilitiesCommand extends Command {
     const winVlnr = require('windows-vulnerabilities');
  
     // Get os version and number of known security vulnerabilities
-    winVlnr();
+    console.log( winVlnr() );
     //=> '['1607', "842"]'
 
   }
 }
 
-WindowsVulnerabilitiesCommand.description = `Describe the command here
+WindowsVulnerabilitiesCommand.description = `Get the number of known security vulnerabilities for your current windows 10 version
 ...
-Extra documentation goes here
+windows-vulnerabilities -> https://www.npmjs.com/package/windows-vulnerabilities
+0.0.22 • Public • Published a year ago
+
+Get os version and number of known security vulnerabilities. Array or -1 if os build not in database.
+
+npm install windows-vulnerabilities
+
+--------------------------------------------------
+const winVlnr = require('windows-vulnerabilities');
+ 
+// Get os version and number of known security vulnerabilities
+winVlnr();
+//=> '['1607', "842"]'
+-------------------------------------------------
+
+Repository
+-> github.com/lukapetrovic/windows-vulnerabilities
+
+Homepage
+-> github.com/lukapetrovic/windows-vulnerabilities
+
 `
 
 WindowsVulnerabilitiesCommand.flags = {
