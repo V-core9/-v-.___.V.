@@ -33,10 +33,13 @@ USAGE
 * [`-v- demotech_md5`](#-v--demotech_md5)
 * [`-v- hello`](#-v--hello)
 * [`-v- help [COMMAND]`](#-v--help-command)
+* [`-v- sample_boxen`](#-v--sample_boxen)
 * [`-v- sample_chalk`](#-v--sample_chalk)
 * [`-v- sample_cli-progress`](#-v--sample_cli-progress)
+* [`-v- sample_cli-spinners`](#-v--sample_cli-spinners)
 * [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
 * [`-v- sample_listr`](#-v--sample_listr)
+* [`-v- sample_multiview`](#-v--sample_multiview)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
 * [`-v- supports_sixel`](#-v--supports_sixel)
 * [`-v- sys_audio`](#-v--sys_audio)
@@ -85,6 +88,7 @@ USAGE
 * [`-v- test-unicode_version`](#-v--test-unicode_version)
 * [`-v- test_globally-installed`](#-v--test_globally-installed)
 * [`-v- test_internal-ip`](#-v--test_internal-ip)
+* [`-v- test_is-docker`](#-v--test_is-docker)
 * [`-v- test_public-ip`](#-v--test_public-ip)
 * [`-v- volume_demo_example`](#-v--volume_demo_example)
 * [`-v- volume_get`](#-v--volume_get)
@@ -235,6 +239,24 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
 
+## `-v- sample_boxen`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_boxen
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_boxen.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_boxen.js)_
+
 ## `-v- sample_chalk`
 
 Terminal string styling done right
@@ -303,6 +325,24 @@ DESCRIPTION
 
 _See code: [src/commands/sample_cli-progress.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cli-progress.js)_
 
+## `-v- sample_cli-spinners`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_cli-spinners
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_cli-spinners.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cli-spinners.js)_
+
 ## `-v- sample_command-line-usage`
 
 A simple, data-driven module for creating a usage guide.
@@ -357,6 +397,37 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_listr.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_listr.js)_
+
+## `-v- sample_multiview`
+
+Spawn multiple processes and channel their outputs into separate little column views.
+
+```
+USAGE
+  $ -v- sample_multiview
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  multiview
+  3.0.1 • Public • Published a year ago
+
+  This package provides:
+
+  a CLI tool to spawn multiple processes and concurrently view their output.
+  a Node module to do the same.
+  And provides the ability to:
+
+  handle ANSI color output from processes. (Currently does not support cursor position ANSI codes)
+  present all spawned process outputs neatly into columns.
+  choose display efficiency modes.
+  handle process exit codes.
+  initiate multiple instances and aggregate their output.
+```
+
+_See code: [src/commands/sample_multiview.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_multiview.js)_
 
 ## `-v- scan_all_ports`
 
@@ -1338,6 +1409,36 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/test_internal-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test_internal-ip.js)_
+
+## `-v- test_is-docker`
+
+Check if the process is running inside a Docker container
+
+```
+USAGE
+  $ -v- test_is-docker
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  is-docker ->  https://www.npmjs.com/package/is-docker
+  TypeScript icon, indicating that this package has built-in type declarations
+  2.2.1 • Public • Published 5 months ago
+
+  npm install is-docker
+
+  Repository
+  -> github.com/sindresorhus/is-docker
+
+  Homepage
+  -> github.com/sindresorhus/is-docker#readme
+
+  Exits with code 0 if inside a Docker container and 2 if not.
+```
+
+_See code: [src/commands/test_is-docker.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test_is-docker.js)_
 
 ## `-v- test_public-ip`
 
