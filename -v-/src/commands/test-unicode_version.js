@@ -13,9 +13,29 @@ class TestUnicodeVersionCommand extends Command {
   }
 }
 
-TestUnicodeVersionCommand.description = `Test that returns Unicode Version number
+TestUnicodeVersionCommand.description = `Check the unicode version in your code
 ...
-Extra documentation goes here
+unicode-version -> https://www.npmjs.com/package/unicode-version
+1.0.2 • Public • Published 3 years ago
+
+npm install unicode-version
+
+Usage
+----------------------------------------------
+const unicodeVersion = require('unicode-version');
+console.log(unicodeVersion);
+----------------------------------------------
+
+$ npm start
+#=> 11.0 
+
+
+Repository
+->  github.com/MrDatastorage/unicode-version
+
+Homepage
+->  github.com/MrDatastorage/unicode-version
+
 `
 
 TestUnicodeVersionCommand.flags = {

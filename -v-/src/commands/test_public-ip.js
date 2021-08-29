@@ -19,9 +19,43 @@ class TestPublicIpCommand extends Command {
   }
 }
 
-TestPublicIpCommand.description = `Describe the command here
+TestPublicIpCommand.description = `Get your public IP address - very fast!
 ...
-Extra documentation goes here
+public-ip -> https://www.npmjs.com/package/public-ip
+TypeScript icon, indicating that this package has built-in type declarations
+4.0.4 • Public • Published 3 months ago
+
+npm install public-ip
+
+==================
+const publicIp = require('public-ip');
+
+(async () => {
+	console.log(await publicIp.v4());
+	//=> '46.5.21.123'
+
+	console.log(await publicIp.v6());
+	//=> 'fe80::200:f8ff:fe21:67cf'
+})();
+===================
+<| OR MAYBE |>
+===================
+const publicIp = require('public-ip');
+
+(async () => {
+	await publicIp.v6({
+		fallbackUrls: [
+			'https://ifconfig.co/ip'
+		]
+	});
+})();
+====================
+
+Repository
+->  github.com/sindresorhus/public-ip
+
+Homepage
+->  github.com/sindresorhus/public-ip#readme
 `
 
 TestPublicIpCommand.flags = {

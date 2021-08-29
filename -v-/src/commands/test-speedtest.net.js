@@ -20,9 +20,24 @@ class TestSpeedtestNetCommand extends Command {
   }
 }
 
-TestSpeedtestNetCommand.description = `Describe the command here
+TestSpeedtestNetCommand.description = `The whole speed test runs automatically, but a lot of events are available to get more info than you need.
 ...
-Extra documentation goes here
+speedtest-net -> https://www.npmjs.com/package/speedtest-net
+DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate @types/speedtest-net package
+2.2.0 • Public • Published 4 months ago
+
+Installation
+npm install --save speedtest-net
+
+Command-Line Tool
+$ npm install --global speedtest-net
+$ speedtest-net
+
+Repository
+->  github.com/ddsol/speedtest.net
+
+Homepage
+->  github.com/ddsol/speedtest.net#readme
 `
 
 TestSpeedtestNetCommand.flags = {

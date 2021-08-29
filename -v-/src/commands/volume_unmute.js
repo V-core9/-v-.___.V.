@@ -17,7 +17,7 @@ class VolumeUnmuteCommand extends Command {
   }
 }
 
-VolumeUnmuteCommand.description = `Unmute device command
+VolumeUnmuteCommand.description = `Unmute device command - Sound ON
 ...
 loudness  ->  https://www.npmjs.com/package/loudness
 TypeScript icon, indicating that this package has built-in type declarations

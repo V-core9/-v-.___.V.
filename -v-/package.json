@@ -25,7 +25,9 @@
     "speedtest-net": "^2.2.0",
     "systeminformation": "^5.8.2",
     "unicode-version": "^1.0.2",
-    "wifi-name": "^3.1.1"
+    "wifi-name": "^3.1.1",
+    "wifi-password": "^3.0.1",
+    "windows-vulnerabilities": "0.0.22"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.0",
