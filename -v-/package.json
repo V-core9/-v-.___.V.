@@ -36,6 +36,7 @@
     "node-notifier": "^10.0.0",
     "node-port-scanner": "^3.0.1",
     "node-wifi": "^2.0.15",
+    "open": "^8.2.1",
     "os-monitor": "^1.2.2",
     "public-ip": "^4.0.4",
     "robotjs": "^0.6.0",

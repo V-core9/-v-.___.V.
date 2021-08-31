@@ -42,6 +42,7 @@ USAGE
 * [`-v- sample_multiview`](#-v--sample_multiview)
 * [`-v- sample_n-readlines`](#-v--sample_n-readlines)
 * [`-v- sample_node-notifier`](#-v--sample_node-notifier)
+* [`-v- sample_open`](#-v--sample_open)
 * [`-v- sample_os-monitor`](#-v--sample_os-monitor)
 * [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
 * [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
@@ -459,7 +460,20 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  n-readlines -> https://www.npmjs.com/package/n-readlines
+  1.0.1 • Public • Published 10 months ago
+
+  Reading file line by line may seem like a trivial problem, but in node, there is no straightforward way to do it. 
+  There are a lot of libraries using Transform Streams to achieve it, but it seems like a overkill, so I've wrote simple 
+  version using only the filesystem module of node. Note that this is synchronous library.
+
+  npm install n-readlines --save
+
+  Repository
+  > github.com/nacholibre/node-readlines
+
+  Homepage
+  > github.com/nacholibre/node-readlines#readme
 ```
 
 _See code: [src/commands/sample_n-readlines.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_n-readlines.js)_
@@ -495,6 +509,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_node-notifier.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_node-notifier.js)_
+
+## `-v- sample_open`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_open
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_open.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_open.js)_
 
 ## `-v- sample_os-monitor`
 
