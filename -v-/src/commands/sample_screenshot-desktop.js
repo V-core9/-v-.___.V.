@@ -20,9 +20,26 @@ class SampleScreenshotDesktopCommand extends Command {
   }
 }
 
-SampleScreenshotDesktopCommand.description = `Describe the command here
+SampleScreenshotDesktopCommand.description = `Capture a screenshot of your local machine
 ...
-Extra documentation goes here
+screenshot-desktop  -> https://www.npmjs.com/package/screenshot-desktop
+1.12.7 • Public • Published a month ago
+
+Multi/Cross Platform
+Linux: required ImageMagick apt-get install imagemagick
+OSX: No dependencies required!
+Windows: No dependencies required!
+Promise based API
+JPG output (by default)
+
+npm install --save screenshot-desktop
+
+Repository
+> github.com/bencevans/screenshot-desktop
+
+Homepage
+> github.com/bencevans/screenshot-desktop#readme
+
 `
 
 SampleScreenshotDesktopCommand.flags = {

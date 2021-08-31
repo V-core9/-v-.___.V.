@@ -13,9 +13,18 @@ class SampleSimpleGitPushCommand extends Command {
   }
 }
 
-SampleSimpleGitPushCommand.description = `Describe the command here
+SampleSimpleGitPushCommand.description = `NPM Sample -> Pushing to origin master .
 ...
-Extra documentation goes here
+simple-git -> https://www.npmjs.com/package/simple-git
+2.45.0 • Public • Published 4 days ago
+
+npm i simple-git --save
+
+Repository
+> github.com/steveukx/git-js
+
+Homepage
+> github.com/steveukx/git-js#readme
 `
 
 SampleSimpleGitPushCommand.flags = {

@@ -13,9 +13,18 @@ class SampleSimpleGitCommitCommand extends Command {
   }
 }
 
-SampleSimpleGitCommitCommand.description = `Describe the command here
+SampleSimpleGitCommitCommand.description = `Node Simple-Git Commit message example
 ...
-Extra documentation goes here
+simple-git -> https://www.npmjs.com/package/simple-git
+2.45.0 • Public • Published 4 days ago
+
+npm i simple-git --save
+
+Repository
+> github.com/steveukx/git-js
+
+Homepage
+> github.com/steveukx/git-js#readme
 `
 
 SampleSimpleGitCommitCommand.flags = {

@@ -17,9 +17,21 @@ class SampleOsMonitorIsRunningCommand extends Command {
   }
 }
 
-SampleOsMonitorIsRunningCommand.description = `Describe the command here
+SampleOsMonitorIsRunningCommand.description = `A very simple monitor for the built-in os module in Node.js.
 ...
-Extra documentation goes here
+Allows you to observe some OS parameters, such as free memory available or load average.
+
+os-monitor => https://www.npmjs.com/package/os-monitor
+1.2.2 • Public • Published 10 days ago
+
+Repository
+> github.com/lfortin/node-os-monitor
+
+Homepage
+> github.com/lfortin/node-os-monitor#readme
+
+npm install os-monitor
+
 `
 
 SampleOsMonitorIsRunningCommand.flags = {

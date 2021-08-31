@@ -13,9 +13,18 @@ class SampleSimpleGitAddAllCommand extends Command {
   }
 }
 
-SampleSimpleGitAddAllCommand.description = `Describe the command here
+SampleSimpleGitAddAllCommand.description = `Example of Simple-git npm doing [add all]
 ...
-Extra documentation goes here
+simple-git -> https://www.npmjs.com/package/simple-git
+2.45.0 • Public • Published 4 days ago
+
+npm i simple-git --save
+
+Repository
+> github.com/steveukx/git-js
+
+Homepage
+> github.com/steveukx/git-js#readme
 `
 
 SampleSimpleGitAddAllCommand.flags = {

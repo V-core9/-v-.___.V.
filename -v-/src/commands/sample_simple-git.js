@@ -15,9 +15,18 @@ class SampleSimpleGitCommand extends Command {
   }
 }
 
-SampleSimpleGitCommand.description = `Describe the command here
+SampleSimpleGitCommand.description = `A lightweight interface for running git commands in any node.js application.
 ...
-Extra documentation goes here
+simple-git -> https://www.npmjs.com/package/simple-git
+2.45.0 • Public • Published 4 days ago
+
+npm i simple-git --save
+
+Repository
+> github.com/steveukx/git-js
+
+Homepage
+> github.com/steveukx/git-js#readme
 `
 
 SampleSimpleGitCommand.flags = {
