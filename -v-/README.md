@@ -48,6 +48,7 @@ USAGE
 * [`-v- sample_simple-git`](#-v--sample_simple-git)
 * [`-v- sample_simple-git-add-all`](#-v--sample_simple-git-add-all)
 * [`-v- sample_simple-git-commit`](#-v--sample_simple-git-commit)
+* [`-v- sample_simple-git-push`](#-v--sample_simple-git-push)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
 * [`-v- supports_sixel`](#-v--supports_sixel)
 * [`-v- sys_audio`](#-v--sys_audio)
@@ -611,6 +612,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_simple-git-commit.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git-commit.js)_
+
+## `-v- sample_simple-git-push`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_simple-git-push
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_simple-git-push.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git-push.js)_
 
 ## `-v- scan_all_ports`
 
