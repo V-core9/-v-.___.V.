@@ -45,6 +45,8 @@ USAGE
 * [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
 * [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
 * [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
+* [`-v- sample_simple-git`](#-v--sample_simple-git)
+* [`-v- sample_simple-git-add-all`](#-v--sample_simple-git-add-all)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
 * [`-v- supports_sixel`](#-v--supports_sixel)
 * [`-v- sys_audio`](#-v--sys_audio)
@@ -554,6 +556,42 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_screenshot-desktop.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_screenshot-desktop.js)_
+
+## `-v- sample_simple-git`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_simple-git
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_simple-git.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git.js)_
+
+## `-v- sample_simple-git-add-all`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_simple-git-add-all
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_simple-git-add-all.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git-add-all.js)_
 
 ## `-v- scan_all_ports`
 

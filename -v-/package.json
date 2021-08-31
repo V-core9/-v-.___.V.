@@ -37,6 +37,7 @@
     "os-monitor": "^1.2.2",
     "public-ip": "^4.0.4",
     "screenshot-desktop": "^1.12.7",
+    "simple-git": "^2.45.0",
     "speedtest-net": "^2.2.0",
     "supports-sixel": "^1.0.0",
     "systeminformation": "^5.8.2",
