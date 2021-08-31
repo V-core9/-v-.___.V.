@@ -40,6 +40,7 @@
     "node-wifi": "^2.0.15",
     "open": "^8.2.1",
     "os-monitor": "^1.2.2",
+    "prompts": "^2.4.1",
     "public-ip": "^4.0.4",
     "robotjs": "^0.6.0",
     "screenshot-desktop": "^1.12.7",

@@ -48,6 +48,7 @@ USAGE
 * [`-v- sample_os-monitor`](#-v--sample_os-monitor)
 * [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
 * [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
+* [`-v- sample_prompts`](#-v--sample_prompts)
 * [`-v- sample_robotjs-base-demo`](#-v--sample_robotjs-base-demo)
 * [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
 * [`-v- sample_simple-git`](#-v--sample_simple-git)
@@ -365,7 +366,7 @@ _See code: [src/commands/sample_cli-spinners.js](https://github.com/MyUserNameIs
 
 ## `-v- sample_cli-table3`
 
-Describe the command here
+This utility allows you to render unicode-aided tables on the command line from your node.js scripts.
 
 ```
 USAGE
@@ -376,7 +377,19 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  cli-table3 => https://www.npmjs.com/package/cli-table3
+  0.6.0 • Public • Published a year ago
+
+  cli-table3 is based on (and api compatible with) the original cli-table, and cli-table2, which are both unmaintained. 
+  cli-table3 includes all the additional features from cli-table2.
+
+  npm i cli-table3
+
+  Repository
+  > github.com/cli-table/cli-table3
+
+  Homepage
+  > github.com/cli-table/cli-table3
 ```
 
 _See code: [src/commands/sample_cli-table3.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cli-table3.js)_
@@ -550,7 +563,7 @@ _See code: [src/commands/sample_node-notifier.js](https://github.com/MyUserNameI
 
 ## `-v- sample_open`
 
-Describe the command here
+Open stuff like URLs, files, executables. Cross-platform.
 
 ```
 USAGE
@@ -561,7 +574,22 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  open => https://www.npmjs.com/package/open
+  8.2.1 • Public • Published 2 months ago
+
+  npm i open --save
+
+  This is meant to be used in command-line tools and scripts, not in the browser.
+  If you need this for Electron, use shell.openPath() instead.
+  Note: The original open package was previously deprecated in favor of this package, and we got the name, so this 
+  package is now named open instead of opn. If you're upgrading from the original open package (open@0.0.5 or lower), 
+  keep in mind that the API is different.
+
+  Repository
+  > github.com/sindresorhus/open
+
+  Homepage
+  > github.com/sindresorhus/open#readme
 ```
 
 _See code: [src/commands/sample_open.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_open.js)_
@@ -652,6 +680,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_os-monitor-stop.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_os-monitor-stop.js)_
+
+## `-v- sample_prompts`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_prompts
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_prompts.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_prompts.js)_
 
 ## `-v- sample_robotjs-base-demo`
 
