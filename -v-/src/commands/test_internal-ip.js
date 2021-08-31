@@ -25,9 +25,21 @@ class TestInternalIpCommand extends Command {
   }
 }
 
-TestInternalIpCommand.description = `Describe the command here
+TestInternalIpCommand.description = `Get your internal IP address
 ...
-Extra documentation goes here
+internal-ip
+TypeScript icon, indicating that this package has built-in type declarations
+6.2.0 • Public • Published 9 months ago
+
+npm install internal-ip
+
+Repository
+github.com/sindresorhus/internal-ip
+
+Homepage
+github.com/sindresorhus/internal-ip#read
+
+
 `
 
 TestInternalIpCommand.flags = {

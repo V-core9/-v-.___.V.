@@ -13,7 +13,7 @@ class SysCommand extends Command {
   }
 }
 
-SysCommand.description = `Describe the command here
+SysCommand.description = `System hardware information
 ...
 Extra documentation goes here
 `

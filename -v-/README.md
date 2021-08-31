@@ -122,7 +122,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  check-ip
+  check-ip  ->  https://github.com/johnnymastin/check-ip   ++  https://www.npmjs.com/package/check-ip
   1.1.1 • Public • Published 4 years ago
 
   A simple module that will take an IP address as input and perform the following:
@@ -144,6 +144,12 @@ DESCRIPTION
  
   checkIp('8.8.8.8');
   ------------------------------
+
+  Repository
+  -> github.com/johnnymastin/check-ip
+
+  Homepage
+  -> github.com/johnnymastin/check-ip
 ```
 
 _See code: [src/commands/check-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/check-ip.js)_
@@ -918,7 +924,7 @@ _See code: [src/commands/sys_inet_latency.js](https://github.com/MyUserNameIsMyU
 
 ## `-v- sys_info`
 
-Describe the command here
+System hardware information
 
 ```
 USAGE
@@ -1427,7 +1433,7 @@ _See code: [src/commands/test_globally-installed.js](https://github.com/MyUserNa
 
 ## `-v- test_internal-ip`
 
-Describe the command here
+Get your internal IP address
 
 ```
 USAGE
@@ -1438,7 +1444,17 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  internal-ip
+  TypeScript icon, indicating that this package has built-in type declarations
+  6.2.0 • Public • Published 9 months ago
+
+  npm install internal-ip
+
+  Repository
+  github.com/sindresorhus/internal-ip
+
+  Homepage
+  github.com/sindresorhus/internal-ip#read
 ```
 
 _See code: [src/commands/test_internal-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test_internal-ip.js)_

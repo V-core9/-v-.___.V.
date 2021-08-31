@@ -6,5 +6,5 @@
 /yarn.lock
 node_modules
 
-./-v-/resources/imgs/*
-!./-v-/resources/imgs/logo.png
+resources/imgs/*
+!resources/imgs/logo.png

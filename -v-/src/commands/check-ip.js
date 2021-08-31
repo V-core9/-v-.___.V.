@@ -35,7 +35,7 @@ class CheckIpCommand extends Command {
 
 CheckIpCommand.description = `CommonJS module for Node.js to validate IP addresses and return additional information about the IP address
 ...
-check-ip
+check-ip  ->  https://github.com/johnnymastin/check-ip   ++  https://www.npmjs.com/package/check-ip
 1.1.1 • Public • Published 4 years ago
 
 A simple module that will take an IP address as input and perform the following:
@@ -55,6 +55,12 @@ var checkIp = require('check-ip');
  
 checkIp('8.8.8.8');
 ------------------------------
+
+Repository
+-> github.com/johnnymastin/check-ip
+
+Homepage
+-> github.com/johnnymastin/check-ip
 `
 
 CheckIpCommand.flags = {
