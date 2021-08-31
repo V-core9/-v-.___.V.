@@ -53,9 +53,22 @@ class SamplePromptsCommand extends Command {
   }
 }
 
-SamplePromptsCommand.description = `Describe the command here
+SamplePromptsCommand.description = `Lightweight, beautiful and user-friendly interactive prompts
 ...
-Extra documentation goes here
+prompts -> https://www.npmjs.com/package/prompts
+2.4.1 • Public • Published 5 months ago
+
+npm i prompts
+
+Repository
+> github.com/terkelg/prompts
+
+Homepage
+> github.com/terkelg/prompts#readme
+
+npm install --save prompts
+
+This package supports Node 6 and above
 `
 
 SamplePromptsCommand.flags = {
