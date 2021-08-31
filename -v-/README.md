@@ -40,10 +40,12 @@ USAGE
 * [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
+* [`-v- sample_n-readlines`](#-v--sample_n-readlines)
 * [`-v- sample_node-notifier`](#-v--sample_node-notifier)
 * [`-v- sample_os-monitor`](#-v--sample_os-monitor)
 * [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
 * [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
+* [`-v- sample_robotjs-base-demo`](#-v--sample_robotjs-base-demo)
 * [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
 * [`-v- sample_simple-git`](#-v--sample_simple-git)
 * [`-v- sample_simple-git-add-all`](#-v--sample_simple-git-add-all)
@@ -444,6 +446,24 @@ DESCRIPTION
 
 _See code: [src/commands/sample_multiview.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_multiview.js)_
 
+## `-v- sample_n-readlines`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_n-readlines
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_n-readlines.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_n-readlines.js)_
+
 ## `-v- sample_node-notifier`
 
 Send cross platform native notifications using Node.js.
@@ -507,7 +527,7 @@ _See code: [src/commands/sample_os-monitor.js](https://github.com/MyUserNameIsMy
 
 ## `-v- sample_os-monitor-is-running`
 
-Describe the command here
+A very simple monitor for the built-in os module in Node.js.
 
 ```
 USAGE
@@ -518,14 +538,25 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  Allows you to observe some OS parameters, such as free memory available or load average.
+
+  os-monitor => https://www.npmjs.com/package/os-monitor
+  1.2.2 • Public • Published 10 days ago
+
+  Repository
+  > github.com/lfortin/node-os-monitor
+
+  Homepage
+  > github.com/lfortin/node-os-monitor#readme
+
+  npm install os-monitor
 ```
 
 _See code: [src/commands/sample_os-monitor-is-running.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_os-monitor-is-running.js)_
 
 ## `-v- sample_os-monitor-stop`
 
-Describe the command here
+A very simple monitor for the built-in os module in Node.js.
 
 ```
 USAGE
@@ -536,14 +567,43 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  Allows you to observe some OS parameters, such as free memory available or load average.
+
+  os-monitor => https://www.npmjs.com/package/os-monitor
+  1.2.2 • Public • Published 10 days ago
+
+  Repository
+  > github.com/lfortin/node-os-monitor
+
+  Homepage
+  > github.com/lfortin/node-os-monitor#readme
+
+  npm install os-monitor
 ```
 
 _See code: [src/commands/sample_os-monitor-stop.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_os-monitor-stop.js)_
 
-## `-v- sample_screenshot-desktop`
+## `-v- sample_robotjs-base-demo`
 
 Describe the command here
+
+```
+USAGE
+  $ -v- sample_robotjs-base-demo
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_robotjs-base-demo.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_robotjs-base-demo.js)_
+
+## `-v- sample_screenshot-desktop`
+
+Capture a screenshot of your local machine
 
 ```
 USAGE
@@ -554,14 +614,30 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  screenshot-desktop  -> https://www.npmjs.com/package/screenshot-desktop
+  1.12.7 • Public • Published a month ago
+
+  Multi/Cross Platform
+  Linux: required ImageMagick apt-get install imagemagick
+  OSX: No dependencies required!
+  Windows: No dependencies required!
+  Promise based API
+  JPG output (by default)
+
+  npm install --save screenshot-desktop
+
+  Repository
+  > github.com/bencevans/screenshot-desktop
+
+  Homepage
+  > github.com/bencevans/screenshot-desktop#readme
 ```
 
 _See code: [src/commands/sample_screenshot-desktop.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_screenshot-desktop.js)_
 
 ## `-v- sample_simple-git`
 
-Describe the command here
+A lightweight interface for running git commands in any node.js application.
 
 ```
 USAGE
@@ -572,14 +648,23 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  simple-git -> https://www.npmjs.com/package/simple-git
+  2.45.0 • Public • Published 4 days ago
+
+  npm i simple-git --save
+
+  Repository
+  > github.com/steveukx/git-js
+
+  Homepage
+  > github.com/steveukx/git-js#readme
 ```
 
 _See code: [src/commands/sample_simple-git.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git.js)_
 
 ## `-v- sample_simple-git-add-all`
 
-Describe the command here
+Example of Simple-git npm doing [add all]
 
 ```
 USAGE
@@ -590,14 +675,23 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  simple-git -> https://www.npmjs.com/package/simple-git
+  2.45.0 • Public • Published 4 days ago
+
+  npm i simple-git --save
+
+  Repository
+  > github.com/steveukx/git-js
+
+  Homepage
+  > github.com/steveukx/git-js#readme
 ```
 
 _See code: [src/commands/sample_simple-git-add-all.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git-add-all.js)_
 
 ## `-v- sample_simple-git-commit`
 
-Describe the command here
+Node Simple-Git Commit message example
 
 ```
 USAGE
@@ -608,14 +702,23 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  simple-git -> https://www.npmjs.com/package/simple-git
+  2.45.0 • Public • Published 4 days ago
+
+  npm i simple-git --save
+
+  Repository
+  > github.com/steveukx/git-js
+
+  Homepage
+  > github.com/steveukx/git-js#readme
 ```
 
 _See code: [src/commands/sample_simple-git-commit.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git-commit.js)_
 
 ## `-v- sample_simple-git-push`
 
-Describe the command here
+NPM Sample -> Pushing to origin master .
 
 ```
 USAGE
@@ -626,7 +729,16 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  simple-git -> https://www.npmjs.com/package/simple-git
+  2.45.0 • Public • Published 4 days ago
+
+  npm i simple-git --save
+
+  Repository
+  > github.com/steveukx/git-js
+
+  Homepage
+  > github.com/steveukx/git-js#readme
 ```
 
 _See code: [src/commands/sample_simple-git-push.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git-push.js)_
