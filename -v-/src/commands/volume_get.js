@@ -1,3 +1,4 @@
+/*jshint esversion: 8 */
 const {Command, flags} = require('@oclif/command')
 
 class VolumeGetCommand extends Command {

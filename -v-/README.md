@@ -40,6 +40,7 @@ USAGE
 * [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
+* [`-v- sample_node-notifier`](#-v--sample_node-notifier)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
 * [`-v- supports_sixel`](#-v--supports_sixel)
 * [`-v- sys_audio`](#-v--sys_audio)
@@ -428,6 +429,38 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_multiview.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_multiview.js)_
+
+## `-v- sample_node-notifier`
+
+Send cross platform native notifications using Node.js.
+
+```
+USAGE
+  $ -v- sample_node-notifier
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  node-notifier => https://www.npmjs.com/package/node-notifier
+  10.0.0 • Public • Published 3 months ago
+
+  Send cross platform native notifications using Node.js. Notification Center for macOS, notify-osd/libnotify-bin for 
+  Linux, Toasters for Windows 8/10, or taskbar balloons for earlier Windows versions. Growl is used if none of these 
+  requirements are met. Works well with Electron.
+
+  Repository
+  > github.com/mikaelbr/node-notifier
+  Homepage
+  > github.com/mikaelbr/node-notifier#readme
+
+  npm install --save node-notifier    
+
+  +> CLI Version :: npm i node-notifier-cli
+```
+
+_See code: [src/commands/sample_node-notifier.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_node-notifier.js)_
 
 ## `-v- scan_all_ports`
 
