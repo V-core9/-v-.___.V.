@@ -102,9 +102,20 @@ class SampleErvyCommand extends Command {
   }
 }
 
-SampleErvyCommand.description = `Describe the command here
+SampleErvyCommand.description = `Bring charts to terminal.
 ...
-Extra documentation goes here
+ervy -> https://www.npmjs.com/package/ervy
+1.0.7 • Public • Published 2 years ago
+
+npm i ervy --save
+
+There is no special reason, just because I love terminal and ASCII art. It's very cool! Hope you enjoy Ervy and make your terminal more beautiful.
+
+Repository
+> github.com/chunqiuyiyu/ervy
+
+Homepage
+> www.chunqiuyiyu.com/ervy/
 `;
 
 SampleErvyCommand.flags = {
