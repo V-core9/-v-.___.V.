@@ -12,13 +12,11 @@ class SampleOpenCommand extends Command {
     console.log('The image viewer app quit');
 
     // Opens the URL in the default browser.
-    await open('https://github.com/MyUserNameIsMyUserName');
+    await open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 
     // Opens the URL in a specified browser.
     await open('https://github.com/MyUserNameIsMyUserName', {app: {name: 'firefox'}});
 
-    // Specify app arguments.
-    await open('https://github.com/MyUserNameIsMyUserName', {app: {name: 'google chrome', arguments: ['--incognito']}});
   }
 }
 

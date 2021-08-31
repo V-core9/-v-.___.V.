@@ -37,6 +37,8 @@ USAGE
 * [`-v- sample_chalk`](#-v--sample_chalk)
 * [`-v- sample_cli-progress`](#-v--sample_cli-progress)
 * [`-v- sample_cli-spinners`](#-v--sample_cli-spinners)
+* [`-v- sample_cli-table3`](#-v--sample_cli-table3)
+* [`-v- sample_cliui`](#-v--sample_cliui)
 * [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
@@ -360,6 +362,42 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_cli-spinners.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cli-spinners.js)_
+
+## `-v- sample_cli-table3`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_cli-table3
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_cli-table3.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cli-table3.js)_
+
+## `-v- sample_cliui`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_cliui
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_cliui.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cliui.js)_
 
 ## `-v- sample_command-line-usage`
 
