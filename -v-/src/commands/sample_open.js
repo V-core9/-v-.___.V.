@@ -20,9 +20,23 @@ class SampleOpenCommand extends Command {
   }
 }
 
-SampleOpenCommand.description = `Describe the command here
+SampleOpenCommand.description = `Open stuff like URLs, files, executables. Cross-platform.
 ...
-Extra documentation goes here
+open => https://www.npmjs.com/package/open
+8.2.1 • Public • Published 2 months ago
+
+npm i open --save
+
+This is meant to be used in command-line tools and scripts, not in the browser.
+If you need this for Electron, use shell.openPath() instead.
+Note: The original open package was previously deprecated in favor of this package, and we got the name, so this package is now named open instead of opn. If you're upgrading from the original open package (open@0.0.5 or lower), keep in mind that the API is different.
+
+Repository
+> github.com/sindresorhus/open
+
+Homepage
+> github.com/sindresorhus/open#readme
+
 `
 
 SampleOpenCommand.flags = {
