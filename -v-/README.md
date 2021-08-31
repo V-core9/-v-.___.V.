@@ -42,6 +42,7 @@ USAGE
 * [`-v- sample_cliui`](#-v--sample_cliui)
 * [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
 * [`-v- sample_enquirer`](#-v--sample_enquirer)
+* [`-v- sample_ervy`](#-v--sample_ervy)
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
 * [`-v- sample_n-readlines`](#-v--sample_n-readlines)
@@ -469,11 +470,41 @@ _See code: [src/commands/sample_command-line-usage.js](https://github.com/MyUser
 
 ## `-v- sample_enquirer`
 
-Describe the command here
+Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 
 ```
 USAGE
   $ -v- sample_enquirer
+
+OPTIONS
+  -a, --alt_ver=alt_ver  alt_ver will print scale instead of survey
+                         NOTE: Put any value in it to trigger.
+
+DESCRIPTION
+  ...
+  enquirer -> 
+  2.3.6 • Public • Published a year ago
+
+  Prompts should be more like conversations than inquisitions▌
+
+  npm i enquirer --save
+
+  Repository
+  > github.com/enquirer/enquirer
+
+  Homepage
+  > github.com/enquirer/enquirer
+```
+
+_See code: [src/commands/sample_enquirer.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_enquirer.js)_
+
+## `-v- sample_ervy`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_ervy
 
 OPTIONS
   -n, --name=name  name to print
@@ -483,7 +514,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/sample_enquirer.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_enquirer.js)_
+_See code: [src/commands/sample_ervy.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_ervy.js)_
 
 ## `-v- sample_listr`
 
