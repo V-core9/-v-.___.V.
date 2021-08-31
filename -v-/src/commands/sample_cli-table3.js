@@ -74,9 +74,20 @@ class SampleCliTable3Command extends Command {
   }
 }
 
-SampleCliTable3Command.description = `Describe the command here
+SampleCliTable3Command.description = `This utility allows you to render unicode-aided tables on the command line from your node.js scripts.
 ...
-Extra documentation goes here
+cli-table3 => https://www.npmjs.com/package/cli-table3
+0.6.0 • Public • Published a year ago
+
+cli-table3 is based on (and api compatible with) the original cli-table, and cli-table2, which are both unmaintained. cli-table3 includes all the additional features from cli-table2.
+
+npm i cli-table3
+
+Repository
+> github.com/cli-table/cli-table3
+
+Homepage
+> github.com/cli-table/cli-table3
 `
 
 SampleCliTable3Command.flags = {
