@@ -41,6 +41,10 @@ USAGE
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
 * [`-v- sample_node-notifier`](#-v--sample_node-notifier)
+* [`-v- sample_os-monitor`](#-v--sample_os-monitor)
+* [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
+* [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
+* [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
 * [`-v- supports_sixel`](#-v--supports_sixel)
 * [`-v- sys_audio`](#-v--sys_audio)
@@ -467,6 +471,89 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_node-notifier.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_node-notifier.js)_
+
+## `-v- sample_os-monitor`
+
+A very simple monitor for the built-in os module in Node.js.
+
+```
+USAGE
+  $ -v- sample_os-monitor
+
+OPTIONS
+  -s, --stream=stream  use as readable stream
+
+DESCRIPTION
+  ...
+  Allows you to observe some OS parameters, such as free memory available or load average.
+
+  os-monitor => https://www.npmjs.com/package/os-monitor
+  1.2.2 • Public • Published 10 days ago
+
+  Repository
+  > github.com/lfortin/node-os-monitor
+
+  Homepage
+  > github.com/lfortin/node-os-monitor#readme
+
+  npm install os-monitor
+```
+
+_See code: [src/commands/sample_os-monitor.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_os-monitor.js)_
+
+## `-v- sample_os-monitor-is-running`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_os-monitor-is-running
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_os-monitor-is-running.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_os-monitor-is-running.js)_
+
+## `-v- sample_os-monitor-stop`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_os-monitor-stop
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_os-monitor-stop.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_os-monitor-stop.js)_
+
+## `-v- sample_screenshot-desktop`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_screenshot-desktop
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_screenshot-desktop.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_screenshot-desktop.js)_
 
 ## `-v- scan_all_ports`
 
