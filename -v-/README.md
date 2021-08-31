@@ -38,8 +38,10 @@ USAGE
 * [`-v- sample_cli-progress`](#-v--sample_cli-progress)
 * [`-v- sample_cli-spinners`](#-v--sample_cli-spinners)
 * [`-v- sample_cli-table3`](#-v--sample_cli-table3)
+* [`-v- sample_cli-width`](#-v--sample_cli-width)
 * [`-v- sample_cliui`](#-v--sample_cliui)
 * [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
+* [`-v- sample_enquirer`](#-v--sample_enquirer)
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
 * [`-v- sample_n-readlines`](#-v--sample_n-readlines)
@@ -394,6 +396,33 @@ DESCRIPTION
 
 _See code: [src/commands/sample_cli-table3.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cli-table3.js)_
 
+## `-v- sample_cli-width`
+
+Get the CLI Window width
+
+```
+USAGE
+  $ -v- sample_cli-width
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  cli-width
+  3.0.0 • Public • Published a year ago
+
+  npm install --save cli-width
+
+  Repository
+  > github.com/knownasilya/cli-width
+
+  Homepage
+  > github.com/knownasilya/cli-width
+```
+
+_See code: [src/commands/sample_cli-width.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cli-width.js)_
+
 ## `-v- sample_cliui`
 
 Describe the command here
@@ -437,6 +466,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_command-line-usage.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_command-line-usage.js)_
+
+## `-v- sample_enquirer`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_enquirer
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_enquirer.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_enquirer.js)_
 
 ## `-v- sample_listr`
 
@@ -683,7 +730,7 @@ _See code: [src/commands/sample_os-monitor-stop.js](https://github.com/MyUserNam
 
 ## `-v- sample_prompts`
 
-Describe the command here
+Lightweight, beautiful and user-friendly interactive prompts
 
 ```
 USAGE
@@ -694,7 +741,20 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  prompts -> https://www.npmjs.com/package/prompts
+  2.4.1 • Public • Published 5 months ago
+
+  npm i prompts
+
+  Repository
+  > github.com/terkelg/prompts
+
+  Homepage
+  > github.com/terkelg/prompts#readme
+
+  npm install --save prompts
+
+  This package supports Node 6 and above
 ```
 
 _See code: [src/commands/sample_prompts.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_prompts.js)_
