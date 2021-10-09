@@ -1,0 +1,97 @@
+{
+  "name": "-v-",
+  "description": "-<[ -v-  -> CLI Tool :: A way to increase my output, control, and way of working with things. ]>----",
+  "version": "1.2.7",
+  "author": "🢔⟬⩹⧋⛛⌬⛛⧋⩺⟭🢖",
+  "bin": {
+    "-v-": "./bin/run"
+  },
+  "bugs": "https://github.com/MyUserNameIsMyUserName/-v-/issues",
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.3",
+    "apache-md5": "^1.1.7",
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.2",
+    "check-ip": "^1.1.1",
+    "cli-boxes": "^3.0.0",
+    "cli-progress": "^3.9.0",
+    "cli-spinners": "^2.6.0",
+    "cli-table3": "^0.6.0",
+    "cli-width": "^3.0.0",
+    "cliui": "^7.0.4",
+    "codemirror": "^5.62.3",
+    "command-line-usage": "^6.1.1",
+    "cross-zip": "^4.0.0",
+    "enquirer": "^2.3.6",
+    "ervy": "^1.0.7",
+    "has-unicode": "^2.0.1",
+    "internal-ip": "^6.2.0",
+    "is-cmd": "^1.0.0",
+    "is-docker": "^2.2.1",
+    "is-elevated": "^4.0.0",
+    "is-installed-globally": "^0.4.0",
+    "is-online": "^9.0.1",
+    "is-wsl": "^2.2.0",
+    "listr": "^0.14.3",
+    "loudness": "^0.4.1",
+    "multiview": "^3.0.1",
+    "n-readlines": "^1.0.1",
+    "node-notifier": "^10.0.0",
+    "node-port-scanner": "^3.0.1",
+    "node-wifi": "^2.0.15",
+    "open": "^8.2.1",
+    "os-monitor": "^1.2.2",
+    "prompts": "^2.4.1",
+    "public-ip": "^4.0.4",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.12.7",
+    "simple-git": "^2.45.0",
+    "speedtest-net": "^2.2.0",
+    "supports-sixel": "^1.0.0",
+    "systeminformation": "^5.8.2",
+    "unicode-version": "^1.0.2",
+    "wifi-name": "^3.1.1",
+    "wifi-password": "^3.0.1",
+    "windows-vulnerabilities": "0.0.22"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.26.0",
+    "@oclif/test": "^1.2.8",
+    "chai": "^4.3.4",
+    "globby": "^10.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^14.1.1",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/MyUserNameIsMyUserName/-v-",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "-v-",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "MyUserNameIsMyUserName/-v-",
+  "scripts": {
+    "postpack": "rimraf oclif.manifest.json",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}

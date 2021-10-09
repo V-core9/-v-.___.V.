@@ -1,49 +1,22 @@
 {
-  "name": "NODEjs_TryOuts",
+  "name": "v_v_v",
   "version": "1.0.0",
-  "description": "Trying out node stuff",
+  "description": "<=<)_:__.V.__:_(>=>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev_env_cp": " bash -c \" cp _development.env .env -f \" ",
-    "pro_env_cp": " bash -c \" cp _production.env .env -f \" ",
-    "build": "npm run pro_env_cp && bash build.sh ",
-    "dev_build": "npm run dev_env_cp && bash build.sh ",
-    "app": "bash -c \"npm run build\" && bash -c \" node app.js \" ",
-    "dev_app": "npm run dev_env_cp && bash dev_app.sh ",
-    "get_sys_info": "node ./src/helpers/sys_info_functions.js "
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MyUserNameIsMyUserName/NODEjs_TryOuts.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "v"
+  ],
+  "author": " <_v_>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MyUserNameIsMyUserName/NODEjs_TryOuts/issues"
   },
-  "homepage": "https://github.com/MyUserNameIsMyUserName/NODEjs_TryOuts#readme",
-  "dependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.14.8",
-    "@babel/plugin-transform-modules-commonjs": "^7.14.5",
-    "autoprefixer": "^10.3.1",
-    "babel-loader": "^8.2.2",
-    "babel-plugin-remove-comments": "^2.0.0",
-    "browserslist": "^4.16.6",
-    "compression": "^1.7.4",
-    "dotenv": "^9.0.2",
-    "express": "^4.17.1",
-    "is-online": "^9.0.1",
-    "nodemon": "^2.0.12",
-    "page-fps": "^1.0.2",
-    "systeminformation": "^5.7.8",
-    "username": "^5.1.0",
-    "web-vitals": "^2.1.0",
-    "webpack": "^5.46.0"
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.7.2"
-  }
+  "homepage": "https://github.com/MyUserNameIsMyUserName/NODEjs_TryOuts#readme"
 }
