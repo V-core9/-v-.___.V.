@@ -20,7 +20,7 @@ var userAgent = function (req, res, next) {
 
 //-<-<[_ myLogger _]>->------------------
 var myLogger = function (req, res, next) {
-  console.log(`Host: ${req.headers.host}  \nUser - agent:   ${req.userAgent} \nTIMEOF: ${Date.now()}`);
+  //console.log(`Host: ${req.headers.host}  \nUser - agent:   ${req.userAgent} \nTIMEOF: ${Date.now()}`);
   next();
 };
 // USING >> app.use(myLogger)
