@@ -500,7 +500,7 @@ _See code: [src/commands/sample_enquirer.js](https://github.com/MyUserNameIsMyUs
 
 ## `-v- sample_ervy`
 
-Describe the command here
+Bring charts to terminal.
 
 ```
 USAGE
@@ -511,7 +511,19 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  ervy -> https://www.npmjs.com/package/ervy
+  1.0.7 • Public • Published 2 years ago
+
+  npm i ervy --save
+
+  There is no special reason, just because I love terminal and ASCII art. It's very cool! Hope you enjoy Ervy and make 
+  your terminal more beautiful.
+
+  Repository
+  > github.com/chunqiuyiyu/ervy
+
+  Homepage
+  > www.chunqiuyiyu.com/ervy/
 ```
 
 _See code: [src/commands/sample_ervy.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_ervy.js)_
