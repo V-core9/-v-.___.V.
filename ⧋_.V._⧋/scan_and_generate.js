@@ -7,7 +7,7 @@
 const Sitemapper = require('sitemapper');
 const fs = require('fs')
 const sitemap = new Sitemapper();
-const rootURL = "https://instacraftcbd.com";
+const rootURL = "https://quickmedcards.com";
 sitemap.fetch(rootURL + '/sitemap_index.xml').then(function (sites) {
   saveSites(sites)
 });
@@ -19,8 +19,7 @@ function saveSites(sites) {
     sites: []
   }
   sites.sites.forEach(item => {
-    console.log(item.replace("https://instacraftcbd.com", ""));
-    resp.sites.push(item.replace("https://instacraftcbd.com", ""));
+    resp.sites.push(item.replace("https://quickmedcards.com", ""));
   });
   console.log(resp)
   console.log(fs.writeFileSync('./PUBLIC/sitemap_array.txt', JSON.stringify(resp)), { encoding: 'utf8', flag: 'r' });
@@ -39,7 +38,7 @@ async function generateSitemap() {
   console.log(urls)
 
   async function run() {
-    const sitemaps = await buildSitemaps(urls.sites, 'http://localhost.com');
+    const sitemaps = await buildSitemaps(urls.sites, 'http://quickmedcards.com');
 
     console.log(sitemaps['/sitemap.xml']);
     fs.writeFileSync("./PUBLIC/sitemap_index.xml", sitemaps['/sitemap.xml']);

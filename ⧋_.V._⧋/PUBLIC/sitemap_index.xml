@@ -1,87 +1,465 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost.com/uncategorized/1/</loc>
+    <loc>http://quickmedcards.com/</loc>
   </url>
   <url>
-    <loc>http://localhost.com/</loc>
+    <loc>http://quickmedcards.com/cus-new-prescription</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/</loc>
+    <loc>http://quickmedcards.com/about</loc>
   </url>
   <url>
-    <loc>http://localhost.com/privacy-policy/</loc>
+    <loc>http://quickmedcards.com/pricing</loc>
   </url>
   <url>
-    <loc>http://localhost.com/refund-policy/</loc>
+    <loc>http://quickmedcards.com/cus-login</loc>
   </url>
   <url>
-    <loc>http://localhost.com/wholesale/</loc>
+    <loc>http://quickmedcards.com/terms-conditions</loc>
   </url>
   <url>
-    <loc>http://localhost.com/contact-us/</loc>
+    <loc>http://quickmedcards.com/refund-policy</loc>
   </url>
   <url>
-    <loc>http://localhost.com/lab-tests/</loc>
+    <loc>http://quickmedcards.com/cus-follow-up</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shipping-policy/</loc>
+    <loc>http://quickmedcards.com/maine</loc>
   </url>
   <url>
-    <loc>http://localhost.com/subscribe-and-save/</loc>
+    <loc>http://quickmedcards.com/new-york</loc>
   </url>
   <url>
-    <loc>http://localhost.com/how-to-get-free-cbd/</loc>
+    <loc>http://quickmedcards.com/oklahoma</loc>
   </url>
   <url>
-    <loc>http://localhost.com/about/</loc>
+    <loc>http://quickmedcards.com/maryland</loc>
   </url>
   <url>
-    <loc>http://localhost.com/terms-and-conditions/</loc>
+    <loc>http://quickmedcards.com/arizona</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/</loc>
+    <loc>http://quickmedcards.com/minnesota</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/subscribe-box-1/</loc>
+    <loc>http://quickmedcards.com/west-virginia</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/6-cbd-bottles-of-900mg-capsules-serenity-lotion/</loc>
+    <loc>http://quickmedcards.com/virginia</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/6-cbd-bottles-of-900mg-capsules-mango-vape/</loc>
+    <loc>http://quickmedcards.com/pennsylvania</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/6-cbd-bottles-of-900mg-capsules-triple-relief/</loc>
+    <loc>http://quickmedcards.com/ohio</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/6-cbd-bottles-of-900mg-capsules-mango-vape-triple-relief/</loc>
+    <loc>http://quickmedcards.com/new-mexico</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/6-cbd-bottles-of-900mg-capsules-mango-vape-serenity-lotion/</loc>
+    <loc>http://quickmedcards.com/new-jersey</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/6-cbd-bottles-of-900mg-capsules-mango-vape-serenity-lotion-triple-relief/</loc>
+    <loc>http://quickmedcards.com/missouri</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/serenity-lotion-250mg-cbd/</loc>
+    <loc>http://quickmedcards.com/louisiana</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/triple-relief-salve-of-250mg-cbd/</loc>
+    <loc>http://quickmedcards.com/iowa</loc>
   </url>
   <url>
-    <loc>http://localhost.com/shop/900-mg-cbd-capsules-30-pc-full-spectrum/</loc>
+    <loc>http://quickmedcards.com/hawaii</loc>
   </url>
   <url>
-    <loc>http://localhost.com/category/uncategorized/</loc>
+    <loc>http://quickmedcards.com/delaware</loc>
   </url>
   <url>
-    <loc>http://localhost.com/product-category/all/</loc>
+    <loc>http://quickmedcards.com/arkansas</loc>
   </url>
   <url>
-    <loc>http://localhost.com/?taxonomy=product_shipping_class&amp;term=test1</loc>
+    <loc>http://quickmedcards.com/connecticut</loc>
   </url>
   <url>
-    <loc>http://localhost.com/author/instadmin/</loc>
+    <loc>http://quickmedcards.com/maine/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/virginia/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/pennsylvania/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/arizona/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/marijuana-market-round-up-03-05/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/missouri-medical-marijuana-midwest/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/medical-marijuana-and-alzheimers-disease/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/coronavirus-cannabis-medical-marijuana/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/western-marijuana-culture-shift/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/oklahoma-marijuana-authority/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-jersey-mmj-laws-in-full-growth-workers-compensation-and-social-equity/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/hemp-flower-reform/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/the-panakeia-strain-explained-and-its-incredible-impact-why-cbg-is-the-new-cbd/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/chronic-pain-treatment/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/marijuana-for-ibd/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/marijuana-and-cancer/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/ptsd-treatment/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/is-cbd-oil-the-cure-for-multiple-sclerosis-ms/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/pennsylvania-workplace-laws/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/delawares-marijuana-market-on-the-rise-is-legalization-on-the-horizon/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/texas-marijuana-house-bill/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/connecticut-legalization-bill/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/recreational-marijuana-bill-new-jersey/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/marijuana-medication-smoking-vs-edibles/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/conditions-to-get-your-medical-marijuana-card/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/terms-conditions/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/privacypolicy/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/refund-policy/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/about/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/blog/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/faq/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/find-medical-marijuana-doctor-near-me/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/dispensary-near-me/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/join-our-team/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/doctor-faq/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/conditions/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-dispensary-curaleaf/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/pages/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/faq-general/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/arkansas/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/maryland/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/delaware-application-guide/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/pennsylvania-application-guide/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/new-jersey/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/new-york/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/pennsylvania/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/connecticut/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/oklahoma/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/delaware/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/how-to-get-prescription/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/louisiana/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-dispensary-be/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-dispensary-medmen/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-dispensary-columbia-care/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-dispensary-etain/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-dispensary-fp-wellness/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-dispensary-verilife/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-dispensaries-vireo-health/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/arkansas/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/sitemap/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/contact-us/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/medical-marijuana-doctors-in-ct-book-your-online-consultation-with-our-certified-doctors-in-connecticut/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/approved-omma-doctors-accepting-new-patients-for-online-appointments-in-oklahoma/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-york-state-find-ny-cannabis-doctors-near-me-how-to-get-a-prescription-for-mmj-420-renewal-online/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/az-how-to-get-mmj-card-online-cheap-certification-in-arizona-find-doctors-near-me/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/delaware-how-to-get-a-medical-card-online-find-cannabis-doctors-near-me-in-de/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/hawaii/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/iowa-find-cannabis-doctors-near-me-how-to-apply-online/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/missouri-green-doctors-near-me-how-to-get-cannabis-online-in-mo/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/oklahoma/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/find-ohio-mmj-doctors-near-me-how-to-get-prescribed-cannabis-online/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/virginia-find-va-mmj-doctor-near-me-how-to-get-cannabis-online/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/west-virginia-find-cannabis-doctors-in-wv-near-me-how-to-get-marijuanas-online/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/ct-how-to-get-a-medical-card-in-connecticut-online/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/minnesota/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-mexico/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-jersey/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/az-rules-arizona-medical-marijuana-program-adhs-application/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/who-qualifies-for-medical-marijuana-card-in-arkansas/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/arkansas-medical-marijuana-commission-information-about-arkansas-medical-cannabis-act-and-how-to-get-medical-marijuana-in-arkansas/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/requirements-can-i-get-medical-marijuana-in-virginia/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/rules-ct-medical-marijuana-program-connecticut-mmp/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/delaware-list-of-qualifying-conditions-and-requirements/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/about-legal-medical-marijuana-in-delaware-medical-marijuana-program-and-compassion-centers/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/hawaii-medical-marijuana-card-program/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/how-to-get-medical-records-access-and-send-them-to-your-marijuana-doctor-online-for-free/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/what-qualifies-for-a-medical-card-in-nj-qualifying-conditions-for-a-medical-marijuana-card-in-new-jersey/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/requirements-iowa-medical-marijuana-list-of-conditions-ia-qualification/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/application-for-iowa-medical-marijuana-program-about-the-medical-cannabidiol-act/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/louisiana-medical-marijuana-program/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/maine-medical-marijuana-program/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/maryland-medical-marijuana-program/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/mn-list-of-conditions-and-requirements-for-medical-cannabis-in-minnesota/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/minnesota-medical-marijuana-program/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/pennsylvania/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/requirements-and-qualifying-conditions-for-medical-card-in-missouri-find-out-if-you-are-eligible-and-how-to-qualify/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/mmmp-missouri-medical-marijuana-program-information/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-jerseys-nj-medical-marijuana-program/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/about-nys-mmp-health-program-how-to-get-medical-marijuana-in-new-york-state/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/new-mexico-medical-cannabis-program/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/medical-marijuana-card-state-of-ohio-medical-marijuana-control-program-ommcp-guidelines-and-registry/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/oklahoma-medical-marijuana-authority-omma/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/oklahoma-medical-marijuana-card-qualifying-conditions-who-can-qualify-for-medical-marijuana-in-ok/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/pennsylvania-pa-medical-marijuana-program/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/complete-list-of-pa-medical-marijuana-qualifying-conditions-who-can-qualify-for-a-medical-marijuana-card-in-pennsylvania/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/qualifying-conditions-for-medical-card-in-maine-who-can-qualify-for-medical-marijuana-in-me/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/qualifying-conditions-for-medical-card-in-ohio-eligibility-and-requirements/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/list-of-qualifying-conditions-for-medical-card-in-arizona-cannabis-qualifications-and-requirements-in-az/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/connecticut-requirements-and-list-of-qualifying-conditions-for-medical-card-in-ct/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/qualifying-conditions-for-medical-card-in-hawaii-complete-list-who-qualifies-for-329-card-hi/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/qualifying-conditions-for-medical-card-in-ny-how-to-qualify-for-marijuana-in-new-york-state/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/qualifying-conditions-for-medical-card-in-maryland-who-can-qualify-for-medical-cannabis-in-md/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/qualifying-conditions-for-medical-card-in-new-mexico-how-to-qualify-for-medical-marijuana-in-nm/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/virginia-board-of-pharmacy-program-for-medicinal-cannabis-in-va-state/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/wv-list-of-condtitions-and-eligibility-west-virginia/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/wv-guidelines-how-to-apply-for-a-medical-card-online-in-west-virginia-find-dispensary-near-me/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/who-qualifies-for-medical-marijuana-in-louisiana-qualifying-conditions-for-medical-marijuana-in-la/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/maryland/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/maine/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/state-cannabis-laws/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/project/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/conditions/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/health-relief/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/industry-news/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/laws-regulation/</loc>
+  </url>
+  <url>
+    <loc>http://quickmedcards.com/medical-marijuana-card/marijuana-strains/</loc>
   </url>
 </urlset>
