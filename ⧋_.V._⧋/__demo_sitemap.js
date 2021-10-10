@@ -1,7 +1,7 @@
 const { buildSitemaps } = require('express-sitemap-xml')
 
-async function run() {
   const urls = ['/1', '/2', '/3'];
+async function run() {
   const sitemaps = await buildSitemaps(urls, 'http://localhost.com');
 
   console.log(Object.keys(sitemaps));

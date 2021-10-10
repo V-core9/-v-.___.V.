@@ -2,12 +2,6 @@ require("dotenv").config();
 
 const fs = require('fs')
 
-const { buildSitemaps } = require('express-sitemap-xml')
-
-const urls = JSON.parse(fs.readFileSync('./PUBLIC/sitemap_array.json', { encoding: 'utf8', flag: 'r' }));
-console.log(urls.sites);
-const sitemaps = buildSitemaps(urls.sites, 'https://instacraftcbd.com');
-
 
 
 const vApp = {
@@ -73,8 +67,9 @@ const vApp = {
   }
 }
 
-vApp.sitemap.xml_page = sitemaps['/sitemap.xml']
+vApp.sitemap.xml_page = fs.readFileSync('./PUBLIC/sitemap_index.xml', { encoding: 'utf8', flag: 'r' })
 
+console.log(vApp.sitemap);
 
 
 vApp.app = vApp.express();
