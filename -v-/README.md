@@ -1,7 +1,6 @@
--v-
-===
+# -v-
 
-V_CLI Tool 
+V_CLI Tool
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/-v-.svg)](https://npmjs.org/package/-v-)
@@ -9,14 +8,18 @@ V_CLI Tool
 [![License](https://img.shields.io/npm/l/-v-.svg)](https://github.com/MyUserNameIsMyUserName/-v-/blob/master/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
-* [Usage](#usage)
-* [Commands](#commands)
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
 $ npm install -g -v-
 $ -v- COMMAND
@@ -28,7 +31,9 @@ USAGE
   $ -v- COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 ```sh-session
 $ npm install -g -v-
 $ -v- COMMAND
@@ -40,104 +45,110 @@ USAGE
   $ -v- COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`-v- check-ip [TESTIP]`](#-v--check-ip-testip)
-* [`-v- cross-zip`](#-v--cross-zip)
-* [`-v- demotech_md5`](#-v--demotech_md5)
-* [`-v- hello`](#-v--hello)
-* [`-v- help [COMMAND]`](#-v--help-command)
-* [`-v- sample_boxen`](#-v--sample_boxen)
-* [`-v- sample_chalk`](#-v--sample_chalk)
-* [`-v- sample_cli-progress`](#-v--sample_cli-progress)
-* [`-v- sample_cli-spinners`](#-v--sample_cli-spinners)
-* [`-v- sample_cli-table3`](#-v--sample_cli-table3)
-* [`-v- sample_cli-width`](#-v--sample_cli-width)
-* [`-v- sample_cliui`](#-v--sample_cliui)
-* [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
-* [`-v- sample_enquirer`](#-v--sample_enquirer)
-* [`-v- sample_ervy`](#-v--sample_ervy)
-* [`-v- sample_express-sitemap-xml`](#-v--sample_express-sitemap-xml)
-* [`-v- sample_listr`](#-v--sample_listr)
-* [`-v- sample_multiview`](#-v--sample_multiview)
-* [`-v- sample_n-readlines`](#-v--sample_n-readlines)
-* [`-v- sample_node-notifier`](#-v--sample_node-notifier)
-* [`-v- sample_open`](#-v--sample_open)
-* [`-v- sample_os-monitor`](#-v--sample_os-monitor)
-* [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
-* [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
-* [`-v- sample_prompts`](#-v--sample_prompts)
-* [`-v- sample_robotjs-base-demo`](#-v--sample_robotjs-base-demo)
-* [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
-* [`-v- sample_simple-git`](#-v--sample_simple-git)
-* [`-v- sample_simple-git-add-all`](#-v--sample_simple-git-add-all)
-* [`-v- sample_simple-git-commit`](#-v--sample_simple-git-commit)
-* [`-v- sample_simple-git-push`](#-v--sample_simple-git-push)
-* [`-v- scan_all_ports`](#-v--scan_all_ports)
-* [`-v- supports_sixel`](#-v--supports_sixel)
-* [`-v- sys_audio`](#-v--sys_audio)
-* [`-v- sys_baseboard`](#-v--sys_baseboard)
-* [`-v- sys_battery`](#-v--sys_battery)
-* [`-v- sys_bios`](#-v--sys_bios)
-* [`-v- sys_chassis`](#-v--sys_chassis)
-* [`-v- sys_cpu_current_speed`](#-v--sys_cpu_current_speed)
-* [`-v- sys_cpu_info`](#-v--sys_cpu_info)
-* [`-v- sys_cpu_temp`](#-v--sys_cpu_temp)
-* [`-v- sys_disk_io`](#-v--sys_disk_io)
-* [`-v- sys_disk_layout`](#-v--sys_disk_layout)
-* [`-v- sys_docker_all`](#-v--sys_docker_all)
-* [`-v- sys_docker_container_processes`](#-v--sys_docker_container_processes)
-* [`-v- sys_docker_container_stats`](#-v--sys_docker_container_stats)
-* [`-v- sys_docker_containers`](#-v--sys_docker_containers)
-* [`-v- sys_docker_images`](#-v--sys_docker_images)
-* [`-v- sys_docker_info`](#-v--sys_docker_info)
-* [`-v- sys_docker_volumes`](#-v--sys_docker_volumes)
-* [`-v- sys_fs_stats`](#-v--sys_fs_stats)
-* [`-v- sys_graphics`](#-v--sys_graphics)
-* [`-v- sys_inet_checksite`](#-v--sys_inet_checksite)
-* [`-v- sys_inet_latency`](#-v--sys_inet_latency)
-* [`-v- sys_info`](#-v--sys_info)
-* [`-v- sys_load`](#-v--sys_load)
-* [`-v- sys_mem_info`](#-v--sys_mem_info)
-* [`-v- sys_net_conn`](#-v--sys_net_conn)
-* [`-v- sys_net_def_gateway`](#-v--sys_net_def_gateway)
-* [`-v- sys_net_def_interface`](#-v--sys_net_def_interface)
-* [`-v- sys_net_interfaces`](#-v--sys_net_interfaces)
-* [`-v- sys_net_stats`](#-v--sys_net_stats)
-* [`-v- sys_open_files`](#-v--sys_open_files)
-* [`-v- sys_os_info`](#-v--sys_os_info)
-* [`-v- sys_processes`](#-v--sys_processes)
-* [`-v- sys_services`](#-v--sys_services)
-* [`-v- sys_users`](#-v--sys_users)
-* [`-v- sys_uuid`](#-v--sys_uuid)
-* [`-v- sys_versions`](#-v--sys_versions)
-* [`-v- sys_wifi_connections`](#-v--sys_wifi_connections)
-* [`-v- sys_wifi_interfaces`](#-v--sys_wifi_interfaces)
-* [`-v- sys_wifi_networks`](#-v--sys_wifi_networks)
-* [`-v- test-is_cmd`](#-v--test-is_cmd)
-* [`-v- test-is_online`](#-v--test-is_online)
-* [`-v- test-is_wsl`](#-v--test-is_wsl)
-* [`-v- test-speedtest.net`](#-v--test-speedtestnet)
-* [`-v- test-unicode_version`](#-v--test-unicode_version)
-* [`-v- test_globally-installed`](#-v--test_globally-installed)
-* [`-v- test_internal-ip`](#-v--test_internal-ip)
-* [`-v- test_is-docker`](#-v--test_is-docker)
-* [`-v- test_public-ip`](#-v--test_public-ip)
-* [`-v- volume_demo_example`](#-v--volume_demo_example)
-* [`-v- volume_get`](#-v--volume_get)
-* [`-v- volume_mute`](#-v--volume_mute)
-* [`-v- volume_set [VOLLEVEL]`](#-v--volume_set-vollevel)
-* [`-v- volume_unmute`](#-v--volume_unmute)
-* [`-v- wifi-name`](#-v--wifi-name)
-* [`-v- wifi-password`](#-v--wifi-password)
-* [`-v- wifi_connect`](#-v--wifi_connect)
-* [`-v- wifi_delete-connection`](#-v--wifi_delete-connection)
-* [`-v- wifi_disconnect`](#-v--wifi_disconnect)
-* [`-v- wifi_get-current-connections`](#-v--wifi_get-current-connections)
-* [`-v- wifi_node`](#-v--wifi_node)
-* [`-v- wifi_scan`](#-v--wifi_scan)
-* [`-v- windows-vulnerabilities`](#-v--windows-vulnerabilities)
+
+- [`-v- check-ip [TESTIP]`](#-v--check-ip-testip)
+- [`-v- cross-zip`](#-v--cross-zip)
+- [`-v- demotech_md5`](#-v--demotech_md5)
+- [`-v- hello`](#-v--hello)
+- [`-v- help [COMMAND]`](#-v--help-command)
+- [`-v- sample_boxen`](#-v--sample_boxen)
+- [`-v- sample_chalk`](#-v--sample_chalk)
+- [`-v- sample_cli-progress`](#-v--sample_cli-progress)
+- [`-v- sample_cli-spinners`](#-v--sample_cli-spinners)
+- [`-v- sample_cli-table3`](#-v--sample_cli-table3)
+- [`-v- sample_cli-width`](#-v--sample_cli-width)
+- [`-v- sample_cliui`](#-v--sample_cliui)
+- [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
+- [`-v- sample_compress-images`](#-v--sample_compress-images)
+- [`-v- sample_enquirer`](#-v--sample_enquirer)
+- [`-v- sample_ervy`](#-v--sample_ervy)
+- [`-v- sample_express-sitemap-xml`](#-v--sample_express-sitemap-xml)
+- [`-v- sample_listr`](#-v--sample_listr)
+- [`-v- sample_multiview`](#-v--sample_multiview)
+- [`-v- sample_n-readlines`](#-v--sample_n-readlines)
+- [`-v- sample_node-notifier`](#-v--sample_node-notifier)
+- [`-v- sample_open`](#-v--sample_open)
+- [`-v- sample_os-monitor`](#-v--sample_os-monitor)
+- [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
+- [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
+- [`-v- sample_prompts`](#-v--sample_prompts)
+- [`-v- sample_robotjs-base-demo`](#-v--sample_robotjs-base-demo)
+- [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
+- [`-v- sample_simple-git`](#-v--sample_simple-git)
+- [`-v- sample_simple-git-add-all`](#-v--sample_simple-git-add-all)
+- [`-v- sample_simple-git-commit`](#-v--sample_simple-git-commit)
+- [`-v- sample_simple-git-push`](#-v--sample_simple-git-push)
+- [`-v- sample_webp-converter`](#-v--sample_webp-converter)
+- [`-v- scan_all_ports`](#-v--scan_all_ports)
+- [`-v- supports_sixel`](#-v--supports_sixel)
+- [`-v- sys_audio`](#-v--sys_audio)
+- [`-v- sys_baseboard`](#-v--sys_baseboard)
+- [`-v- sys_battery`](#-v--sys_battery)
+- [`-v- sys_bios`](#-v--sys_bios)
+- [`-v- sys_chassis`](#-v--sys_chassis)
+- [`-v- sys_cpu_current_speed`](#-v--sys_cpu_current_speed)
+- [`-v- sys_cpu_info`](#-v--sys_cpu_info)
+- [`-v- sys_cpu_temp`](#-v--sys_cpu_temp)
+- [`-v- sys_disk_io`](#-v--sys_disk_io)
+- [`-v- sys_disk_layout`](#-v--sys_disk_layout)
+- [`-v- sys_docker_all`](#-v--sys_docker_all)
+- [`-v- sys_docker_container_processes`](#-v--sys_docker_container_processes)
+- [`-v- sys_docker_container_stats`](#-v--sys_docker_container_stats)
+- [`-v- sys_docker_containers`](#-v--sys_docker_containers)
+- [`-v- sys_docker_images`](#-v--sys_docker_images)
+- [`-v- sys_docker_info`](#-v--sys_docker_info)
+- [`-v- sys_docker_volumes`](#-v--sys_docker_volumes)
+- [`-v- sys_fs_stats`](#-v--sys_fs_stats)
+- [`-v- sys_graphics`](#-v--sys_graphics)
+- [`-v- sys_inet_checksite`](#-v--sys_inet_checksite)
+- [`-v- sys_inet_latency`](#-v--sys_inet_latency)
+- [`-v- sys_info`](#-v--sys_info)
+- [`-v- sys_load`](#-v--sys_load)
+- [`-v- sys_mem_info`](#-v--sys_mem_info)
+- [`-v- sys_net_conn`](#-v--sys_net_conn)
+- [`-v- sys_net_def_gateway`](#-v--sys_net_def_gateway)
+- [`-v- sys_net_def_interface`](#-v--sys_net_def_interface)
+- [`-v- sys_net_interfaces`](#-v--sys_net_interfaces)
+- [`-v- sys_net_stats`](#-v--sys_net_stats)
+- [`-v- sys_open_files`](#-v--sys_open_files)
+- [`-v- sys_os_info`](#-v--sys_os_info)
+- [`-v- sys_processes`](#-v--sys_processes)
+- [`-v- sys_services`](#-v--sys_services)
+- [`-v- sys_users`](#-v--sys_users)
+- [`-v- sys_uuid`](#-v--sys_uuid)
+- [`-v- sys_versions`](#-v--sys_versions)
+- [`-v- sys_wifi_connections`](#-v--sys_wifi_connections)
+- [`-v- sys_wifi_interfaces`](#-v--sys_wifi_interfaces)
+- [`-v- sys_wifi_networks`](#-v--sys_wifi_networks)
+- [`-v- test-is_cmd`](#-v--test-is_cmd)
+- [`-v- test-is_online`](#-v--test-is_online)
+- [`-v- test-is_wsl`](#-v--test-is_wsl)
+- [`-v- test-speedtest.net`](#-v--test-speedtestnet)
+- [`-v- test-unicode_version`](#-v--test-unicode_version)
+- [`-v- test_globally-installed`](#-v--test_globally-installed)
+- [`-v- test_internal-ip`](#-v--test_internal-ip)
+- [`-v- test_is-docker`](#-v--test_is-docker)
+- [`-v- test_public-ip`](#-v--test_public-ip)
+- [`-v- volume_demo_example`](#-v--volume_demo_example)
+- [`-v- volume_get`](#-v--volume_get)
+- [`-v- volume_mute`](#-v--volume_mute)
+- [`-v- volume_set [VOLLEVEL]`](#-v--volume_set-vollevel)
+- [`-v- volume_unmute`](#-v--volume_unmute)
+- [`-v- wifi-name`](#-v--wifi-name)
+- [`-v- wifi-password`](#-v--wifi-password)
+- [`-v- wifi_connect`](#-v--wifi_connect)
+- [`-v- wifi_delete-connection`](#-v--wifi_delete-connection)
+- [`-v- wifi_disconnect`](#-v--wifi_disconnect)
+- [`-v- wifi_get-current-connections`](#-v--wifi_get-current-connections)
+- [`-v- wifi_node`](#-v--wifi_node)
+- [`-v- wifi_scan`](#-v--wifi_scan)
+- [`-v- windows-vulnerabilities`](#-v--windows-vulnerabilities)
 
 ## `-v- check-ip [TESTIP]`
 
@@ -164,9 +175,9 @@ DESCRIPTION
        ->  Return a tested ("boiled") IP address
        ->  Indicate if the IP address is part of the bogons list (https://en.wikipedia.org/wiki/Bogon_filtering)
        ->  Indicate if the IP address is part of the multicast IP range (https://en.wikipedia.org/wiki/IP_multicast)
-       ->  Indicate if the IP address is an Automatic Private IP Address aka APIPA 
+       ->  Indicate if the IP address is an Automatic Private IP Address aka APIPA
   (http://www.webopedia.com/TERM/A/APIPA.html)
-       ->  Indicate if the IP address is an RFC1918 IP address aka private IP address 
+       ->  Indicate if the IP address is an RFC1918 IP address aka private IP address
   (https://tools.ietf.org/html/rfc1918)
        ->  Indicate if the IP address is a public IP address
 
@@ -174,7 +185,7 @@ DESCRIPTION
 
   ------------------------------
   var checkIp = require('check-ip');
- 
+
   checkIp('8.8.8.8');
   ------------------------------
 
@@ -201,7 +212,7 @@ OPTIONS
 DESCRIPTION
   ...
   cross-zip -> https://www.npmjs.com/package/cross-zip
-  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate
   @types/cross-zip package
   4.0.0 • Public • Published 10 months ago
 
@@ -245,7 +256,7 @@ _See code: [src/commands/demotech_md5.js](https://github.com/MyUserNameIsMyUserN
 
 ## `-v- hello`
 
-HELLO & WELCOME 
+HELLO & WELCOME
 
 ```
 USAGE
@@ -256,7 +267,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here 
+  Extra documentation goes here
   Yup we are quite short with it...haha
 ```
 
@@ -399,7 +410,7 @@ DESCRIPTION
   cli-table3 => https://www.npmjs.com/package/cli-table3
   0.6.0 • Public • Published a year ago
 
-  cli-table3 is based on (and api compatible with) the original cli-table, and cli-table2, which are both unmaintained. 
+  cli-table3 is based on (and api compatible with) the original cli-table, and cli-table2, which are both unmaintained.
   cli-table3 includes all the additional features from cli-table2.
 
   npm i cli-table3
@@ -471,18 +482,36 @@ OPTIONS
 
 DESCRIPTION
   ...
-  command-line-usage -> https://www.npmjs.com/package/command-line-usage    
-  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  command-line-usage -> https://www.npmjs.com/package/command-line-usage
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate
   @types/command-line-usage package
   6.1.1 • Public • Published 10 months ago
 
 
   Synopsis
-  A usage guide is created by first defining an arbitrary number of sections, e.g. a description section, synopsis, 
+  A usage guide is created by first defining an arbitrary number of sections, e.g. a description section, synopsis,
   option list, examples, footer etc.
 ```
 
 _See code: [src/commands/sample_command-line-usage.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_command-line-usage.js)_
+
+## `-v- sample_compress-images`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_compress-images
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_compress-images.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_compress-images.js)_
 
 ## `-v- sample_enquirer`
 
@@ -498,7 +527,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  enquirer -> 
+  enquirer ->
   2.3.6 • Public • Published a year ago
 
   Prompts should be more like conversations than inquisitions▌
@@ -532,7 +561,7 @@ DESCRIPTION
 
   npm i ervy --save
 
-  There is no special reason, just because I love terminal and ASCII art. It's very cool! Hope you enjoy Ervy and make 
+  There is no special reason, just because I love terminal and ASCII art. It's very cool! Hope you enjoy Ervy and make
   your terminal more beautiful.
 
   Repository
@@ -576,7 +605,7 @@ OPTIONS
 DESCRIPTION
   ...
   listr -> https://www.npmjs.com/package/listr
-  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate @types/listr 
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate @types/listr
   package
   0.14.3 • Public • Published 3 years ago
 
@@ -638,8 +667,8 @@ DESCRIPTION
   n-readlines -> https://www.npmjs.com/package/n-readlines
   1.0.1 • Public • Published 10 months ago
 
-  Reading file line by line may seem like a trivial problem, but in node, there is no straightforward way to do it. 
-  There are a lot of libraries using Transform Streams to achieve it, but it seems like a overkill, so I've wrote simple 
+  Reading file line by line may seem like a trivial problem, but in node, there is no straightforward way to do it.
+  There are a lot of libraries using Transform Streams to achieve it, but it seems like a overkill, so I've wrote simple
   version using only the filesystem module of node. Note that this is synchronous library.
 
   npm install n-readlines --save
@@ -669,8 +698,8 @@ DESCRIPTION
   node-notifier => https://www.npmjs.com/package/node-notifier
   10.0.0 • Public • Published 3 months ago
 
-  Send cross platform native notifications using Node.js. Notification Center for macOS, notify-osd/libnotify-bin for 
-  Linux, Toasters for Windows 8/10, or taskbar balloons for earlier Windows versions. Growl is used if none of these 
+  Send cross platform native notifications using Node.js. Notification Center for macOS, notify-osd/libnotify-bin for
+  Linux, Toasters for Windows 8/10, or taskbar balloons for earlier Windows versions. Growl is used if none of these
   requirements are met. Works well with Electron.
 
   Repository
@@ -678,7 +707,7 @@ DESCRIPTION
   Homepage
   > github.com/mikaelbr/node-notifier#readme
 
-  npm install --save node-notifier    
+  npm install --save node-notifier
 
   +> CLI Version :: npm i node-notifier-cli
 ```
@@ -705,8 +734,8 @@ DESCRIPTION
 
   This is meant to be used in command-line tools and scripts, not in the browser.
   If you need this for Electron, use shell.openPath() instead.
-  Note: The original open package was previously deprecated in favor of this package, and we got the name, so this 
-  package is now named open instead of opn. If you're upgrading from the original open package (open@0.0.5 or lower), 
+  Note: The original open package was previously deprecated in favor of this package, and we got the name, so this
+  package is now named open instead of opn. If you're upgrading from the original open package (open@0.0.5 or lower),
   keep in mind that the API is different.
 
   Repository
@@ -996,6 +1025,24 @@ DESCRIPTION
 
 _See code: [src/commands/sample_simple-git-push.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git-push.js)_
 
+## `-v- sample_webp-converter`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_webp-converter
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_webp-converter.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_webp-converter.js)_
+
 ## `-v- scan_all_ports`
 
 Scans ports to see if they are open or closed.
@@ -1061,7 +1108,7 @@ _See code: [src/commands/supports_sixel.js](https://github.com/MyUserNameIsMyUse
 
 ## `-v- sys_audio`
 
-Device Audio Information 
+Device Audio Information
 
 ```
 USAGE
@@ -1241,7 +1288,7 @@ _See code: [src/commands/sys_disk_layout.js](https://github.com/MyUserNameIsMyUs
 
 ## `-v- sys_docker_all`
 
-Docker All Info  
+Docker All Info
 
 ```
 USAGE
@@ -1444,7 +1491,7 @@ DESCRIPTION
   ...
   Extra documentation goes here
 
-  response-time (ms) to external resource 
+  response-time (ms) to external resource
   host parameter is optional (default 8.8.8.8)
 ```
 
@@ -1563,7 +1610,7 @@ _See code: [src/commands/sys_net_def_interface.js](https://github.com/MyUserName
 
 ## `-v- sys_net_interfaces`
 
-array of network interfaces 
+array of network interfaces
 
 ```
 USAGE
@@ -1581,7 +1628,7 @@ _See code: [src/commands/sys_net_interfaces.js](https://github.com/MyUserNameIsM
 
 ## `-v- sys_net_stats`
 
-Current network stats 
+Current network stats
 
 ```
 USAGE
@@ -1823,7 +1870,7 @@ DESCRIPTION
   ->  github.com/sindresorhus/is-online#readme
 
   Works in Node.js and the browser (with a bundler).
-  In the browser you have navigator.onLine, but it's useless as it only tells you if there's a local connection, and not 
+  In the browser you have navigator.onLine, but it's useless as it only tells you if there's a local connection, and not
   whether the internet is accessible.
 
   npm install is-online
@@ -1884,7 +1931,7 @@ OPTIONS
 DESCRIPTION
   ...
   speedtest-net -> https://www.npmjs.com/package/speedtest-net
-  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate
   @types/speedtest-net package
   2.2.0 • Public • Published 4 months ago
 
@@ -1929,7 +1976,7 @@ DESCRIPTION
   ----------------------------------------------
 
   $ npm start
-  #=> 11.0 
+  #=> 11.0
 
 
   Repository
@@ -2090,11 +2137,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -2127,11 +2174,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -2164,11 +2211,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -2204,11 +2251,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -2241,11 +2288,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -2304,7 +2351,7 @@ DESCRIPTION
 
   ------------------------------
   const wifiPassword = require('wifi-password');
- 
+
   wifiPassword().then(password => {
        console.log(password);
        //=> 'johndoesecretpassword'
@@ -2569,7 +2616,7 @@ DESCRIPTION
 
   --------------------------------------------------
   const winVlnr = require('windows-vulnerabilities');
- 
+
   // Get os version and number of known security vulnerabilities
   winVlnr();
   //=> '['1607', "842"]'
@@ -2583,101 +2630,103 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/windows-vulnerabilities.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/windows-vulnerabilities.js)_
+
 <!-- commandsstop -->
-* [`-v- check-ip [TESTIP]`](#-v--check-ip-testip)
-* [`-v- cross-zip`](#-v--cross-zip)
-* [`-v- demotech_md5`](#-v--demotech_md5)
-* [`-v- hello`](#-v--hello)
-* [`-v- help [COMMAND]`](#-v--help-command)
-* [`-v- sample_boxen`](#-v--sample_boxen)
-* [`-v- sample_chalk`](#-v--sample_chalk)
-* [`-v- sample_cli-progress`](#-v--sample_cli-progress)
-* [`-v- sample_cli-spinners`](#-v--sample_cli-spinners)
-* [`-v- sample_cli-table3`](#-v--sample_cli-table3)
-* [`-v- sample_cli-width`](#-v--sample_cli-width)
-* [`-v- sample_cliui`](#-v--sample_cliui)
-* [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
-* [`-v- sample_enquirer`](#-v--sample_enquirer)
-* [`-v- sample_ervy`](#-v--sample_ervy)
-* [`-v- sample_listr`](#-v--sample_listr)
-* [`-v- sample_multiview`](#-v--sample_multiview)
-* [`-v- sample_n-readlines`](#-v--sample_n-readlines)
-* [`-v- sample_node-notifier`](#-v--sample_node-notifier)
-* [`-v- sample_open`](#-v--sample_open)
-* [`-v- sample_os-monitor`](#-v--sample_os-monitor)
-* [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
-* [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
-* [`-v- sample_prompts`](#-v--sample_prompts)
-* [`-v- sample_robotjs-base-demo`](#-v--sample_robotjs-base-demo)
-* [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
-* [`-v- sample_simple-git`](#-v--sample_simple-git)
-* [`-v- sample_simple-git-add-all`](#-v--sample_simple-git-add-all)
-* [`-v- sample_simple-git-commit`](#-v--sample_simple-git-commit)
-* [`-v- sample_simple-git-push`](#-v--sample_simple-git-push)
-* [`-v- scan_all_ports`](#-v--scan_all_ports)
-* [`-v- supports_sixel`](#-v--supports_sixel)
-* [`-v- sys_audio`](#-v--sys_audio)
-* [`-v- sys_baseboard`](#-v--sys_baseboard)
-* [`-v- sys_battery`](#-v--sys_battery)
-* [`-v- sys_bios`](#-v--sys_bios)
-* [`-v- sys_chassis`](#-v--sys_chassis)
-* [`-v- sys_cpu_current_speed`](#-v--sys_cpu_current_speed)
-* [`-v- sys_cpu_info`](#-v--sys_cpu_info)
-* [`-v- sys_cpu_temp`](#-v--sys_cpu_temp)
-* [`-v- sys_disk_io`](#-v--sys_disk_io)
-* [`-v- sys_disk_layout`](#-v--sys_disk_layout)
-* [`-v- sys_docker_all`](#-v--sys_docker_all)
-* [`-v- sys_docker_container_processes`](#-v--sys_docker_container_processes)
-* [`-v- sys_docker_container_stats`](#-v--sys_docker_container_stats)
-* [`-v- sys_docker_containers`](#-v--sys_docker_containers)
-* [`-v- sys_docker_images`](#-v--sys_docker_images)
-* [`-v- sys_docker_info`](#-v--sys_docker_info)
-* [`-v- sys_docker_volumes`](#-v--sys_docker_volumes)
-* [`-v- sys_fs_stats`](#-v--sys_fs_stats)
-* [`-v- sys_graphics`](#-v--sys_graphics)
-* [`-v- sys_inet_checksite`](#-v--sys_inet_checksite)
-* [`-v- sys_inet_latency`](#-v--sys_inet_latency)
-* [`-v- sys_info`](#-v--sys_info)
-* [`-v- sys_load`](#-v--sys_load)
-* [`-v- sys_mem_info`](#-v--sys_mem_info)
-* [`-v- sys_net_conn`](#-v--sys_net_conn)
-* [`-v- sys_net_def_gateway`](#-v--sys_net_def_gateway)
-* [`-v- sys_net_def_interface`](#-v--sys_net_def_interface)
-* [`-v- sys_net_interfaces`](#-v--sys_net_interfaces)
-* [`-v- sys_net_stats`](#-v--sys_net_stats)
-* [`-v- sys_open_files`](#-v--sys_open_files)
-* [`-v- sys_os_info`](#-v--sys_os_info)
-* [`-v- sys_processes`](#-v--sys_processes)
-* [`-v- sys_services`](#-v--sys_services)
-* [`-v- sys_users`](#-v--sys_users)
-* [`-v- sys_uuid`](#-v--sys_uuid)
-* [`-v- sys_versions`](#-v--sys_versions)
-* [`-v- sys_wifi_connections`](#-v--sys_wifi_connections)
-* [`-v- sys_wifi_interfaces`](#-v--sys_wifi_interfaces)
-* [`-v- sys_wifi_networks`](#-v--sys_wifi_networks)
-* [`-v- test-is_cmd`](#-v--test-is_cmd)
-* [`-v- test-is_online`](#-v--test-is_online)
-* [`-v- test-is_wsl`](#-v--test-is_wsl)
-* [`-v- test-speedtest.net`](#-v--test-speedtestnet)
-* [`-v- test-unicode_version`](#-v--test-unicode_version)
-* [`-v- test_globally-installed`](#-v--test_globally-installed)
-* [`-v- test_internal-ip`](#-v--test_internal-ip)
-* [`-v- test_is-docker`](#-v--test_is-docker)
-* [`-v- test_public-ip`](#-v--test_public-ip)
-* [`-v- volume_demo_example`](#-v--volume_demo_example)
-* [`-v- volume_get`](#-v--volume_get)
-* [`-v- volume_mute`](#-v--volume_mute)
-* [`-v- volume_set [VOLLEVEL]`](#-v--volume_set-vollevel)
-* [`-v- volume_unmute`](#-v--volume_unmute)
-* [`-v- wifi-name`](#-v--wifi-name)
-* [`-v- wifi-password`](#-v--wifi-password)
-* [`-v- wifi_connect`](#-v--wifi_connect)
-* [`-v- wifi_delete-connection`](#-v--wifi_delete-connection)
-* [`-v- wifi_disconnect`](#-v--wifi_disconnect)
-* [`-v- wifi_get-current-connections`](#-v--wifi_get-current-connections)
-* [`-v- wifi_node`](#-v--wifi_node)
-* [`-v- wifi_scan`](#-v--wifi_scan)
-* [`-v- windows-vulnerabilities`](#-v--windows-vulnerabilities)
+
+- [`-v- check-ip [TESTIP]`](#-v--check-ip-testip)
+- [`-v- cross-zip`](#-v--cross-zip)
+- [`-v- demotech_md5`](#-v--demotech_md5)
+- [`-v- hello`](#-v--hello)
+- [`-v- help [COMMAND]`](#-v--help-command)
+- [`-v- sample_boxen`](#-v--sample_boxen)
+- [`-v- sample_chalk`](#-v--sample_chalk)
+- [`-v- sample_cli-progress`](#-v--sample_cli-progress)
+- [`-v- sample_cli-spinners`](#-v--sample_cli-spinners)
+- [`-v- sample_cli-table3`](#-v--sample_cli-table3)
+- [`-v- sample_cli-width`](#-v--sample_cli-width)
+- [`-v- sample_cliui`](#-v--sample_cliui)
+- [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
+- [`-v- sample_enquirer`](#-v--sample_enquirer)
+- [`-v- sample_ervy`](#-v--sample_ervy)
+- [`-v- sample_listr`](#-v--sample_listr)
+- [`-v- sample_multiview`](#-v--sample_multiview)
+- [`-v- sample_n-readlines`](#-v--sample_n-readlines)
+- [`-v- sample_node-notifier`](#-v--sample_node-notifier)
+- [`-v- sample_open`](#-v--sample_open)
+- [`-v- sample_os-monitor`](#-v--sample_os-monitor)
+- [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
+- [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
+- [`-v- sample_prompts`](#-v--sample_prompts)
+- [`-v- sample_robotjs-base-demo`](#-v--sample_robotjs-base-demo)
+- [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
+- [`-v- sample_simple-git`](#-v--sample_simple-git)
+- [`-v- sample_simple-git-add-all`](#-v--sample_simple-git-add-all)
+- [`-v- sample_simple-git-commit`](#-v--sample_simple-git-commit)
+- [`-v- sample_simple-git-push`](#-v--sample_simple-git-push)
+- [`-v- scan_all_ports`](#-v--scan_all_ports)
+- [`-v- supports_sixel`](#-v--supports_sixel)
+- [`-v- sys_audio`](#-v--sys_audio)
+- [`-v- sys_baseboard`](#-v--sys_baseboard)
+- [`-v- sys_battery`](#-v--sys_battery)
+- [`-v- sys_bios`](#-v--sys_bios)
+- [`-v- sys_chassis`](#-v--sys_chassis)
+- [`-v- sys_cpu_current_speed`](#-v--sys_cpu_current_speed)
+- [`-v- sys_cpu_info`](#-v--sys_cpu_info)
+- [`-v- sys_cpu_temp`](#-v--sys_cpu_temp)
+- [`-v- sys_disk_io`](#-v--sys_disk_io)
+- [`-v- sys_disk_layout`](#-v--sys_disk_layout)
+- [`-v- sys_docker_all`](#-v--sys_docker_all)
+- [`-v- sys_docker_container_processes`](#-v--sys_docker_container_processes)
+- [`-v- sys_docker_container_stats`](#-v--sys_docker_container_stats)
+- [`-v- sys_docker_containers`](#-v--sys_docker_containers)
+- [`-v- sys_docker_images`](#-v--sys_docker_images)
+- [`-v- sys_docker_info`](#-v--sys_docker_info)
+- [`-v- sys_docker_volumes`](#-v--sys_docker_volumes)
+- [`-v- sys_fs_stats`](#-v--sys_fs_stats)
+- [`-v- sys_graphics`](#-v--sys_graphics)
+- [`-v- sys_inet_checksite`](#-v--sys_inet_checksite)
+- [`-v- sys_inet_latency`](#-v--sys_inet_latency)
+- [`-v- sys_info`](#-v--sys_info)
+- [`-v- sys_load`](#-v--sys_load)
+- [`-v- sys_mem_info`](#-v--sys_mem_info)
+- [`-v- sys_net_conn`](#-v--sys_net_conn)
+- [`-v- sys_net_def_gateway`](#-v--sys_net_def_gateway)
+- [`-v- sys_net_def_interface`](#-v--sys_net_def_interface)
+- [`-v- sys_net_interfaces`](#-v--sys_net_interfaces)
+- [`-v- sys_net_stats`](#-v--sys_net_stats)
+- [`-v- sys_open_files`](#-v--sys_open_files)
+- [`-v- sys_os_info`](#-v--sys_os_info)
+- [`-v- sys_processes`](#-v--sys_processes)
+- [`-v- sys_services`](#-v--sys_services)
+- [`-v- sys_users`](#-v--sys_users)
+- [`-v- sys_uuid`](#-v--sys_uuid)
+- [`-v- sys_versions`](#-v--sys_versions)
+- [`-v- sys_wifi_connections`](#-v--sys_wifi_connections)
+- [`-v- sys_wifi_interfaces`](#-v--sys_wifi_interfaces)
+- [`-v- sys_wifi_networks`](#-v--sys_wifi_networks)
+- [`-v- test-is_cmd`](#-v--test-is_cmd)
+- [`-v- test-is_online`](#-v--test-is_online)
+- [`-v- test-is_wsl`](#-v--test-is_wsl)
+- [`-v- test-speedtest.net`](#-v--test-speedtestnet)
+- [`-v- test-unicode_version`](#-v--test-unicode_version)
+- [`-v- test_globally-installed`](#-v--test_globally-installed)
+- [`-v- test_internal-ip`](#-v--test_internal-ip)
+- [`-v- test_is-docker`](#-v--test_is-docker)
+- [`-v- test_public-ip`](#-v--test_public-ip)
+- [`-v- volume_demo_example`](#-v--volume_demo_example)
+- [`-v- volume_get`](#-v--volume_get)
+- [`-v- volume_mute`](#-v--volume_mute)
+- [`-v- volume_set [VOLLEVEL]`](#-v--volume_set-vollevel)
+- [`-v- volume_unmute`](#-v--volume_unmute)
+- [`-v- wifi-name`](#-v--wifi-name)
+- [`-v- wifi-password`](#-v--wifi-password)
+- [`-v- wifi_connect`](#-v--wifi_connect)
+- [`-v- wifi_delete-connection`](#-v--wifi_delete-connection)
+- [`-v- wifi_disconnect`](#-v--wifi_disconnect)
+- [`-v- wifi_get-current-connections`](#-v--wifi_get-current-connections)
+- [`-v- wifi_node`](#-v--wifi_node)
+- [`-v- wifi_scan`](#-v--wifi_scan)
+- [`-v- windows-vulnerabilities`](#-v--windows-vulnerabilities)
 
 ## `-v- check-ip [TESTIP]`
 
@@ -2704,9 +2753,9 @@ DESCRIPTION
        ->  Return a tested ("boiled") IP address
        ->  Indicate if the IP address is part of the bogons list (https://en.wikipedia.org/wiki/Bogon_filtering)
        ->  Indicate if the IP address is part of the multicast IP range (https://en.wikipedia.org/wiki/IP_multicast)
-       ->  Indicate if the IP address is an Automatic Private IP Address aka APIPA 
+       ->  Indicate if the IP address is an Automatic Private IP Address aka APIPA
   (http://www.webopedia.com/TERM/A/APIPA.html)
-       ->  Indicate if the IP address is an RFC1918 IP address aka private IP address 
+       ->  Indicate if the IP address is an RFC1918 IP address aka private IP address
   (https://tools.ietf.org/html/rfc1918)
        ->  Indicate if the IP address is a public IP address
 
@@ -2714,7 +2763,7 @@ DESCRIPTION
 
   ------------------------------
   var checkIp = require('check-ip');
- 
+
   checkIp('8.8.8.8');
   ------------------------------
 
@@ -2741,7 +2790,7 @@ OPTIONS
 DESCRIPTION
   ...
   cross-zip -> https://www.npmjs.com/package/cross-zip
-  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate
   @types/cross-zip package
   4.0.0 • Public • Published 10 months ago
 
@@ -2785,7 +2834,7 @@ _See code: [src/commands/demotech_md5.js](https://github.com/MyUserNameIsMyUserN
 
 ## `-v- hello`
 
-HELLO & WELCOME 
+HELLO & WELCOME
 
 ```
 USAGE
@@ -2796,7 +2845,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here 
+  Extra documentation goes here
   Yup we are quite short with it...haha
 ```
 
@@ -2939,7 +2988,7 @@ DESCRIPTION
   cli-table3 => https://www.npmjs.com/package/cli-table3
   0.6.0 • Public • Published a year ago
 
-  cli-table3 is based on (and api compatible with) the original cli-table, and cli-table2, which are both unmaintained. 
+  cli-table3 is based on (and api compatible with) the original cli-table, and cli-table2, which are both unmaintained.
   cli-table3 includes all the additional features from cli-table2.
 
   npm i cli-table3
@@ -3011,14 +3060,14 @@ OPTIONS
 
 DESCRIPTION
   ...
-  command-line-usage -> https://www.npmjs.com/package/command-line-usage    
-  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  command-line-usage -> https://www.npmjs.com/package/command-line-usage
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate
   @types/command-line-usage package
   6.1.1 • Public • Published 10 months ago
 
 
   Synopsis
-  A usage guide is created by first defining an arbitrary number of sections, e.g. a description section, synopsis, 
+  A usage guide is created by first defining an arbitrary number of sections, e.g. a description section, synopsis,
   option list, examples, footer etc.
 ```
 
@@ -3038,7 +3087,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  enquirer -> 
+  enquirer ->
   2.3.6 • Public • Published a year ago
 
   Prompts should be more like conversations than inquisitions▌
@@ -3072,7 +3121,7 @@ DESCRIPTION
 
   npm i ervy --save
 
-  There is no special reason, just because I love terminal and ASCII art. It's very cool! Hope you enjoy Ervy and make 
+  There is no special reason, just because I love terminal and ASCII art. It's very cool! Hope you enjoy Ervy and make
   your terminal more beautiful.
 
   Repository
@@ -3098,7 +3147,7 @@ OPTIONS
 DESCRIPTION
   ...
   listr -> https://www.npmjs.com/package/listr
-  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate @types/listr 
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate @types/listr
   package
   0.14.3 • Public • Published 3 years ago
 
@@ -3160,8 +3209,8 @@ DESCRIPTION
   n-readlines -> https://www.npmjs.com/package/n-readlines
   1.0.1 • Public • Published 10 months ago
 
-  Reading file line by line may seem like a trivial problem, but in node, there is no straightforward way to do it. 
-  There are a lot of libraries using Transform Streams to achieve it, but it seems like a overkill, so I've wrote simple 
+  Reading file line by line may seem like a trivial problem, but in node, there is no straightforward way to do it.
+  There are a lot of libraries using Transform Streams to achieve it, but it seems like a overkill, so I've wrote simple
   version using only the filesystem module of node. Note that this is synchronous library.
 
   npm install n-readlines --save
@@ -3191,8 +3240,8 @@ DESCRIPTION
   node-notifier => https://www.npmjs.com/package/node-notifier
   10.0.0 • Public • Published 3 months ago
 
-  Send cross platform native notifications using Node.js. Notification Center for macOS, notify-osd/libnotify-bin for 
-  Linux, Toasters for Windows 8/10, or taskbar balloons for earlier Windows versions. Growl is used if none of these 
+  Send cross platform native notifications using Node.js. Notification Center for macOS, notify-osd/libnotify-bin for
+  Linux, Toasters for Windows 8/10, or taskbar balloons for earlier Windows versions. Growl is used if none of these
   requirements are met. Works well with Electron.
 
   Repository
@@ -3200,7 +3249,7 @@ DESCRIPTION
   Homepage
   > github.com/mikaelbr/node-notifier#readme
 
-  npm install --save node-notifier    
+  npm install --save node-notifier
 
   +> CLI Version :: npm i node-notifier-cli
 ```
@@ -3227,8 +3276,8 @@ DESCRIPTION
 
   This is meant to be used in command-line tools and scripts, not in the browser.
   If you need this for Electron, use shell.openPath() instead.
-  Note: The original open package was previously deprecated in favor of this package, and we got the name, so this 
-  package is now named open instead of opn. If you're upgrading from the original open package (open@0.0.5 or lower), 
+  Note: The original open package was previously deprecated in favor of this package, and we got the name, so this
+  package is now named open instead of opn. If you're upgrading from the original open package (open@0.0.5 or lower),
   keep in mind that the API is different.
 
   Repository
@@ -3583,7 +3632,7 @@ _See code: [src/commands/supports_sixel.js](https://github.com/MyUserNameIsMyUse
 
 ## `-v- sys_audio`
 
-Device Audio Information 
+Device Audio Information
 
 ```
 USAGE
@@ -3763,7 +3812,7 @@ _See code: [src/commands/sys_disk_layout.js](https://github.com/MyUserNameIsMyUs
 
 ## `-v- sys_docker_all`
 
-Docker All Info  
+Docker All Info
 
 ```
 USAGE
@@ -3966,7 +4015,7 @@ DESCRIPTION
   ...
   Extra documentation goes here
 
-  response-time (ms) to external resource 
+  response-time (ms) to external resource
   host parameter is optional (default 8.8.8.8)
 ```
 
@@ -4085,7 +4134,7 @@ _See code: [src/commands/sys_net_def_interface.js](https://github.com/MyUserName
 
 ## `-v- sys_net_interfaces`
 
-array of network interfaces 
+array of network interfaces
 
 ```
 USAGE
@@ -4103,7 +4152,7 @@ _See code: [src/commands/sys_net_interfaces.js](https://github.com/MyUserNameIsM
 
 ## `-v- sys_net_stats`
 
-Current network stats 
+Current network stats
 
 ```
 USAGE
@@ -4345,7 +4394,7 @@ DESCRIPTION
   ->  github.com/sindresorhus/is-online#readme
 
   Works in Node.js and the browser (with a bundler).
-  In the browser you have navigator.onLine, but it's useless as it only tells you if there's a local connection, and not 
+  In the browser you have navigator.onLine, but it's useless as it only tells you if there's a local connection, and not
   whether the internet is accessible.
 
   npm install is-online
@@ -4406,7 +4455,7 @@ OPTIONS
 DESCRIPTION
   ...
   speedtest-net -> https://www.npmjs.com/package/speedtest-net
-  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate 
+  DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate
   @types/speedtest-net package
   2.2.0 • Public • Published 4 months ago
 
@@ -4451,7 +4500,7 @@ DESCRIPTION
   ----------------------------------------------
 
   $ npm start
-  #=> 11.0 
+  #=> 11.0
 
 
   Repository
@@ -4612,11 +4661,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -4649,11 +4698,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -4686,11 +4735,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -4726,11 +4775,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -4763,11 +4812,11 @@ DESCRIPTION
   A node.js library to control the systems output volume
 
   Usage
-  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and 
+  The library currently has support for four simple async functions. The volume is specified as an integer between 0 and
   100 (inc.).
 
   OS Support
-  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another 
+  Currently macOS, Windows (>= Vista) and Linux (ALSA) is supported, please send a pull request if you are using another
   setup.
 
   Repository
@@ -4826,7 +4875,7 @@ DESCRIPTION
 
   ------------------------------
   const wifiPassword = require('wifi-password');
- 
+
   wifiPassword().then(password => {
        console.log(password);
        //=> 'johndoesecretpassword'
@@ -5091,7 +5140,7 @@ DESCRIPTION
 
   --------------------------------------------------
   const winVlnr = require('windows-vulnerabilities');
- 
+
   // Get os version and number of known security vulnerabilities
   winVlnr();
   //=> '['1607', "842"]'
@@ -5105,4 +5154,5 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/windows-vulnerabilities.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/windows-vulnerabilities.js)_
+
 <!-- commandsstop -->

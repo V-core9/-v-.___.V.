@@ -1,0 +1,80 @@
+<svg viewbox="0 0 60 60">
+  <mask id="alpha">
+    <image href="https://i.imgur.com/q8EoBaE.png" width="100%" height="100%" preserveAspectRatio="xMinYMin slice"></image>
+  </mask>
+
+  <g stroke="rgba(255,0,0,.25)" stroke-width=".35" fill="none" class="anim" filter="url(#glow)">
+    <circle cx="30" cy="30" r="24.65" stroke-dasharray="155,155" stroke-dashoffset="155"/>
+    <circle cx="30" cy="30" r="20.65" stroke-dasharray="130,130" stroke-dashoffset="130"/>
+    <path d="M 30 9.5 L 42.35 46 L 10.65 24.35 L 49.35 24.35 L 17.75 46 L 30 9.5" stroke-dasharray="193,193" stroke-dashoffset="193"/>
+  </g>
+  
+  <g stroke="#ee8541" stroke-width=".35" fill="none" class="anim" mask="url(#alpha)">
+    <circle cx="30" cy="30" r="24.65" stroke-dasharray="155,155" stroke-dashoffset="155" />
+    <circle cx="30" cy="30" r="20.65" stroke-dasharray="130,130" stroke-dashoffset="130" />
+    <path d="M 30 9.5 L 42.35 46 L 10.65 24.35 L 49.35 24.35 L 17.75 46 L 30 9.5" stroke-dasharray="193,193" stroke-dashoffset="193"/>
+  </g>
+  
+  
+  <g>
+    <defs>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="1 1" result="glow"/>
+        <feMerge>
+          <feMergeNode in="glow"/>
+          <feMergeNode in="glow"/>
+          <feMergeNode in="glow"/>
+          <feMergeNode in="glow"/>
+          <feMergeNode in="glow"/>
+          <feMergeNode in="glow"/>
+          <feMergeNode in="glow"/>
+          <feMergeNode in="glow"/>
+        </feMerge>
+      </filter>
+    </defs>
+  </g>
+</svg>
+
+<style>
+	
+	body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: #111;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  --s: 1s;
+}
+
+svg .anim > * {
+  animation: StrokeAnim var(--s) linear forwards reverse;
+}
+
+svg .anim > *:nth-child(1) {
+  transform-origin: center center;
+  transform: rotate(-90deg) scaleY(-1);
+}
+svg .anim > *:nth-child(2) {
+  animation-delay: var(--s);
+  transform-origin: center center;
+  transform: rotate(-90deg);
+}
+svg .anim > *:nth-child(3) {
+  animation-delay: calc(var(--s) * 2);
+}
+
+@keyframes StrokeAnim {
+  from {stroke-dashoffset: 0;}
+}
+</style>
