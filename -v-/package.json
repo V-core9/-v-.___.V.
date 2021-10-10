@@ -26,6 +26,7 @@
     "cross-zip": "^4.0.0",
     "enquirer": "^2.3.6",
     "ervy": "^1.0.7",
+    "express-sitemap-xml": "^3.0.0",
     "has-unicode": "^2.0.1",
     "internal-ip": "^6.2.0",
     "is-cmd": "^1.0.0",

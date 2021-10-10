@@ -58,6 +58,7 @@ USAGE
 * [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
 * [`-v- sample_enquirer`](#-v--sample_enquirer)
 * [`-v- sample_ervy`](#-v--sample_ervy)
+* [`-v- sample_express-sitemap-xml`](#-v--sample_express-sitemap-xml)
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
 * [`-v- sample_n-readlines`](#-v--sample_n-readlines)
@@ -73,7 +74,6 @@ USAGE
 * [`-v- sample_simple-git-add-all`](#-v--sample_simple-git-add-all)
 * [`-v- sample_simple-git-commit`](#-v--sample_simple-git-commit)
 * [`-v- sample_simple-git-push`](#-v--sample_simple-git-push)
-* [`-v- sample_sitemapper`](#-v--sample_sitemapper)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
 * [`-v- supports_sixel`](#-v--supports_sixel)
 * [`-v- sys_audio`](#-v--sys_audio)
@@ -544,6 +544,24 @@ DESCRIPTION
 
 _See code: [src/commands/sample_ervy.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_ervy.js)_
 
+## `-v- sample_express-sitemap-xml`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_express-sitemap-xml
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_express-sitemap-xml.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_express-sitemap-xml.js)_
+
 ## `-v- sample_listr`
 
 Terminal task list
@@ -977,29 +995,6 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_simple-git-push.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_simple-git-push.js)_
-
-## `-v- sample_sitemapper`
-
-Describe the command here
-
-```
-USAGE
-  $ -v- sample_sitemapper
-
-OPTIONS
-  --, --save     --save || -s  <= Use this flag to enable saving option. NOTE: generates file in a Current path [ $PWD ]
-                 so it's  not limited or worry with limits like current user folder position.... :D
-
-  --, --url=url  Source of the Sitemap to use. Giving it root/index sitemap it will provide with ARRAY of strings
-                 containing all URLs from all refered sitemaps.
-                 NOTE: Not providing --src with value will just get you "https://www.google.com/work/sitemap.xml"
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/sample_sitemapper.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_sitemapper.js)_
 
 ## `-v- scan_all_ports`
 
