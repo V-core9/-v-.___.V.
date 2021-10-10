@@ -30,4 +30,4 @@ SampleWebpConverterCommand.flags = {
   name: flags.string({ char: 'n', description: 'name to print' }),
 }
 
-module.exports = SampleWebpConverterCommand
+module.exports = SampleWebpConverterCommand;

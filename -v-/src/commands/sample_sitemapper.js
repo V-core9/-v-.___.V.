@@ -31,7 +31,7 @@ Extra documentation goes here
 
 SampleSitemapperCommand.flags = {
   url: flags.string({ char: '-u', description: 'Source of the Sitemap to use. Giving it root/index sitemap it will provide with ARRAY of strings containing all URLs from all refered sitemaps. \nNOTE: Not providing --src with value will just get you "https://www.google.com/work/sitemap.xml" ' }),
-  : flags.boolean({ char: '-s', description: '--save || -s  <= Use this flag to enable saving option. NOTE: generates file in a Current path [ $PWD ] so it\'s  not limited or worry with limits like current user folder position.... :D ' }),
+  save: flags.boolean({ char: '-s', description: '--save || -s  <= Use this flag to enable saving option. NOTE: generates file in a Current path [ $PWD ] so it\'s  not limited or worry with limits like current user folder position.... :D ' }),
 }
 
 module.exports = SampleSitemapperCommand
