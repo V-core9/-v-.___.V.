@@ -63,6 +63,7 @@ USAGE
 * [`-v- sample_cliui`](#-v--sample_cliui)
 * [`-v- sample_command-line-usage`](#-v--sample_command-line-usage)
 * [`-v- sample_compress-images`](#-v--sample_compress-images)
+* [`-v- sample_cross-pwd`](#-v--sample_cross-pwd)
 * [`-v- sample_enquirer`](#-v--sample_enquirer)
 * [`-v- sample_ervy`](#-v--sample_ervy)
 * [`-v- sample_express-sitemap-xml`](#-v--sample_express-sitemap-xml)
@@ -529,6 +530,22 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_compress-images.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_compress-images.js)_
+
+## `-v- sample_cross-pwd`
+
+Sample of cross platform PWD finder
+
+```
+USAGE
+  $ -v- sample_cross-pwd
+
+DESCRIPTION
+  ...
+  URL_ref >> https://www.npmjs.com/package/cross-pwd
+  Cross platform PWD (pathname of the current working directory)
+```
+
+_See code: [src/commands/sample_cross-pwd.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cross-pwd.js)_
 
 ## `-v- sample_enquirer`
 
