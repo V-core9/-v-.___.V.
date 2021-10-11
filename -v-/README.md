@@ -67,6 +67,7 @@ USAGE
 * [`-v- sample_enquirer`](#-v--sample_enquirer)
 * [`-v- sample_ervy`](#-v--sample_ervy)
 * [`-v- sample_express-sitemap-xml`](#-v--sample_express-sitemap-xml)
+* [`-v- sample_fireworks_browser`](#-v--sample_fireworks_browser)
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
 * [`-v- sample_n-readlines`](#-v--sample_n-readlines)
@@ -624,6 +625,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_express-sitemap-xml.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_express-sitemap-xml.js)_
+
+## `-v- sample_fireworks_browser`
+
+YEAAHH 100 Commands DONE...lets see some fireworks 🎆
+
+```
+USAGE
+  $ -v- sample_fireworks_browser
+
+DESCRIPTION
+  ...
+  I know it might be bad example cuz it's using just <open> module but....here is 
+  a link to it for more details : https://www.npmjs.com/package/fireworks-js 
+
+  YEAAA FIREWORKS PEW PEW HAHAHA \\ [^_^] //
+```
+
+_See code: [src/commands/sample_fireworks_browser.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_fireworks_browser.js)_
 
 ## `-v- sample_listr`
 
