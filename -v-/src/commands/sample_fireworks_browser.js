@@ -13,8 +13,8 @@ SampleFireworksBrowserCommand.description = `YEAAHH 100 Commands DONE...lets see
 ...
 I know it might be bad example cuz it's using just <open> module but....here is 
 a link to it for more details : https://www.npmjs.com/package/fireworks-js 
-
-YEAAA FIREWORKS PEW PEW HAHAHA \\\\ [^_^] //
+                              
+YEAAA FIREWORKS PEW PEW HAHAHA 🤘🥳🤘
 `
 
 SampleFireworksBrowserCommand.flags = {

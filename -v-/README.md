@@ -638,8 +638,8 @@ DESCRIPTION
   ...
   I know it might be bad example cuz it's using just <open> module but....here is 
   a link to it for more details : https://www.npmjs.com/package/fireworks-js 
-
-  YEAAA FIREWORKS PEW PEW HAHAHA \\ [^_^] //
+                              
+  YEAAA FIREWORKS PEW PEW HAHAHA 🤘🥳🤘
 ```
 
 _See code: [src/commands/sample_fireworks_browser.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_fireworks_browser.js)_
