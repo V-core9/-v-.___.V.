@@ -23,13 +23,13 @@ class SampleApacheMd5Command extends Command {
   }
 }
 
-SampleApacheMd5Command.description = `Describe the command here
+SampleApacheMd5Command.description = `Sample command showing how to use MD5 generator
 ...
-Extra documentation goes here
+Just an example/sample command showing how you can just pass in string and get resulting hash from it/confirm it hashed...or pass it in and compare with known hash value to confirm it's the same.
 `
 
 SampleApacheMd5Command.flags = {
-  name: flags.string({ char: 'n', description: 'name to print' }),
+  input_md5: flags.string({ char: 'i', description: 'input string to use' }),
 }
 
 module.exports = SampleApacheMd5Command

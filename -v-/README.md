@@ -290,18 +290,19 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3
 
 ## `-v- sample_apache-md5`
 
-Describe the command here
+Sample command showing how to use MD5 generator
 
 ```
 USAGE
   $ -v- sample_apache-md5
 
 OPTIONS
-  -n, --name=name  name to print
+  -i, --input_md5=input_md5  input string to use
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  Just an example/sample command showing how you can just pass in string and get resulting hash from it/confirm it 
+  hashed...or pass it in and compare with known hash value to confirm it's the same.
 ```
 
 _See code: [src/commands/sample_apache-md5.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_apache-md5.js)_
