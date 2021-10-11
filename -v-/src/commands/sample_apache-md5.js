@@ -3,8 +3,8 @@ const { Command, flags } = require('@oclif/command')
 class SampleApacheMd5Command extends Command {
   async run() {
     const { flags } = this.parse(SampleApacheMd5Command);
-    const name = flags.name || 'world';
-    this.log(`hello ${name} from C:\\Users\\-v-\\_V_\\-v-__v\\-v-\\src\\commands\\sample_apache-md5.js`);
+    const input_md5 = flags.input_md5 || 'example_password';
+    this.log(`Input value:  ${input_md5} `);
 
     const md5 = require("apache-md5");
 
