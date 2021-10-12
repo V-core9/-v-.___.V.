@@ -97,6 +97,7 @@ USAGE
 * [`-v- sample_is-localhost-url`](#-v--sample_is-localhost-url)
 * [`-v- sample_is-mobile`](#-v--sample_is-mobile)
 * [`-v- sample_is-online`](#-v--sample_is-online)
+* [`-v- sample_is-running`](#-v--sample_is-running)
 * [`-v- sample_is-svg`](#-v--sample_is-svg)
 * [`-v- sample_is-valid-npm-name`](#-v--sample_is-valid-npm-name)
 * [`-v- sample_is-wsl`](#-v--sample_is-wsl)
@@ -862,7 +863,7 @@ _See code: [src/commands/sample_is-docker.js](https://github.com/MyUserNameIsMyU
 
 ## `-v- sample_is-dom`
 
-Describe the command here
+Check if the given object is a dom node.
 
 ```
 USAGE
@@ -1015,6 +1016,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_is-online.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-online.js)_
+
+## `-v- sample_is-running`
+
+Test if a process with a given pid is running
+
+```
+USAGE
+  $ -v- sample_is-running
+
+OPTIONS
+  -p, --pid=pid  PID to check
+
+DESCRIPTION
+  ...
+  Ref.URL : https://www.npmjs.com/package/is-running
+```
+
+_See code: [src/commands/sample_is-running.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-running.js)_
 
 ## `-v- sample_is-svg`
 

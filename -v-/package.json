@@ -56,6 +56,7 @@
     "is-localhost-url": "^1.0.3",
     "is-mobile": "^3.0.0",
     "is-online": "^9.0.1",
+    "is-running": "^2.1.0",
     "is-svg": "^4.3.1",
     "is-unicode-supported": "^1.1.0",
     "is-valid-npm-name": "0.0.5",
