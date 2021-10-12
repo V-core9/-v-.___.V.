@@ -52,6 +52,7 @@
     "is-installed-globally": "^0.4.0",
     "is-online": "^9.0.1",
     "is-unicode-supported": "^1.1.0",
+    "is-valid-npm-name": "0.0.5",
     "is-wsl": "^2.2.0",
     "listr": "^0.14.3",
     "lock-your-windows": "0.0.1",

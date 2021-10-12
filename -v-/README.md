@@ -92,6 +92,7 @@ USAGE
 * [`-v- sample_is-globally-installed`](#-v--sample_is-globally-installed)
 * [`-v- sample_is-html`](#-v--sample_is-html)
 * [`-v- sample_is-online`](#-v--sample_is-online)
+* [`-v- sample_is-valid-npm-name`](#-v--sample_is-valid-npm-name)
 * [`-v- sample_is-wsl`](#-v--sample_is-wsl)
 * [`-v- sample_listr`](#-v--sample_listr)
 * [`-v- sample_multiview`](#-v--sample_multiview)
@@ -914,6 +915,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_is-online.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-online.js)_
+
+## `-v- sample_is-valid-npm-name`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_is-valid-npm-name
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_is-valid-npm-name.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-valid-npm-name.js)_
 
 ## `-v- sample_is-wsl`
 
