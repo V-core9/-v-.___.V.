@@ -124,6 +124,7 @@ USAGE
 * [`-v- sample_speedtest.net`](#-v--sample_speedtestnet)
 * [`-v- sample_volume-set [VOLLEVEL]`](#-v--sample_volume-set-vollevel)
 * [`-v- sample_webp-converter`](#-v--sample_webp-converter)
+* [`-v- sample_webpagetest`](#-v--sample_webpagetest)
 * [`-v- scan_all_ports`](#-v--scan_all_ports)
 * [`-v- sys_audio`](#-v--sys_audio)
 * [`-v- sys_baseboard`](#-v--sys_baseboard)
@@ -1747,6 +1748,26 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_webp-converter.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_webp-converter.js)_
+
+## `-v- sample_webpagetest`
+
+WebPageTest API Wrapper
+
+```
+USAGE
+  $ -v- sample_webpagetest
+
+OPTIONS
+  -u, --urltotest=urltotest  URL to test
+
+DESCRIPTION
+  ...
+  WebPageTest API Wrapper is a NPM package that wraps WebPageTest API for NodeJS as a module and a command-line tool.
+
+  Ref.URL : https://www.npmjs.com/package/webpagetest
+```
+
+_See code: [src/commands/sample_webpagetest.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_webpagetest.js)_
 
 ## `-v- scan_all_ports`
 

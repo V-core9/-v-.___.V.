@@ -98,6 +98,7 @@
     "unicode-version": "^1.0.2",
     "wallpaper": "^5.0.1",
     "webp-converter": "^2.3.3",
+    "webpagetest": "^0.5.0",
     "wifi-name": "^3.1.1",
     "wifi-password": "^3.0.1",
     "winapi": "^2.8.0",
