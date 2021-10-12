@@ -1,8 +1,8 @@
 const {Command, flags} = require('@oclif/command')
 
-class SupportsSixelCommand extends Command {
+class SampleGetSupportsSixelCommand extends Command {
   async run() {
-    const {flags} = this.parse(SupportsSixelCommand)
+    const { flags } = this.parse(SampleGetSupportsSixelCommand)
     const name = flags.name || 'world'
     //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\supports_sixel.js`)
 
@@ -18,7 +18,7 @@ class SupportsSixelCommand extends Command {
   }
 }
 
-SupportsSixelCommand.description = `Detect whether a terminal can display sixels.
+SampleGetSupportsSixelCommand.description = `Detect whether a terminal can display sixels.
 ...
 supports-sixel -> https://www.npmjs.com/package/supports-sixel
 TypeScript icon, indicating that this package has built-in type declarations
@@ -38,8 +38,8 @@ Returns a promise that resolves with a boolean.
 
 `
 
-SupportsSixelCommand.flags = {
+SampleGetSupportsSixelCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = SupportsSixelCommand
+module.exports = SampleGetSupportsSixelCommand

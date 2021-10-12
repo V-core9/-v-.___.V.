@@ -1,13 +1,13 @@
-const {Command, flags} = require('@oclif/command')
+const { Command, flags } = require('@oclif/command')
 
-class TestIsWslCommand extends Command {
+class SampleIsWslCommand extends Command {
   async run() {
-    const {flags} = this.parse(TestIsWslCommand)
+    const { flags } = this.parse(SampleIsWslCommand)
     const name = flags.name || 'world'
     //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\test-is_wsl.js`)
 
     const isWsl = require('is-wsl');
- 
+
     // When running inside Windows Subsystem for Linux
     console.log(isWsl);
     //=> true
@@ -15,7 +15,7 @@ class TestIsWslCommand extends Command {
   }
 }
 
-TestIsWslCommand.description = `Check if the process is running inside Windows Subsystem for Linux (Bash on Windows)
+SampleIsWslCommand.description = `Check if the process is running inside Windows Subsystem for Linux (Bash on Windows)
 ...
 is-wsl -> https://www.npmjs.com/package/is-wsl
 TypeScript icon, indicating that this package has built-in type declarations
@@ -32,8 +32,8 @@ Homepage
 Can be useful if you need to work around unimplemented or buggy features in WSL. Supports both WSL 1 and WSL 2.
 `
 
-TestIsWslCommand.flags = {
-  name: flags.string({char: 'n', description: 'name to print'}),
+SampleIsWslCommand.flags = {
+  name: flags.string({ char: 'n', description: 'name to print' }),
 }
 
-module.exports = TestIsWslCommand
+module.exports = SampleIsWslCommand

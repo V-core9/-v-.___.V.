@@ -1,8 +1,8 @@
-const {Command, flags} = require('@oclif/command')
+const { Command, flags } = require('@oclif/command')
 
-class TestGloballyInstalledCommand extends Command {
+class SampleIsGloballyInstalledCommand extends Command {
   async run() {
-    const {flags} = this.parse(TestGloballyInstalledCommand)
+    const { flags } = this.parse(SampleIsGloballyInstalledCommand)
     const name = flags.name || 'world'
     //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\test_Globally-installed.js`)
 
@@ -19,13 +19,13 @@ class TestGloballyInstalledCommand extends Command {
   }
 }
 
-TestGloballyInstalledCommand.description = `Describe the command here
+SampleIsGloballyInstalledCommand.description = `Describe the command here
 ...
 Extra documentation goes here
 `
 
-TestGloballyInstalledCommand.flags = {
-  name: flags.string({char: 'n', description: 'name to print'}),
+SampleIsGloballyInstalledCommand.flags = {
+  name: flags.string({ char: 'n', description: 'name to print' }),
 }
 
-module.exports = TestGloballyInstalledCommand
+module.exports = SampleIsGloballyInstalledCommand

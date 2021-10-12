@@ -1,8 +1,8 @@
 const {Command, flags} = require('@oclif/command')
 
-class TestSpeedtestNetCommand extends Command {
+class SampleSpeedtestNetCommand extends Command {
   async run() {
-    const {flags} = this.parse(TestSpeedtestNetCommand)
+    const { flags } = this.parse(SampleSpeedtestNetCommand)
     const name = flags.name || 'world'
     //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\test-speedtest.net.js`)
 
@@ -20,7 +20,7 @@ class TestSpeedtestNetCommand extends Command {
   }
 }
 
-TestSpeedtestNetCommand.description = `The whole speed test runs automatically, but a lot of events are available to get more info than you need.
+SampleSpeedtestNetCommand.description = `The whole speed test runs automatically, but a lot of events are available to get more info than you need.
 ...
 speedtest-net -> https://www.npmjs.com/package/speedtest-net
 DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate @types/speedtest-net package
@@ -40,8 +40,8 @@ Homepage
 ->  github.com/ddsol/speedtest.net#readme
 `
 
-TestSpeedtestNetCommand.flags = {
+SampleSpeedtestNetCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = TestSpeedtestNetCommand
+module.exports = SampleSpeedtestNetCommand

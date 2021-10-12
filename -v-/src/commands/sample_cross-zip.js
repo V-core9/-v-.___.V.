@@ -1,9 +1,9 @@
 const {Command, flags} = require('@oclif/command')
 let path = require('path')
 
-class CrossZipCommand extends Command {
+class SampleCrossZipCommand extends Command {
   async run() {
-    const {flags} = this.parse(CrossZipCommand)
+    const { flags } = this.parse(SampleCrossZipCommand)
     const name = flags.name || 'world'
     this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\cross-zip.js`)
 
@@ -18,7 +18,7 @@ class CrossZipCommand extends Command {
   }
 }
 
-CrossZipCommand.description = `Cross-platform .zip file creation
+SampleCrossZipCommand.description = `Cross-platform .zip file creation
 ...
 cross-zip -> https://www.npmjs.com/package/cross-zip
 DefinitelyTyped icon, indicating that this package has TypeScript declarations provided by the separate @types/cross-zip package
@@ -34,8 +34,8 @@ Homepage
 
 `
 
-CrossZipCommand.flags = {
+SampleCrossZipCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = CrossZipCommand
+module.exports = SampleCrossZipCommand
