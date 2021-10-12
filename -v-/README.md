@@ -67,6 +67,7 @@ USAGE
 * [`-v- help [COMMAND]`](#-v--help-command)
 * [`-v- sample_apache-md5`](#-v--sample_apache-md5)
 * [`-v- sample_boxen`](#-v--sample_boxen)
+* [`-v- sample_can-use-dom`](#-v--sample_can-use-dom)
 * [`-v- sample_chalk`](#-v--sample_chalk)
 * [`-v- sample_check-ip`](#-v--sample_check-ip)
 * [`-v- sample_cli-progress`](#-v--sample_cli-progress)
@@ -93,7 +94,9 @@ USAGE
 * [`-v- sample_is-html`](#-v--sample_is-html)
 * [`-v- sample_is-lambda`](#-v--sample_is-lambda)
 * [`-v- sample_is-localhost-url`](#-v--sample_is-localhost-url)
+* [`-v- sample_is-mobile`](#-v--sample_is-mobile)
 * [`-v- sample_is-online`](#-v--sample_is-online)
+* [`-v- sample_is-svg`](#-v--sample_is-svg)
 * [`-v- sample_is-valid-npm-name`](#-v--sample_is-valid-npm-name)
 * [`-v- sample_is-wsl`](#-v--sample_is-wsl)
 * [`-v- sample_listr`](#-v--sample_listr)
@@ -236,6 +239,21 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_boxen.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_boxen.js)_
+
+## `-v- sample_can-use-dom`
+
+should return true in browser
+
+```
+USAGE
+  $ -v- sample_can-use-dom
+
+DESCRIPTION
+  ...
+  Ref.URL : https://www.npmjs.com/package/can-use-dom
+```
+
+_See code: [src/commands/sample_can-use-dom.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_can-use-dom.js)_
 
 ## `-v- sample_chalk`
 
@@ -910,6 +928,34 @@ DESCRIPTION
 
 _See code: [src/commands/sample_is-localhost-url.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-localhost-url.js)_
 
+## `-v- sample_is-mobile`
+
+Check if mobile browser, based on useragent string.
+
+```
+USAGE
+  $ -v- sample_is-mobile
+
+OPTIONS
+  -m, --mode=mode  Demo Mode to run [cli by default || web ]
+
+DESCRIPTION
+  ...
+  mobile({ [ua], [tablet], [featureDetect] })
+  Returns true if a mobile browser is being used.
+
+  If you don't specify opts.ua it will use navigator.userAgent.
+
+  To add support for tablets, set tablet: true.
+
+  To enable feature detection (i.e. namely for iPad with iOS 13), set featureDetect: true and tablet: true. This will 
+  only work in browser environments.
+
+  opts.ua can also be an instance of a node.js http request, in which case it will read the user agent header.
+```
+
+_See code: [src/commands/sample_is-mobile.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-mobile.js)_
+
 ## `-v- sample_is-online`
 
 Check if the internet connection is up
@@ -950,6 +996,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_is-online.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-online.js)_
+
+## `-v- sample_is-svg`
+
+Check if a string or buffer is SVG
+
+```
+USAGE
+  $ -v- sample_is-svg
+
+OPTIONS
+  -s, --svgString=svgString  svgString to check
+
+DESCRIPTION
+  ...
+  Ref.URL : https://www.npmjs.com/package/is-svg
+```
+
+_See code: [src/commands/sample_is-svg.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-svg.js)_
 
 ## `-v- sample_is-valid-npm-name`
 
