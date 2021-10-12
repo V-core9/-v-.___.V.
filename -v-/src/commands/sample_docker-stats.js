@@ -28,9 +28,9 @@ class SampleDockerStatsCommand extends Command {
   }
 }
 
-SampleDockerStatsCommand.description = `Describe the command here
+SampleDockerStatsCommand.description = `Collect all your Docker stats!
 ...
-Extra documentation goes here
+Ref.URL : https://www.npmjs.com/package/docker-stats
 `
 
 SampleDockerStatsCommand.flags = {

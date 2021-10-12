@@ -113,6 +113,7 @@ USAGE
 * [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
 * [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
 * [`-v- sample_prompts`](#-v--sample_prompts)
+* [`-v- sample_psi`](#-v--sample_psi)
 * [`-v- sample_robotjs-base-demo`](#-v--sample_robotjs-base-demo)
 * [`-v- sample_screenshot-desktop`](#-v--sample_screenshot-desktop)
 * [`-v- sample_simple-git`](#-v--sample_simple-git)
@@ -556,7 +557,7 @@ _See code: [src/commands/sample_cross-zip.js](https://github.com/MyUserNameIsMyU
 
 ## `-v- sample_docker-stats`
 
-Describe the command here
+Collect all your Docker stats!
 
 ```
 USAGE
@@ -567,7 +568,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  Ref.URL : https://www.npmjs.com/package/docker-stats
 ```
 
 _See code: [src/commands/sample_docker-stats.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_docker-stats.js)_
@@ -1453,6 +1454,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_prompts.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_prompts.js)_
+
+## `-v- sample_psi`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_psi
+
+OPTIONS
+  -u, --urltotest=urltotest  URL to test with PSI
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_psi.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_psi.js)_
 
 ## `-v- sample_robotjs-base-demo`
 
