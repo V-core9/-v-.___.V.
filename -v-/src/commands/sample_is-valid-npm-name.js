@@ -16,9 +16,33 @@ class SampleIsValidNpmNameCommand extends Command {
   }
 }
 
-SampleIsValidNpmNameCommand.description = `Describe the command here
+SampleIsValidNpmNameCommand.description = `Checks if a given string is a valid npm package name adhering to npm rules and best practice
 ...
-Extra documentation goes here
+REF.URL : https://www.npmjs.com/package/is-valid-npm-name
+
+
+Error Strings
+- package name must be a String
+- remove trailing spaces from start and end of package name
+- package name cannot be more than 214 characters
+- package name cannot start with a dot nor underscore
+- package name cannot have uppercase letters
+- scoped package name must start with "@" character
+- scoped package name has an extra "@" character
+- scoped package name must be in the format of @myorg/package
+- scoped package name has an extra "/" character
+- package name cannot use built-in core Node module name
+- package name had non-URL-safe characters
+- Rule Exemption
+
+We ignore a single npm rule, which is:
+
+don't put "js" or "node" in the name
+
+This is due to the sheer number of npm package name squatters.
+
+Sometimes it's absolutely necessary to affix with js or node.
+
 `
 
 SampleIsValidNpmNameCommand.flags = {
