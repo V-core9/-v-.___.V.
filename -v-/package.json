@@ -41,6 +41,7 @@
     "express-sitemap-xml": "^3.0.0",
     "fireworks-js": "^1.2.2",
     "gifsicle": "^5.2.0",
+    "git-needs-pull": "^2.1.0",
     "globby": "^10.0.2",
     "has-unicode": "^2.0.1",
     "internal-ip": "^6.2.0",

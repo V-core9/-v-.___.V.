@@ -87,6 +87,7 @@ USAGE
 * [`-v- sample_get-public-ip`](#-v--sample_get-public-ip)
 * [`-v- sample_get-supports_sixel`](#-v--sample_get-supports_sixel)
 * [`-v- sample_get-unicode-version`](#-v--sample_get-unicode-version)
+* [`-v- sample_git-needs-pull`](#-v--sample_git-needs-pull)
 * [`-v- sample_hello`](#-v--sample_hello)
 * [`-v- sample_is-cmd`](#-v--sample_is-cmd)
 * [`-v- sample_is-docker`](#-v--sample_is-docker)
@@ -796,6 +797,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_get-unicode-version.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_get-unicode-version.js)_
+
+## `-v- sample_git-needs-pull`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_git-needs-pull
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_git-needs-pull.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_git-needs-pull.js)_
 
 ## `-v- sample_hello`
 
