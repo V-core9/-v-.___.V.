@@ -79,6 +79,7 @@ USAGE
 * [`-v- sample_compress-images`](#-v--sample_compress-images)
 * [`-v- sample_cross-pwd`](#-v--sample_cross-pwd)
 * [`-v- sample_cross-zip`](#-v--sample_cross-zip)
+* [`-v- sample_docker-stats`](#-v--sample_docker-stats)
 * [`-v- sample_enquirer`](#-v--sample_enquirer)
 * [`-v- sample_ervy`](#-v--sample_ervy)
 * [`-v- sample_express-sitemap-xml`](#-v--sample_express-sitemap-xml)
@@ -552,6 +553,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_cross-zip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_cross-zip.js)_
+
+## `-v- sample_docker-stats`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_docker-stats
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_docker-stats.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_docker-stats.js)_
 
 ## `-v- sample_enquirer`
 

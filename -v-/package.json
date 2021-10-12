@@ -34,6 +34,7 @@
     "cross-pwd": "^1.0.4",
     "cross-zip": "^4.0.0",
     "desktop-hotkeys": "^1.5.4",
+    "docker-stats": "^0.9.0",
     "enquirer": "^2.3.6",
     "ervy": "^1.0.7",
     "express": "^4.17.1",
