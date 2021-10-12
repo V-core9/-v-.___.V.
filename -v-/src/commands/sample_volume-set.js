@@ -1,10 +1,10 @@
 /*jshint esversion: 8 */
 
-const {Command, flags} = require('@oclif/command')
+const { Command, flags } = require('@oclif/command')
 
-class VolumeSetCommand extends Command {
-  
- static args = [
+class SampleVolumeSetCommand extends Command {
+
+  static args = [
     {
       name: 'volLevel',               // name of arg to show in help and reference with args[name]
       required: false,            // make the arg required with `required: true`
@@ -16,31 +16,31 @@ class VolumeSetCommand extends Command {
   ]
 
   async run() {
-    const {flags} = this.parse(VolumeSetCommand)
+    const { flags } = this.parse(SampleVolumeSetCommand)
     const name = flags.name || 'world'
     //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\volume_set.js`)
 
-    
+
     // can get args as an object
-    const {args} = this.parse(VolumeSetCommand)
+    const { args } = this.parse(SampleVolumeSetCommand)
     console.log(`running my command with args: ${args.volLevel}`)
     // can also get the args as an array
-    //const {argv} = this.parse(VolumeSetCommand)
+    //const {argv} = this.parse(SampleVolumeSetCommand)
     //console.log(`running my command with args: ${argv[0]}`)
 
 
     //-<[ Require and Use the constant that we need  ]>-------
     const loudness = require('loudness');
     //-------------------------------------[-v-]----
-    
+
     //-<[ SET Volume to 25%  ]>-------
     await loudness.setVolume(args.volLevel);
     //-----------------------[-v-]----
-    
+
   }
 }
 
-VolumeSetCommand.description = `Command that will set the OS Volume Level to [value-provided]
+SampleVolumeSetCommand.description = `Command that will set the OS Volume Level to [value-provided]
 ...
 loudness  ->  https://www.npmjs.com/package/loudness
 TypeScript icon, indicating that this package has built-in type declarations
@@ -62,9 +62,9 @@ Homepage
 ->  github.com/LinusU/node-loudness#readm
 `
 
-VolumeSetCommand.flags = {
-  name: flags.string({char: 'n', description: 'name to print'}),
+SampleVolumeSetCommand.flags = {
+  name: flags.string({ char: 'n', description: 'name to print' }),
 }
 
 
-module.exports = VolumeSetCommand
+module.exports = SampleVolumeSetCommand

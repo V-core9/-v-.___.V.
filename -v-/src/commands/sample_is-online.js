@@ -1,8 +1,8 @@
 const {Command, flags} = require('@oclif/command')
 
-class IsOnlineCommand extends Command {
+class SampleIsOnlineCommand extends Command {
   async run() {
-    const {flags} = this.parse(IsOnlineCommand)
+    const { flags } = this.parse(SampleIsOnlineCommand)
     const name = flags.name || 'world'
     //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\is_online.js`)
 
@@ -16,7 +16,7 @@ class IsOnlineCommand extends Command {
   }
 }
 
-IsOnlineCommand.description = `Check if the internet connection is up
+SampleIsOnlineCommand.description = `Check if the internet connection is up
 ...
 is-online -> https://www.npmjs.com/package/is-online
 TypeScript icon, indicating that this package has built-in type declarations
@@ -43,8 +43,8 @@ const isOnline = require('is-online');
 ============================
 `
 
-IsOnlineCommand.flags = {
+SampleIsOnlineCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = IsOnlineCommand
+module.exports = SampleIsOnlineCommand

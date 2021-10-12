@@ -1,39 +1,26 @@
-const {Command, flags} = require('@oclif/command')
+const { Command, flags } = require('@oclif/command')
 var checkIp = require('check-ip');
 
-class CheckIpCommand extends Command {
-  
-  static args = [
-     {
-       name: 'testIp',               // name of arg to show in help and reference with args[name]
-       required: false,            // make the arg required with `required: true`
-       description: 'This is IP we want to check...', // help description
-       hidden: false,               // hide this arg from help
-       default: '8.8.8.8',           // default value if no arg input
-       //options: ['a', 'b'],        // only allow input to be from a discrete set
-     }
-   ]
-  async run() {
-    const {flags} = this.parse(CheckIpCommand)
-    const name = flags.name || 'world'
-    //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\check-ip_samp.js`)
-    // can get args as an object
-    const {args} = this.parse(CheckIpCommand)
-    console.log(`\nRunning IP_Checkup  command with testIp : ${args.testIp} \n`)
+class SampleCheckIpCommand extends Command {
 
-    var ipAddress = args.testIp;
-     
+  async run() {
+    const { flags } = this.parse(SampleCheckIpCommand)
+    const ipAddress = flags.ip || '8.8.8.8'
+
+    console.log(`\nRunning IP_Checkup with testIp : ${ipAddress} \n`)
+
+
     var response = checkIp(ipAddress);
     if (response.isValid && response.isPublicIp) {
       console.log("IP address " + response.boiledIp + " is a valid public IP.");
-    }else {
+    } else {
       console.warn("ERROR -> IP Address is Not Valid. Provided IP for Checkup :> " + ipAddress);
     }
-    
+
   }
 }
 
-CheckIpCommand.description = `CommonJS module for Node.js to validate IP addresses and return additional information about the IP address
+SampleCheckIpCommand.description = `CommonJS module for Node.js to validate IP addresses and return additional information about the IP address
 ...
 check-ip  ->  https://github.com/johnnymastin/check-ip   ++  https://www.npmjs.com/package/check-ip
 1.1.1 • Public • Published 4 years ago
@@ -63,8 +50,8 @@ Homepage
 -> github.com/johnnymastin/check-ip
 `
 
-CheckIpCommand.flags = {
-  name: flags.string({char: 'n', description: 'name to print'}),
+SampleCheckIpCommand.flags = {
+  ip: flags.string({ char: 'i', description: 'IP address to test' }),
 }
 
-module.exports = CheckIpCommand
+module.exports = SampleCheckIpCommand

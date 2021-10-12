@@ -23,9 +23,23 @@ class SampleApacheMd5Command extends Command {
   }
 }
 
-SampleApacheMd5Command.description = `Sample command showing how to use MD5 generator
+SampleApacheMd5Command.description = `Node.js package for Apache style password encryption using md5.
 ...
-Just an example/sample command showing how you can just pass in string and get resulting hash from it/confirm it hashed...or pass it in and compare with known hash value to confirm it's the same.
+apache-md5
+1.1.7 • Public • Published 2 months ago
+
+npm install apache-md5
+
+Repository
+->  github.com/gevorg/apache-md5
+
+Homepage
+->  github.com/gevorg/apache-md5
+
+
+Just an example/sample command showing how you can just pass in string
+and get resulting hash from it/confirm it hashed....
+Or pass it in and compare with known hash value to confirm it's the same.
 `
 
 SampleApacheMd5Command.flags = {

@@ -1,8 +1,8 @@
 const {Command, flags} = require('@oclif/command')
 
-class TestIsDockerCommand extends Command {
+class SampleIsDockerCommand extends Command {
   async run() {
-    const {flags} = this.parse(TestIsDockerCommand)
+    const { flags } = this.parse(SampleIsDockerCommand)
     const name = flags.name || 'world'
     //this.log(`hello ${name} from C:\\Users\\v__V_\\_V_\\NODEjs_TryOuts\\-v-\\src\\commands\\test_is-docker.js`)
 
@@ -15,7 +15,7 @@ class TestIsDockerCommand extends Command {
   }
 }
 
-TestIsDockerCommand.description = `Check if the process is running inside a Docker container
+SampleIsDockerCommand.description = `Check if the process is running inside a Docker container
 ...
 is-docker ->  https://www.npmjs.com/package/is-docker
 TypeScript icon, indicating that this package has built-in type declarations
@@ -33,8 +33,8 @@ Exits with code 0 if inside a Docker container and 2 if not.
 
 `
 
-TestIsDockerCommand.flags = {
+SampleIsDockerCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = TestIsDockerCommand
+module.exports = SampleIsDockerCommand
