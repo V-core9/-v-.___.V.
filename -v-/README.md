@@ -90,6 +90,7 @@ USAGE
 * [`-v- sample_hello`](#-v--sample_hello)
 * [`-v- sample_is-cmd`](#-v--sample_is-cmd)
 * [`-v- sample_is-docker`](#-v--sample_is-docker)
+* [`-v- sample_is-dom`](#-v--sample_is-dom)
 * [`-v- sample_is-globally-installed`](#-v--sample_is-globally-installed)
 * [`-v- sample_is-html`](#-v--sample_is-html)
 * [`-v- sample_is-lambda`](#-v--sample_is-lambda)
@@ -858,6 +859,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_is-docker.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-docker.js)_
+
+## `-v- sample_is-dom`
+
+Describe the command here
+
+```
+USAGE
+  $ -v- sample_is-dom
+
+OPTIONS
+  -d, --domstring=domstring  String input value to check
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sample_is-dom.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-dom.js)_
 
 ## `-v- sample_is-globally-installed`
 
