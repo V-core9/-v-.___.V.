@@ -90,6 +90,7 @@ USAGE
 * [`-v- sample_is-cmd`](#-v--sample_is-cmd)
 * [`-v- sample_is-docker`](#-v--sample_is-docker)
 * [`-v- sample_is-globally-installed`](#-v--sample_is-globally-installed)
+* [`-v- sample_is-html`](#-v--sample_is-html)
 * [`-v- sample_is-online`](#-v--sample_is-online)
 * [`-v- sample_is-wsl`](#-v--sample_is-wsl)
 * [`-v- sample_listr`](#-v--sample_listr)
@@ -633,7 +634,7 @@ USAGE
   $ -v- sample_get-internal-ip
 
 OPTIONS
-  -n, --name=name  name to print
+  -v, --version=version  IP Version to test
 
 DESCRIPTION
   ...
@@ -854,6 +855,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_is-globally-installed.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-globally-installed.js)_
+
+## `-v- sample_is-html`
+
+Check if a string is HTML
+
+```
+USAGE
+  $ -v- sample_is-html
+
+OPTIONS
+  -i, --input=input  Input string you want to check
+
+DESCRIPTION
+  ...
+  Ref.URL : https://www.npmjs.com/package/is-html/v/2.0.0
+```
+
+_See code: [src/commands/sample_is-html.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_is-html.js)_
 
 ## `-v- sample_is-online`
 
