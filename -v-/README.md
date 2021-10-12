@@ -82,6 +82,7 @@ USAGE
 * [`-v- sample_ervy`](#-v--sample_ervy)
 * [`-v- sample_express-sitemap-xml`](#-v--sample_express-sitemap-xml)
 * [`-v- sample_fireworks_browser`](#-v--sample_fireworks_browser)
+* [`-v- sample_get-internal-ip`](#-v--sample_get-internal-ip)
 * [`-v- sample_get-public-ip`](#-v--sample_get-public-ip)
 * [`-v- sample_get-supports_sixel`](#-v--sample_get-supports_sixel)
 * [`-v- sample_get-unicode-version`](#-v--sample_get-unicode-version)
@@ -96,6 +97,7 @@ USAGE
 * [`-v- sample_n-readlines`](#-v--sample_n-readlines)
 * [`-v- sample_node-notifier`](#-v--sample_node-notifier)
 * [`-v- sample_open`](#-v--sample_open)
+* [`-v- sample_open-graph-scraper`](#-v--sample_open-graph-scraper)
 * [`-v- sample_os-monitor`](#-v--sample_os-monitor)
 * [`-v- sample_os-monitor-is-running`](#-v--sample_os-monitor-is-running)
 * [`-v- sample_os-monitor-stop`](#-v--sample_os-monitor-stop)
@@ -150,7 +152,6 @@ USAGE
 * [`-v- sys_wifi_connections`](#-v--sys_wifi_connections)
 * [`-v- sys_wifi_interfaces`](#-v--sys_wifi_interfaces)
 * [`-v- sys_wifi_networks`](#-v--sys_wifi_networks)
-* [`-v- test_internal-ip`](#-v--test_internal-ip)
 * [`-v- volume_demo_example`](#-v--volume_demo_example)
 * [`-v- volume_get`](#-v--volume_get)
 * [`-v- volume_mute`](#-v--volume_mute)
@@ -623,6 +624,34 @@ DESCRIPTION
 
 _See code: [src/commands/sample_fireworks_browser.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_fireworks_browser.js)_
 
+## `-v- sample_get-internal-ip`
+
+Get your internal IP address
+
+```
+USAGE
+  $ -v- sample_get-internal-ip
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  internal-ip
+  TypeScript icon, indicating that this package has built-in type declarations
+  6.2.0 • Public • Published 9 months ago
+
+  npm install internal-ip
+
+  Repository
+  github.com/sindresorhus/internal-ip
+
+  Homepage
+  github.com/sindresorhus/internal-ip#read
+```
+
+_See code: [src/commands/sample_get-internal-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_get-internal-ip.js)_
+
 ## `-v- sample_get-public-ip`
 
 Get your public IP address - very fast!
@@ -788,9 +817,6 @@ Check if the process is running inside a Docker container
 ```
 USAGE
   $ -v- sample_is-docker
-
-OPTIONS
-  -n, --name=name  name to print
 
 DESCRIPTION
   ...
@@ -1055,6 +1081,24 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sample_open.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_open.js)_
+
+## `-v- sample_open-graph-scraper`
+
+A simple node module for scraping Open Graph and Twitter Card info off a site.
+
+```
+USAGE
+  $ -v- sample_open-graph-scraper
+
+OPTIONS
+  -u, --url=url  URL to scrape
+
+DESCRIPTION
+  ...
+  Reference URL : https://www.npmjs.com/package/open-graph-scraper
+```
+
+_See code: [src/commands/sample_open-graph-scraper.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sample_open-graph-scraper.js)_
 
 ## `-v- sample_os-monitor`
 
@@ -2201,34 +2245,6 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/sys_wifi_networks.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/sys_wifi_networks.js)_
-
-## `-v- test_internal-ip`
-
-Get your internal IP address
-
-```
-USAGE
-  $ -v- test_internal-ip
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  internal-ip
-  TypeScript icon, indicating that this package has built-in type declarations
-  6.2.0 • Public • Published 9 months ago
-
-  npm install internal-ip
-
-  Repository
-  github.com/sindresorhus/internal-ip
-
-  Homepage
-  github.com/sindresorhus/internal-ip#read
-```
-
-_See code: [src/commands/test_internal-ip.js](https://github.com/MyUserNameIsMyUserName/-v-/blob/v1.2.7/src/commands/test_internal-ip.js)_
 
 ## `-v- volume_demo_example`
 

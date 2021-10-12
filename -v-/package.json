@@ -45,7 +45,7 @@
     "internal-ip": "^6.2.0",
     "is-admin": "^4.0.0",
     "is-cmd": "^1.0.0",
-    "is-docker": "^3.0.0",
+    "is-docker": "^2.2.1",
     "is-elevated": "^4.0.0",
     "is-hidden-file": "^1.1.2",
     "is-installed-globally": "^0.4.0",
