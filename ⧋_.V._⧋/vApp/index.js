@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 
 const fs = require('fs')
 
@@ -75,28 +75,22 @@ const vApp = {
     vApp.data.totalPageViews++;
     next();
   },
-
   init($_PORT = 3000) {
 
     vApp.sitemap.xml_page = fs.readFileSync('./PUBLIC/sitemap_index.xml', { encoding: 'utf8', flag: 'r' })
 
     console.log(vApp.sitemap);
-    
-    
+        
     vApp.app = vApp.express();
     vApp.app.use(vApp.requestTime);
     vApp.app.use(vApp.userAgent);
     vApp.app.use(vApp.myLogger);
     vApp.app.use(vApp.pageViewCounter);
     
-    
-    
     vApp.app.get('/sitemap_index.xml', (req, res) => {
-    
       res.type('application/xml');
       res.send(vApp.sitemap.xml_page);
     });
-    
     
     vApp.app.get('/*', (req, res) => {
     
@@ -133,10 +127,7 @@ const vApp = {
       console.log(vApp.data.totalPageViews)
     }, 1000);
     
-    
-    
     vApp.app.listen($_PORT);
-    
   }
 }
 
